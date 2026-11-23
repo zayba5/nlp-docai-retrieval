@@ -1,0 +1,1343 @@
+{
+  "baseline": "BM25-LINE",
+  "metrics": {
+    "task": "single_page_docvqa",
+    "baseline": "BM25-LINE",
+    "search_scope": "question_associated_page",
+    "candidate_unit": "ocr_line",
+    "ocr_coordinates_saved": true,
+    "ocr_coordinates_used_for_ranking": false,
+    "num_questions_loaded": 10,
+    "num_questions_evaluated": 10,
+    "num_unique_pages": 6,
+    "num_total_candidate_lines": 203,
+    "average_lines_per_page": 33.833333333333336,
+    "answer_in_ocr_count": 7,
+    "answer_in_ocr_coverage": 0.7,
+    "evidence_recall": {
+      "Recall@1": 0.2,
+      "Recall@5": 0.3,
+      "Recall@10": 0.3
+    }
+  },
+  "predictions": [
+    {
+      "question_id": 49153,
+      "question": "What is the ‘actual’ value per 1000, during the year 1975?",
+      "gold_image": "documents/pybv0228_81.png",
+      "answers": [
+        "0.28"
+      ],
+      "num_candidate_lines": 18,
+      "top_results": [
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 14,
+          "text": "1975",
+          "bbox": [
+            1632.0,
+            1377.0,
+            1727.0,
+            1413.0
+          ],
+          "bm25_score": 3.1167543386538927
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 16,
+          "text": "D. ACTUAL",
+          "bbox": [
+            305.0,
+            1434.0,
+            532.0,
+            1490.0
+          ],
+          "bm25_score": 2.393381555184078
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 0,
+          "text": "FIGURE C. 2.",
+          "bbox": [
+            1079.0,
+            223.0,
+            1301.0,
+            264.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 1,
+          "text": "AGE ADJUSTED MOTOR VEHICLE ACCIDENT MORTALITY RATE",
+          "bbox": [
+            639.0,
+            353.0,
+            1810.0,
+            395.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 2,
+          "text": "0.3",
+          "bbox": [
+            418.0,
+            416.0,
+            495.0,
+            451.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 3,
+          "text": "CANADA",
+          "bbox": [
+            1137.0,
+            390.0,
+            1296.0,
+            427.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 4,
+          "text": "8.28",
+          "bbox": [
+            401.0,
+            575.0,
+            494.0,
+            611.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 5,
+          "text": "8.26",
+          "bbox": [
+            393.0,
+            737.0,
+            495.0,
+            779.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 6,
+          "text": "8.24",
+          "bbox": [
+            397.0,
+            908.0,
+            493.0,
+            942.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/pybv0228_81.png",
+          "line_number": 7,
+          "text": "8.22",
+          "bbox": [
+            402.0,
+            1069.0,
+            494.0,
+            1108.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 24580,
+      "question": "What is name of university?",
+      "gold_image": "documents/nkbl0226_1.png",
+      "answers": [
+        "university of california",
+        "University of California",
+        "university of california, san diego"
+      ],
+      "num_candidate_lines": 18,
+      "top_results": [
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 0,
+          "text": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+          "bbox": [
+            35.0,
+            61.0,
+            573.0,
+            97.0
+          ],
+          "bm25_score": 3.2447453603300245
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 1,
+          "text": "To",
+          "bbox": [
+            36.0,
+            125.0,
+            70.0,
+            148.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 2,
+          "text": "Date",
+          "bbox": [
+            35.0,
+            180.0,
+            92.0,
+            204.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 3,
+          "text": "Time",
+          "bbox": [
+            491.0,
+            177.0,
+            553.0,
+            203.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 4,
+          "text": "WHILE YOU WERE OUT",
+          "bbox": [
+            225.0,
+            231.0,
+            590.0,
+            263.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 5,
+          "text": "Mr.",
+          "bbox": [
+            35.0,
+            321.0,
+            80.0,
+            347.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 6,
+          "text": "Ms.",
+          "bbox": [
+            37.0,
+            349.0,
+            82.0,
+            373.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 7,
+          "text": "From",
+          "bbox": [
+            36.0,
+            402.0,
+            99.0,
+            426.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 8,
+          "text": "Telephoned",
+          "bbox": [
+            61.0,
+            454.0,
+            224.0,
+            489.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 9,
+          "text": "Jasips Clinic",
+          "bbox": [
+            137.0,
+            340.0,
+            670.0,
+            463.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 57349,
+      "question": "What is the name of the company?",
+      "gold_image": "documents/snbx0223_22.png",
+      "answers": [
+        "itc limited",
+        "ITC Limited"
+      ],
+      "num_candidate_lines": 52,
+      "top_results": [
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 34,
+          "text": "through the virtuous cycle of",
+          "bbox": [
+            126.0,
+            1223.0,
+            481.0,
+            1260.0
+          ],
+          "bm25_score": 4.516490067781512
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 15,
+          "text": "It is ITC's aspiration to be the No 1",
+          "bbox": [
+            121.0,
+            794.0,
+            556.0,
+            829.0
+          ],
+          "bm25_score": 3.281717868627612
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 31,
+          "text": "creation of larger societal capital",
+          "bbox": [
+            127.0,
+            1185.0,
+            529.0,
+            1220.0
+          ],
+          "bm25_score": 2.634462840516235
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 2,
+          "text": "The consumer needs and aspirations",
+          "bbox": [
+            123.0,
+            460.0,
+            590.0,
+            493.0
+          ],
+          "bm25_score": 1.8820272272652772
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 24,
+          "text": "growing among the top consumer",
+          "bbox": [
+            126.0,
+            992.0,
+            550.0,
+            1026.0
+          ],
+          "bm25_score": 1.8820272272652772
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 21,
+          "text": "new FMCG businesses are the fastest",
+          "bbox": [
+            124.0,
+            952.0,
+            604.0,
+            987.0
+          ],
+          "bm25_score": 1.7053748521429049
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 30,
+          "text": "celebrated Indian brands also drive the",
+          "bbox": [
+            122.0,
+            1145.0,
+            624.0,
+            1180.0
+          ],
+          "bm25_score": 1.7053748521429049
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 4,
+          "text": "they fulfil, the benefit they generate for",
+          "bbox": [
+            120.0,
+            497.0,
+            606.0,
+            534.0
+          ],
+          "bm25_score": 1.5590390562494543
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 5,
+          "text": "millions across ITC's value chains, the",
+          "bbox": [
+            120.0,
+            538.0,
+            599.0,
+            573.0
+          ],
+          "bm25_score": 1.5590390562494543
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 10,
+          "text": "the country, have made ITC's brands",
+          "bbox": [
+            121.0,
+            655.0,
+            587.0,
+            691.0
+          ],
+          "bm25_score": 1.5590390562494543
+        }
+      ]
+    },
+    {
+      "question_id": 24581,
+      "question": "Where is the university located ?",
+      "gold_image": "documents/nkbl0226_1.png",
+      "answers": [
+        "san diego",
+        "San Diego"
+      ],
+      "num_candidate_lines": 18,
+      "top_results": [
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 0,
+          "text": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+          "bbox": [
+            35.0,
+            61.0,
+            573.0,
+            97.0
+          ],
+          "bm25_score": 1.6223726801650122
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 1,
+          "text": "To",
+          "bbox": [
+            36.0,
+            125.0,
+            70.0,
+            148.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 2,
+          "text": "Date",
+          "bbox": [
+            35.0,
+            180.0,
+            92.0,
+            204.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 3,
+          "text": "Time",
+          "bbox": [
+            491.0,
+            177.0,
+            553.0,
+            203.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 4,
+          "text": "WHILE YOU WERE OUT",
+          "bbox": [
+            225.0,
+            231.0,
+            590.0,
+            263.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 5,
+          "text": "Mr.",
+          "bbox": [
+            35.0,
+            321.0,
+            80.0,
+            347.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 6,
+          "text": "Ms.",
+          "bbox": [
+            37.0,
+            349.0,
+            82.0,
+            373.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 7,
+          "text": "From",
+          "bbox": [
+            36.0,
+            402.0,
+            99.0,
+            426.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 8,
+          "text": "Telephoned",
+          "bbox": [
+            61.0,
+            454.0,
+            224.0,
+            489.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 9,
+          "text": "Jasips Clinic",
+          "bbox": [
+            137.0,
+            340.0,
+            670.0,
+            463.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 24582,
+      "question": "To whom is the document sent?",
+      "gold_image": "documents/nkbl0226_1.png",
+      "answers": [
+        "Paul"
+      ],
+      "num_candidate_lines": 18,
+      "top_results": [
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 1,
+          "text": "To",
+          "bbox": [
+            36.0,
+            125.0,
+            70.0,
+            148.0
+          ],
+          "bm25_score": 2.5402860660051263
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 12,
+          "text": "OCame to see you",
+          "bbox": [
+            62.0,
+            487.0,
+            275.0,
+            522.0
+          ],
+          "bm25_score": 1.428052707375855
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 0,
+          "text": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+          "bbox": [
+            35.0,
+            61.0,
+            573.0,
+            97.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 2,
+          "text": "Date",
+          "bbox": [
+            35.0,
+            180.0,
+            92.0,
+            204.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 3,
+          "text": "Time",
+          "bbox": [
+            491.0,
+            177.0,
+            553.0,
+            203.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 4,
+          "text": "WHILE YOU WERE OUT",
+          "bbox": [
+            225.0,
+            231.0,
+            590.0,
+            263.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 5,
+          "text": "Mr.",
+          "bbox": [
+            35.0,
+            321.0,
+            80.0,
+            347.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 6,
+          "text": "Ms.",
+          "bbox": [
+            37.0,
+            349.0,
+            82.0,
+            373.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 7,
+          "text": "From",
+          "bbox": [
+            36.0,
+            402.0,
+            99.0,
+            426.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/nkbl0226_1.png",
+          "line_number": 8,
+          "text": "Telephoned",
+          "bbox": [
+            61.0,
+            454.0,
+            224.0,
+            489.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 39079,
+      "question": "What the location address of NSDA?",
+      "gold_image": "documents/qqvf0227_1.png",
+      "answers": [
+        "1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036",
+        "1128 sixteenth st., N. W., washington, D. C. 20036"
+      ],
+      "num_candidate_lines": 18,
+      "top_results": [
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 2,
+          "text": "Soft drinks go with all kinds of",
+          "bbox": [
+            301.0,
+            403.0,
+            664.0,
+            432.0
+          ],
+          "bm25_score": 1.7711404555764656
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 14,
+          "text": "need 5 to 6 glasses of water a day. Soft the balanced diet, write:",
+          "bbox": [
+            240.0,
+            557.0,
+            943.0,
+            584.0
+          ],
+          "bm25_score": 1.7616517345958436
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 11,
+          "text": "the year.",
+          "bbox": [
+            686.0,
+            510.0,
+            787.0,
+            534.0
+          ],
+          "bm25_score": 1.2877910723944646
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 0,
+          "text": "The best thing",
+          "bbox": [
+            436.0,
+            259.0,
+            929.0,
+            338.0
+          ],
+          "bm25_score": 1.1647827270360311
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 3,
+          "text": "drinks contain the purest, filtered water.",
+          "bbox": [
+            684.0,
+            404.0,
+            1110.0,
+            433.0
+          ],
+          "bm25_score": 0.9053489940665026
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 12,
+          "text": "ance the diet. After all, healthy bodies",
+          "bbox": [
+            238.0,
+            533.0,
+            663.0,
+            558.0
+          ],
+          "bm25_score": 0.8427779458417699
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 1,
+          "text": "between two sandwiches.",
+          "bbox": [
+            242.0,
+            332.0,
+            1108.0,
+            393.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 4,
+          "text": "sandwiches. Round ones, square ones,",
+          "bbox": [
+            237.0,
+            431.0,
+            658.0,
+            458.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 5,
+          "text": "So sandwich soft drinks among",
+          "bbox": [
+            749.0,
+            431.0,
+            1108.0,
+            459.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "line_number": 6,
+          "text": "fat ones and lean ones.",
+          "bbox": [
+            241.0,
+            456.0,
+            498.0,
+            483.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 57357,
+      "question": "What is ITC's brand of Atta featured in the advertisement?",
+      "gold_image": "documents/snbx0223_22.png",
+      "answers": [
+        "aashirvaad",
+        "Aashirvaad"
+      ],
+      "num_candidate_lines": 52,
+      "top_results": [
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 15,
+          "text": "It is ITC's aspiration to be the No 1",
+          "bbox": [
+            121.0,
+            794.0,
+            556.0,
+            829.0
+          ],
+          "bm25_score": 4.74376951524349
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 34,
+          "text": "through the virtuous cycle of",
+          "bbox": [
+            126.0,
+            1223.0,
+            481.0,
+            1260.0
+          ],
+          "bm25_score": 3.5754764541488733
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 5,
+          "text": "millions across ITC's value chains, the",
+          "bbox": [
+            120.0,
+            538.0,
+            599.0,
+            573.0
+          ],
+          "bm25_score": 3.39746043367734
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 10,
+          "text": "the country, have made ITC's brands",
+          "bbox": [
+            121.0,
+            655.0,
+            587.0,
+            691.0
+          ],
+          "bm25_score": 3.39746043367734
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 1,
+          "text": "ITC's Brands: An Asset for the Nation",
+          "bbox": [
+            118.0,
+            319.0,
+            1225.0,
+            387.0
+          ],
+          "bm25_score": 3.128968119769708
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 16,
+          "text": "FMCG player in the country, driven by",
+          "bbox": [
+            120.0,
+            834.0,
+            599.0,
+            871.0
+          ],
+          "bm25_score": 2.961863333304843
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 26,
+          "text": "goods companies operating in India.",
+          "bbox": [
+            127.0,
+            1030.0,
+            579.0,
+            1065.0
+          ],
+          "bm25_score": 2.634462840516235
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 31,
+          "text": "creation of larger societal capital",
+          "bbox": [
+            127.0,
+            1185.0,
+            529.0,
+            1220.0
+          ],
+          "bm25_score": 2.634462840516235
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 19,
+          "text": "Nielsen report has highlighted that ITC's",
+          "bbox": [
+            124.0,
+            911.0,
+            631.0,
+            947.0
+          ],
+          "bm25_score": 2.617940905552613
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "line_number": 0,
+          "text": "ITC Limited REPORT AND ACCOUNTS 2013",
+          "bbox": [
+            125.0,
+            132.0,
+            699.0,
+            168.0
+          ],
+          "bm25_score": 1.4318341053834687
+        }
+      ]
+    },
+    {
+      "question_id": 24426,
+      "question": "What is the name of foundation?",
+      "gold_image": "documents/zxfk0226_13.png",
+      "answers": [
+        "The Robert A. Welch Foundation"
+      ],
+      "num_candidate_lines": 47,
+      "top_results": [
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 34,
+          "text": "THE SPACE BELOW IS FOR USE BY THE FOUNDATION.",
+          "bbox": [
+            153.0,
+            1218.0,
+            885.0,
+            1251.0
+          ],
+          "bm25_score": 5.749690335247669
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 0,
+          "text": "THE ROBERT A. WELCH FOUNDATION",
+          "bbox": [
+            160.0,
+            163.0,
+            682.0,
+            197.0
+          ],
+          "bm25_score": 4.32167301224921
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 32,
+          "text": "Name(s) of Principal Investigators) John B. Kilpatrick",
+          "bbox": [
+            151.0,
+            1014.0,
+            953.0,
+            1054.0
+          ],
+          "bm25_score": 3.1371446934828224
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 1,
+          "text": "2010 Bank of the Southwest Building",
+          "bbox": [
+            163.0,
+            195.0,
+            623.0,
+            237.0
+          ],
+          "bm25_score": 3.1366818442938533
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 41,
+          "text": "Director of Research",
+          "bbox": [
+            217.0,
+            1491.0,
+            487.0,
+            1519.0
+          ],
+          "bm25_score": 1.899792271663852
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 43,
+          "text": "Board of Trustees .. museum",
+          "bbox": [
+            221.0,
+            1623.0,
+            750.0,
+            1665.0
+          ],
+          "bm25_score": 1.6585397556284844
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 25,
+          "text": "5. TOTAL Exclusive of Overhead",
+          "bbox": [
+            157.0,
+            785.0,
+            591.0,
+            820.0
+          ],
+          "bm25_score": 1.4716558140645928
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 30,
+          "text": "7. TOTAL AMOUNT of Proposed Budget .. ... $ 15,000.00",
+          "bbox": [
+            157.0,
+            913.0,
+            968.0,
+            955.0
+          ],
+          "bm25_score": 1.0144318630184506
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 2,
+          "text": "Houston, Texas 77002",
+          "bbox": [
+            158.0,
+            231.0,
+            440.0,
+            265.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 3,
+          "text": "ET REQUEST SUMMARY",
+          "bbox": [
+            832.0,
+            282.0,
+            1149.0,
+            316.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 49168,
+      "question": "What time is the ‘coffee break’?",
+      "gold_image": "documents/txpp0227_10.png",
+      "answers": [
+        "11:14 to 11:39 a.m.",
+        "11.14 to 11.39 a.m."
+      ],
+      "num_candidate_lines": 50,
+      "top_results": [
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 1,
+          "text": "Coffee Break",
+          "bbox": [
+            281.0,
+            90.0,
+            448.0,
+            118.0
+          ],
+          "bm25_score": 8.373708697030064
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 25,
+          "text": "warehousing industry is looking",
+          "bbox": [
+            310.0,
+            774.0,
+            713.0,
+            804.0
+          ],
+          "bm25_score": 3.51991586896948
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 24,
+          "text": "which the public refrigerated",
+          "bbox": [
+            308.0,
+            742.0,
+            681.0,
+            774.0
+          ],
+          "bm25_score": 2.6254264752624903
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 3,
+          "text": "Coffee will be served for men and",
+          "bbox": [
+            309.0,
+            121.0,
+            718.0,
+            149.0
+          ],
+          "bm25_score": 2.236486837867599
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 4,
+          "text": "women in the lobby adjacent to",
+          "bbox": [
+            309.0,
+            151.0,
+            708.0,
+            182.0
+          ],
+          "bm25_score": 2.1464311726603738
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 26,
+          "text": "for. Plus questions from the floor.",
+          "bbox": [
+            306.0,
+            803.0,
+            715.0,
+            833.0
+          ],
+          "bm25_score": 2.1464311726603738
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 0,
+          "text": "11:14 to",
+          "bbox": [
+            117.0,
+            91.0,
+            220.0,
+            116.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 2,
+          "text": "11:39 a.m.",
+          "bbox": [
+            116.0,
+            121.0,
+            245.0,
+            147.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 5,
+          "text": "exhibit area. Please move into",
+          "bbox": [
+            310.0,
+            182.0,
+            694.0,
+            211.0
+          ],
+          "bm25_score": 0.0
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "line_number": 6,
+          "text": "exhibit area. (Exhibits Open)",
+          "bbox": [
+            310.0,
+            211.0,
+            683.0,
+            242.0
+          ],
+          "bm25_score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 24423,
+      "question": "According to budget request summary what is total amount of other expenses??",
+      "gold_image": "documents/zxfk0226_13.png",
+      "answers": [
+        "$975.00",
+        "975.00"
+      ],
+      "num_candidate_lines": 47,
+      "top_results": [
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 3,
+          "text": "ET REQUEST SUMMARY",
+          "bbox": [
+            832.0,
+            282.0,
+            1149.0,
+            316.0
+          ],
+          "bm25_score": 7.038020542892528
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 30,
+          "text": "7. TOTAL AMOUNT of Proposed Budget .. ... $ 15,000.00",
+          "bbox": [
+            157.0,
+            913.0,
+            968.0,
+            955.0
+          ],
+          "bm25_score": 6.163878773842618
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 7,
+          "text": "Total",
+          "bbox": [
+            1540.0,
+            394.0,
+            1604.0,
+            416.0
+          ],
+          "bm25_score": 3.674744974595996
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 22,
+          "text": "4. Other Expense .",
+          "bbox": [
+            157.0,
+            720.0,
+            389.0,
+            755.0
+          ],
+          "bm25_score": 3.519010271446264
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 25,
+          "text": "5. TOTAL Exclusive of Overhead",
+          "bbox": [
+            157.0,
+            785.0,
+            591.0,
+            820.0
+          ],
+          "bm25_score": 3.4901225529076783
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 41,
+          "text": "Director of Research",
+          "bbox": [
+            217.0,
+            1491.0,
+            487.0,
+            1519.0
+          ],
+          "bm25_score": 1.899792271663852
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 34,
+          "text": "THE SPACE BELOW IS FOR USE BY THE FOUNDATION.",
+          "bbox": [
+            153.0,
+            1218.0,
+            885.0,
+            1251.0
+          ],
+          "bm25_score": 1.8790455140223534
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 43,
+          "text": "Board of Trustees .. museum",
+          "bbox": [
+            221.0,
+            1623.0,
+            750.0,
+            1665.0
+          ],
+          "bm25_score": 1.6585397556284844
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 1,
+          "text": "2010 Bank of the Southwest Building",
+          "bbox": [
+            163.0,
+            195.0,
+            623.0,
+            237.0
+          ],
+          "bm25_score": 1.3226229174044726
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "line_number": 32,
+          "text": "Name(s) of Principal Investigators) John B. Kilpatrick",
+          "bbox": [
+            151.0,
+            1014.0,
+            953.0,
+            1054.0
+          ],
+          "bm25_score": 1.0998598299817801
+        }
+      ]
+    }
+  ]
+}

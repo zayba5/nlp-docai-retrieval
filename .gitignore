@@ -36,6 +36,8 @@ results/*.log
 !results/lgbm_text_validation.json
 !results/lgbm_layout_validation.json
 !results/ocr_answer_coverage.json
+!results/features/
+!results/features/*.csv
 
 # Operating system files
 .DS_Store

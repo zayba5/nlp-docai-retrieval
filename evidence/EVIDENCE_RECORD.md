@@ -439,3 +439,54 @@ The answer was found somewhere in the complete OCR text for 4,815 of 5,349 quest
 
 ```text
 4,815 / 5,349 = 90.02%
+
+## LightGBM Feature Extraction
+
+To prepare the proposed machine-learning models, the validation pages were represented as OCR-line candidates. Each question was paired with the OCR lines from its associated document page.
+
+For every question-line pair, the pipeline created:
+
+- Text similarity features
+- Question-term overlap features
+- Line-length features
+- OCR bounding-box features
+- Relative page-position features
+- A binary answer-presence label
+
+The answer label was used only to create supervised training targets. The answer itself was not included as an input feature.
+
+### Feature Extraction Results
+
+| Partition | Questions processed | Questions skipped | Feature rows | Positive rows |
+|---|---:|---:|---:|---:|
+| Training | 39,459 | 4 | 2,199,210 | 49,038 |
+| Validation | 5,349 | 0 | 308,765 | 7,104 |
+
+A positive row represents an OCR line containing a normalized reference answer. Multiple positive lines may occur for one question when the answer appears more than once.
+
+The four skipped training questions were excluded because they could not be converted into valid OCR-line feature records. This data-quality issue will be documented and considered when interpreting the results.
+
+### Feature Columns
+
+The generated feature tables contain:
+
+- BM25 score
+- Question token count
+- OCR-line token count
+- Matching token count
+- Question-line overlap ratio
+- Normalized horizontal position
+- Normalized vertical position
+- Normalized line width
+- Normalized line height
+- Normalized line-order position
+- Bounding-box availability
+- Answer-presence label
+
+The training feature table will be used to fit the LightGBM models. The validation feature table will be used only for evaluation.
+
+The generated files are:
+
+```text
+results/features/train_line_features.csv
+results/features/validation_line_features.csv
