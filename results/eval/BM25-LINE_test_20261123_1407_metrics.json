@@ -1,0 +1,14 @@
+{
+  "Recall@1": 0.15989660265878877,
+  "Recall@5": 0.32533234859675036,
+  "Recall@10": 0.42909896602658787,
+  "MRR": 0.2512752780287745,
+  "num_questions": 2708,
+  "questions_with_positive_line": 2334,
+  "run_id": "BM25-LINE_test_20261123_1407",
+  "method_id": "BM25-LINE",
+  "part": "test",
+  "split_file": "splits/val_dev_test_split.json",
+  "model_path": null,
+  "shuffle_seed": null
+}

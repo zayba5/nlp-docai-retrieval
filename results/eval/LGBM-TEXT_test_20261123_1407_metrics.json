@@ -1,0 +1,14 @@
+{
+  "Recall@1": 0.18168389955686853,
+  "Recall@5": 0.3515509601181684,
+  "Recall@10": 0.46159527326440175,
+  "MRR": 0.27290246557431175,
+  "num_questions": 2708,
+  "questions_with_positive_line": 2334,
+  "run_id": "LGBM-TEXT_test_20261123_1407",
+  "method_id": "LGBM-TEXT",
+  "part": "test",
+  "split_file": "splits/val_dev_test_split.json",
+  "model_path": "results/models/lgbm_text.txt",
+  "shuffle_seed": null
+}
