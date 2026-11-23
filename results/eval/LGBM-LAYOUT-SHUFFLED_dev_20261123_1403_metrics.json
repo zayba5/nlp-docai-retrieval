@@ -1,0 +1,14 @@
+{
+  "Recall@1": 0.15145778114350625,
+  "Recall@5": 0.32109049602423323,
+  "Recall@10": 0.4403634986747444,
+  "MRR": 0.2452686967371048,
+  "num_questions": 2641,
+  "questions_with_positive_line": 2328,
+  "run_id": "LGBM-LAYOUT-SHUFFLED_dev_20261123_1403",
+  "method_id": "LGBM-LAYOUT-SHUFFLED",
+  "part": "dev",
+  "split_file": "splits/val_dev_test_split.json",
+  "model_path": "results/models/lgbm_layout.txt",
+  "shuffle_seed": 271
+}

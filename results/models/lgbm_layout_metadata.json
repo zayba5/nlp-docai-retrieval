@@ -1,0 +1,34 @@
+{
+  "model_id": "LGBM-LAYOUT",
+  "feature_set": "layout",
+  "feature_columns": [
+    "bm25_score",
+    "question_token_count",
+    "line_token_count",
+    "matching_token_count",
+    "overlap_ratio",
+    "x_center_normalized",
+    "y_center_normalized",
+    "width_normalized",
+    "height_normalized",
+    "line_position_normalized",
+    "has_bbox"
+  ],
+  "training_feature_file": "results/features/train_line_features.csv",
+  "num_training_rows": 2199210,
+  "positive_rows": 49038,
+  "negative_rows": 2150172,
+  "scale_pos_weight": 43.847057384069494,
+  "random_seed": 271,
+  "parameters": {
+    "objective": "binary",
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "reg_lambda": 1.0
+  }
+}
