@@ -490,3 +490,94 @@ The generated files are:
 ```text
 results/features/train_line_features.csv
 results/features/validation_line_features.csv
+
+## Development / Protected Test Split (Assignment 3)
+
+The official DocVQA test partition has no public answers, so the official validation partition was divided by document image into a development half (configuration selection) and a protected test half (final evaluation, run once).
+
+| Item | Value |
+|---|---|
+| Script | `src/create_dev_split.py` |
+| Output | `splits/val_dev_test_split.json` |
+| Source | Official SP-DocVQA validation (5,349 questions, 1,286 images) |
+| Split unit | Document image |
+| Seed | 271 |
+| Development | 2,641 questions, 643 images |
+| Test (protected) | 2,708 questions, 643 images |
+| Image overlap check | Passed (assertion in script, no shared images) |
+
+Command:
+```
+python src/create_dev_split.py --features results/features/validation_line_features.csv --output splits/val_dev_test_split.json
+```
+
+## LightGBM Training
+
+| Item | Value |
+|---|---|
+| Training file | `results/features/train_line_features.csv` (not committed; regenerate with `src/build_line_features.py`) |
+| Training rows | 2,199,210 OCR lines |
+| Positive rows | 49,038 |
+| Skipped questions | 4 |
+| Script | `src/train_lgbm_reranker.py` (binary objective, 200 trees, lr 0.05, 31 leaves, seed 271) |
+| LGBM-TEXT | `results/models/lgbm_text.txt`, train time 42.1 s |
+| LGBM-LAYOUT | `results/models/lgbm_layout.txt`, train time 24.1 s |
+| Hardware | Local laptop CPU (TBD: model), Windows, Python venv; lightgbm 4.6.0 |
+| Tuning | None; default hyperparameters from the training script |
+
+Commands:
+```
+python src/build_line_features.py --qas data/raw/qas/train_v1.0_withQT.json --ocr-dir data/raw/ocr --output results/features/train_line_features.csv
+python src/train_lgbm_reranker.py --train-features results/features/train_line_features.csv --output-model results/models/lgbm_text.txt --output-metadata results/models/lgbm_text_metadata.json --feature-set text
+python src/train_lgbm_reranker.py --train-features results/features/train_line_features.csv --output-model results/models/lgbm_layout.txt --output-metadata results/models/lgbm_layout_metadata.json --feature-set layout
+```
+
+## Development Results (selection only, not final)
+
+Split: development, N = 2,641. Higher is better.
+
+| Method ID | Recall@1 | Recall@5 | Recall@10 | MRR | Run ID |
+|---|---|---|---|---|---|
+| BM25-LINE | 0.1730 | 0.3446 | 0.4415 | 0.2679 | BM25-LINE_dev_20261123_1402 |
+| LGBM-TEXT | 0.1931 | 0.3677 | 0.4843 | 0.2867 | LGBM-TEXT_dev_20261123_1402 |
+| LGBM-LAYOUT | 0.1946 | 0.4044 | 0.5415 | 0.3020 | LGBM-LAYOUT_dev_20261123_1402 |
+| LGBM-LAYOUT-SHUFFLED | 0.1515 | 0.3211 | 0.4404 | 0.2453 | LGBM-LAYOUT-SHUFFLED_dev_20261123_1403 |
+
+Saved: `results/eval/dev_results_table.csv` and per-run `*_metrics.json` / `*_top10.csv`.
+
+## Configuration Freeze
+
+| Item | Value |
+|---|---|
+| Record | `configs/frozen_config.json` |
+| Frozen at | 2026-11-23 14:04:57 |
+| Commit | `717e73c` (pushed before any test evaluation) |
+| Fixed | Both models, split file, split seed 271, shuffle seed 271, metrics Recall@1/5/10 and MRR |
+
+## Protected Test Results (final, run once)
+
+Split: protected test, N = 2,708. Higher is better. Evaluated once after the freeze; commit `0dfcb65`.
+
+| Method ID | Recall@1 | Recall@5 | Recall@10 | MRR | Run ID |
+|---|---|---|---|---|---|
+| BM25-LINE | 0.1599 | 0.3253 | 0.4291 | 0.2513 | BM25-LINE_test_20261123_1407 |
+| LGBM-TEXT | 0.1817 | 0.3516 | 0.4616 | 0.2729 | LGBM-TEXT_test_20261123_1407 |
+| LGBM-LAYOUT | 0.1795 | 0.3807 | 0.5111 | 0.2848 | LGBM-LAYOUT_test_20261123_1408 |
+| LGBM-LAYOUT-SHUFFLED | 0.1425 | 0.3124 | 0.4273 | 0.2345 | LGBM-LAYOUT-SHUFFLED_test_20261123_1408 |
+
+Saved: `results/eval/test_results_table.csv` and per-run `*_metrics.json` / `*_top10.csv`.
+
+Evaluation command (change `--method`, model paths, `--part`, and add `--shuffle-layout` as listed in the README):
+```
+python src/evaluate_line_ranker.py --method model --model-path results/models/lgbm_layout.txt --metadata results/models/lgbm_layout_metadata.json --features results/features/validation_line_features.csv --split splits/val_dev_test_split.json --part test --output-dir results/eval
+```
+
+## Ablations (test split)
+
+| Comparison | Changed component | Recall@5 full | Recall@5 ablated | Difference | MRR difference |
+|---|---|---|---|---|---|
+| LGBM-LAYOUT vs LGBM-TEXT | Layout features removed (same data, training, scoring) | 0.3807 | 0.3516 | -0.0291 | -0.0119 |
+| LGBM-LAYOUT vs LGBM-LAYOUT-SHUFFLED | Same model; layout features permuted across lines within each question (seed 271) | 0.3807 | 0.3124 | -0.0683 | -0.0503 |
+
+Note: Recall@1 is essentially tied between LGBM-LAYOUT (0.1795) and LGBM-TEXT (0.1817).
+Line-level ceiling: questions with at least one answer-containing line (dev 2,328 / 2,641).
