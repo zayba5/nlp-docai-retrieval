@@ -405,3 +405,37 @@ The Qwen accuracy was calculated as:
 
 ```text
 49 correct predictions / 65 evaluated questions = 75.38%
+
+
+## Line-Based BM25 Validation Results
+
+To create a fair comparison for the proposed layout-aware method, the BM25 baseline was rerun using OCR lines as the retrieval candidates instead of 80-word chunks.
+
+The line-based representation preserves smaller document regions and their bounding boxes. Coordinates were saved but were not used by BM25 for ranking.
+
+| Setting | Value |
+|---|---|
+| Baseline | BM25-LINE |
+| Evaluation split | SP-DocVQA validation |
+| Questions evaluated | 5,349 |
+| Unique document pages | 1,286 |
+| Total OCR lines | 68,894 |
+| Average lines per page | 53.57 |
+| Candidate unit | OCR line |
+| Coordinates saved | Yes |
+| Coordinates used for ranking | No |
+| Search scope | Question-associated page |
+| Results file | `results/bm25_line_validation.json` |
+
+| Metric | Score | Percentage |
+|---|---:|---:|
+| Evidence Recall@1 | 0.166386 | 16.64% |
+| Evidence Recall@5 | 0.334829 | 33.48% |
+| Evidence Recall@10 | 0.435222 | 43.52% |
+
+### OCR Answer Coverage
+
+The answer was found somewhere in the complete OCR text for 4,815 of 5,349 questions.
+
+```text
+4,815 / 5,349 = 90.02%

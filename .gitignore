@@ -31,6 +31,11 @@ results/*.log
 # Allow specific validation files
 !results/bm25_smoke_test.json
 !results/bm25_validation.json
+!results/bm25_line_smoke_test.json
+!results/bm25_line_validation.json
+!results/lgbm_text_validation.json
+!results/lgbm_layout_validation.json
+!results/ocr_answer_coverage.json
 
 # Operating system files
 .DS_Store
