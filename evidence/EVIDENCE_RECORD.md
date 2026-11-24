@@ -3,28 +3,31 @@
 ## 1. Dataset Verification
 
 **Dataset:** SP-DocVQA  
-**Dataset Version:** 1.0  
-**Verification Date:** October 31, 2026
+**Dataset version:** 1.0  
+**Verification date:** October 31, 2026
 
-The project uses the three official SP-DocVQA partitions for baseline development, validation, and evaluation.
+The project uses the three official SP-DocVQA partitions.
 
 | Partition | Questions | Documents | Images | Answers |
 |---|---:|---:|---:|---|
 | Training | 39,463 | 10,194 | 10,194 | Available |
 | Validation | 5,349 | 1,286 | 1,286 | Available |
-| Test | 5,188 | 1,287 | 1,287 | Not included |
+| Test | 5,188 | 1,287 | 1,287 | Not available locally |
 | **Total** | **50,000** | **12,767** | **12,767** | — |
 
 The complete dataset contains:
-- 50,000 question records.
-- 12,767 unique document IDs.
-- 12,767 unique document-page images.
 
-Training and validation contain answer labels. Test answers are not available locally, so answer-based test evaluation cannot currently be performed.
+- 50,000 question records
+- 12,767 unique document IDs
+- 12,767 unique document-page images
+
+Training and validation contain answer labels. The official test answers are not available locally, so answer-based evaluation cannot be performed on the official test partition.
+
+The image counts can be added across partitions because the verification found zero overlapping images between the official partitions. The document counts can also be added because zero document overlap was found.
 
 ## 2. Relationship Between Dataset Files
 
-The dataset consists of three connected components:
+The dataset consists of three connected components.
 
 | Component | Location | Contents |
 |---|---|---|
@@ -34,21 +37,25 @@ The dataset consists of three connected components:
 
 Each QAS record identifies a question, its answer, and the associated document image. The matching OCR file is located using the same base filename.
 
-For example, a QAS record contains:
+For example, a QAS record may contain:
+
 - Question: What is the corporation name?
 - Answer: USA Petroleum
 - Image: `documents/ffbf0023_4.png`
 - Document ID: `3278`
 
 The corresponding local files are:
+
 - Image: `data/raw/images/ffbf0023_4.png`
 - OCR: `data/raw/ocr/ffbf0023_4.json`
 
 The relationship between the files is:
-- One document image corresponds to one expected OCR file.
-- One document image can be referenced by multiple QAS question records.
-- Each QAS record connects a question and its answer to the corresponding document image.
+
+- One document image is expected to have one OCR file with the same base filename.
+- One document image can be referenced by multiple QAS records.
+- Each QAS record connects a question and answer to a document image.
 - The image and OCR files provide visual and machine-readable information about the same document page.
+- The physical image-to-OCR correspondence should be verified separately from the QAS metadata.
 
 ### 2.1 Question-to-Image Relationship
 
@@ -63,6 +70,7 @@ For example, `ffbf0023_4.png` has three associated questions:
 | 9953 | What is the corporation name? | `USA Petroleum` |
 
 All three questions reference the same image and OCR files:
+
 - `data/raw/images/ffbf0023_4.png`
 - `data/raw/ocr/ffbf0023_4.json`
 
@@ -70,77 +78,52 @@ This explains why the dataset contains 50,000 questions but only 12,767 unique i
 
 ### 2.2 Count Calculations
 
-The total number of questions is calculated by adding the three QAS partitions:
+The total number of questions is:
 
-- Training: 39,463
-- Validation: 5,349
-- Test: 5,188
+```text
+39,463 + 5,349 + 5,188 = 50,000
+```
 
-**Total questions:**
+The total number of unique images is:
 
-39,463 + 5,349 + 5,188 = **50,000**
+```text
+10,194 + 1,286 + 1,287 = 12,767
+```
 
-The total number of unique images is calculated by adding the unique images in each partition:
+The total number of unique document IDs is:
 
-- Training: 10,194
-- Validation: 1,286
-- Test: 1,287
+```text
+10,194 + 1,286 + 1,287 = 12,767
+```
 
-**Total unique images:**
-
-10,194 + 1,286 + 1,287 = **12,767**
-
-The same calculation applies to the unique document IDs:
-
-10,194 + 1,286 + 1,287 = **12,767 unique document IDs**
-
-In the verified QAS metadata, the number of unique document IDs and unique image names is the same within each partition.
+These totals are valid because the official partition checks found zero overlap between partitions.
 
 ### 2.3 Average Questions per Image
 
-The average number of questions per image is calculated by dividing the number of questions by the number of unique images.
-
-| Partition | Calculation | Average Questions per Image |
-|---|---|---:|
+| Partition | Calculation | Average questions per image |
+|---|---:|---:|
 | Training | 39,463 / 10,194 | 3.87 |
 | Validation | 5,349 / 1,286 | 4.16 |
 | Test | 5,188 / 1,287 | 4.03 |
-| **Complete Dataset** | **50,000 / 12,767** | **3.92** |
+| **Complete dataset** | **50,000 / 12,767** | **3.92** |
 
-These values are averages. Individual images may have one question or several questions.
-
-### 2.4 Image-to-OCR Relationship
-
-Each document image is expected to have one corresponding OCR file with the same base filename.
-
-For example:
-- Image: `ffbf0023_4.png`
-- OCR: `ffbf0023_4.json`
-
-The expected relationship is one image to one OCR file.
-
-Based on the QAS metadata, the expected total is approximately:
-- 12,767 image files.
-- 12,767 matching OCR files.
-
-The physical image and OCR folder counts should be verified separately. These totals are based on unique image names and document IDs in the QAS metadata.
+These are averages. Individual document images may have one question or several questions.
 
 ## 3. Dataset Partition Organization
 
-The images and OCR files remain together in their original raw-data folders. They are not physically moved into separate training, validation, and test folders.
+The images and OCR files remain in their original raw-data folders. They are not physically moved into separate training, validation, and test folders.
 
-Instead, the QAS partition determines the logical assignment of each question and its associated document.
+Instead, the QAS files determine the logical partition assignment.
 
-| Partition | QAS Source File | Questions | Unique Documents | Unique Images | Answers |
+| Partition | QAS source file | Questions | Documents | Images | Answers |
 |---|---|---:|---:|---:|---|
 | Training | `train_v1.0_withQT.json` | 39,463 | 10,194 | 10,194 | Available |
 | Validation | `val_v1.0_withQT.json` | 5,349 | 1,286 | 1,286 | Available |
-| Test | `test_v1.0.json` | 5,188 | 1,287 | 1,287 | Not included |
-| **Total** | — | **50,000** | **12,767** | **12,767** | — |
+| Test | `test_v1.0.json` | 5,188 | 1,287 | 1,287 | Not available locally |
 
 ### 3.1 Partition Proportions
 
-The question distribution is:
+Question distribution:
 
 | Partition | Percentage |
 |---|---:|
@@ -148,7 +131,7 @@ The question distribution is:
 | Validation | 10.70% |
 | Test | 10.38% |
 
-The image distribution is:
+Image distribution:
 
 | Partition | Percentage |
 |---|---:|
@@ -156,31 +139,29 @@ The image distribution is:
 | Validation | 10.07% |
 | Test | 10.08% |
 
-The difference between question and image percentages occurs because different document images have different numbers of associated questions.
+The difference between question and image percentages occurs because document images have different numbers of associated questions.
 
 ## 4. Partition Overlap Verification
 
 The official partitions were checked for document and image overlap.
 
-**Document overlap:**
+### Document overlap
 
-| Partition Comparison | Overlapping Documents |
+| Partition comparison | Overlapping documents |
 |---|---:|
 | Training vs. Validation | 0 |
 | Training vs. Test | 0 |
 | Validation vs. Test | 0 |
 
-**Image overlap:**
+### Image overlap
 
-| Partition Comparison | Overlapping Images |
+| Partition comparison | Overlapping images |
 |---|---:|
 | Training vs. Validation | 0 |
 | Training vs. Test | 0 |
 | Validation vs. Test | 0 |
 
-No document-level or image-level overlap was identified between the three partitions.
-
-This separation helps prevent data leakage caused by the same document appearing in multiple partitions.
+No document-level or image-level overlap was identified between the official partitions. This helps prevent leakage caused by the same document appearing in multiple partitions.
 
 ## 5. OCR Inspection and Data Quality
 
@@ -190,11 +171,12 @@ The sample image `ffbf0023_4.png` was matched with its corresponding OCR file:
 - OCR: `data/raw/ocr/ffbf0023_4.json`
 
 The OCR file contained:
-- 83 text lines.
-- Word-level OCR information.
-- Line-level OCR information.
-- Word-level and line-level bounding boxes.
-- OCR confidence values.
+
+- 83 text lines
+- Word-level OCR information
+- Line-level OCR information
+- Word-level and line-level bounding boxes
+- OCR confidence values
 
 Three associated questions were checked against the extracted OCR text.
 
@@ -207,151 +189,103 @@ Three associated questions were checked against the extracted OCR text.
 The answers `Corporation` and `USA Petroleum` were found directly in the OCR text.
 
 The date answer `7 - 1 - 99` was not found through simple string matching. Possible reasons include:
-- Differences in spacing.
-- Different punctuation.
-- OCR recognition errors.
 
-This demonstrates that extracted OCR text may not always accurately represent information visible in the original document. This limitation is relevant to the project's comparison of text-based retrieval and layout-aware document question answering.
+- Different spacing
+- Different punctuation
+- OCR recognition errors
+- Different date formatting
 
-## 6. Baseline Evaluation Protocol
+This demonstrates that OCR extraction may not always accurately represent information visible in the original document.
 
-The project compares the following methods using the same fixed validation partition.
+## 6. Research Task
 
-| Baseline | Purpose | Input |
-|---|---|---|
-| BM25 | Text-based retrieval baseline | OCR text and question |
-| Visual baseline | Pretrained document question-answering comparison | Document image and question |
-| Layout-aware method | Proposed approach investigating spatial information | OCR text, coordinates, and question |
+The project investigates the following question:
 
-The dataset partitions are used as follows:
+> Does incorporating document layout information improve evidence retrieval compared with text-only retrieval?
 
-- **Training:** Used for development and fitting learned components when required.
-- **Validation:** Used for baseline comparison, development decisions, and model selection.
-- **Test:** Reserved for final evaluation. Answer labels are not available locally.
+The system receives a question and the OCR information from its associated document page. It ranks OCR lines that may contain the answer.
 
-All baseline methods will follow the same evaluation protocol and primary metric to ensure a fair comparison.
+The primary task is evidence retrieval rather than unrestricted answer generation.
 
-## 7. Frozen Evaluation Split
+## 7. Method Roster
 
-The project uses the official SP-DocVQA version 1.0 partitions:
+| Method ID | Method | Inputs | Role |
+|---|---|---|---|
+| `BM25-LINE` | BM25 retrieval over OCR lines | Question and OCR text | Traditional text-only baseline |
+| `LGBM-TEXT` | Text-only LightGBM reranker | Text and BM25 features | Ablation |
+| `LGBM-LAYOUT` | Layout-aware LightGBM reranker | Text, BM25 features, and coordinates | Proposed method |
+| `LGBM-LAYOUT-SHUFFLED` | Layout-aware model with shuffled layout information | Text and shuffled coordinates | Additional ablation |
+| `QWEN-VISION` | Pretrained visual question-answering model | Document image and question | Visual comparison baseline |
 
-- Training: `train_v1.0_withQT.json`
-- Validation: `val_v1.0_withQT.json`
-- Test: `test_v1.0.json`
+## 8. Frozen Evaluation Protocol
 
-The split manifest is saved at:
+The official split manifest is saved at:
 
-`splits/docvqa_official_split.json`
+```text
+splits/docvqa_official_split.json
+```
 
 It records:
-- Question IDs.
-- Document IDs.
-- Image filenames.
-- Source QAS files.
-- Partition assignments and counts.
 
-The split is frozen to ensure consistent comparisons between baseline methods.
+- Question IDs
+- Document IDs
+- Image filenames
+- Source QAS files
+- Partition assignments
+- Partition counts
 
-Raw images and OCR files are not moved or modified. Any necessary changes to the evaluation protocol will be documented, with the original version preserved and affected experiments rerun.
+The original official partitions were checked for overlap and retained.
 
-## 8. Reproducibility Evidence
+The corrected BM25 baseline uses OCR lines as its retrieval units rather than 80-word chunks. This gives more candidates per page and preserves the spatial identity of each line.
 
-The project package should contain:
-- Runnable baseline source code or notebooks.
-- Configuration and dependency information.
-- Frozen split manifest.
-- Baseline results and evaluation outputs.
-- Runtime and hardware information.
-- Teammate rerun results.
+All retrieval methods use:
 
-Each baseline result should record:
-- Baseline and run IDs.
-- Dataset and split version.
-- Configuration and seed, where applicable.
-- Evaluation count.
-- Primary metric name and value.
-- Runtime and hardware.
-- Output file locations.
+- The same document pages
+- The same questions
+- The same OCR-line candidates
+- The same answer normalization procedure
+- The same evaluation metrics
+- The same information boundaries
 
-A teammate rerun should verify that the baselines can be executed using the provided instructions and produce consistent results.
+## 9. Internal Development and Evaluation Split
 
-## 9. Summary of Evidence
+Because the official DocVQA test answers are unavailable locally, the labeled official validation partition was divided into an internal development split and an internal held-out evaluation split.
 
-| Verification Item | Result |
-|---|---|
-| Dataset | SP-DocVQA v1.0 |
-| Total questions | 50,000 |
-| Unique document images | 12,767 |
-| Unique document IDs | 12,767 |
-| Training questions | 39,463 |
-| Validation questions | 5,349 |
-| Test questions | 5,188 |
-| Training images | 10,194 |
-| Validation images | 1,286 |
-| Test images | 1,287 |
-| Average questions per image | 3.92 |
-| Expected image-to-OCR relationship | 1:1 |
-| Document overlap | 0 |
-| Image overlap | 0 |
-| Sample OCR lines inspected | 83 |
-| Sample questions inspected | 3 |
-| Direct OCR answer matches | 2 |
-| Unmatched OCR answers | 1 |
-| Frozen split manifest | `splits/docvqa_official_split.json` |
+| Internal partition | Questions | Purpose |
+|---|---:|---|
+| Development | 2,641 | Development and configuration decisions |
+| Held-out evaluation | 2,708 | Final fixed comparison |
+| Total | 5,349 | Complete official validation partition |
 
-## 10. Conclusion
+The internal split is saved at:
 
-The SP-DocVQA dataset provides the foundation for the project's baseline evaluation.
+```text
+splits/val_dev_test_split.json
+```
 
-The dataset contains 50,000 questions associated with 12,767 unique document-page images, with an average of approximately 3.92 questions per image. Each image is expected to have one corresponding OCR file identified through its base filename.
+The frozen experiment configuration is saved at:
 
-The official training, validation, and test partitions were checked, with no document-level or image-level overlap identified.
+```text
+configs/frozen_config.json
+```
 
-The sample OCR inspection demonstrated that OCR extraction can introduce recognition and formatting errors. This limitation is relevant to the comparison between text-based retrieval and layout-aware document question answering.
+The internal held-out evaluation split is not the official DocVQA test set.
 
-These findings support proceeding with the BM25 and visual baselines before evaluating the proposed layout-aware method using the frozen evaluation protocol.
+Because the official validation partition was previously used for baseline development, the internal held-out split should not be interpreted as a completely untouched official test set. It is reported as an internal held-out evaluation split.
 
-### BM25 Search Scope
+## 10. BM25 Chunk-Based Baseline
 
-Because this project uses the Single Page DocVQA task, each question is evaluated using the OCR text from its associated document page.
-
-The BM25 baseline does not search OCR chunks from all validation pages at once. For every question, it loads the OCR file corresponding to that question's image and ranks only the chunks from that page.
-
-This prevents the baseline from becoming a document-collection retrieval system and ensures that it matches the selected single-page question-answering task.
-
-The BM25 baseline does not use OCR coordinates. It uses only OCR text, making it a text-only comparison for the future layout-aware method.
-
-### Baseline Metric Scope
-
-BM25 produces ranked OCR evidence chunks, so it is evaluated using Evidence Recall@1, Evidence Recall@5, and Evidence Recall@10.
-
-The pretrained visual document-question-answering model produces predicted answers rather than ranked OCR evidence. It is therefore evaluated using answer-level metrics such as Exact Match and Token F1.
-
-Evidence matching uses the answer text as a proxy because the dataset does not provide explicit evidence annotations for every question.
-
-## BM25 Validation Results
-
-The corrected BM25 baseline was evaluated on the complete DocVQA validation partition.
-
-### Configuration
+The original BM25 implementation divided each page into 80-word chunks with 20-word overlap.
 
 | Setting | Value |
 |---|---|
-| Baseline | BM25 text-only retrieval |
-| Task | Single-Page DocVQA |
-| Evaluation split | Validation |
-| Questions loaded | 5,349 |
-| Questions evaluated | 5,349 |
-| Unique document pages | 1,286 |
-| Total OCR chunks | 4,517 |
-| Average chunks per page | 3.51 |
-| Chunk size | 80 words |
+| Candidate unit | 80-word OCR chunks |
 | Chunk overlap | 20 words |
-| Search scope | OCR chunks from the question-associated page |
+| Questions evaluated | 5,349 |
+| Unique pages | 1,286 |
+| Total chunks | 4,517 |
+| Average chunks per page | 3.51 |
 | Coordinates used | No |
-| Image pixels used | No |
-
-### Results
 
 | Metric | Score | Percentage |
 |---|---:|---:|
@@ -359,116 +293,63 @@ The corrected BM25 baseline was evaluated on the complete DocVQA validation part
 | Evidence Recall@5 | 0.8871 | 88.71% |
 | Evidence Recall@10 | 0.8994 | 89.94% |
 
-### Interpretation
+Because each page contained only approximately 3.5 chunks on average, Recall@5 and Recall@10 covered much of the page. These results are retained as a secondary historical reference.
 
-BM25 retrieved an OCR chunk containing the normalized answer for approximately 67.25% of validation questions within its first-ranked result.
+## 11. BM25 Line-Based Baseline
 
-When the top five retrieved chunks were considered, the evidence recall increased to approximately 88.71%.
+To create a fair comparison with the layout-aware models, BM25 was rerun using OCR lines as candidate retrieval units.
 
-When the top ten retrieved chunks were considered, the evidence recall increased slightly to approximately 89.94%.
-
-This indicates that lexical similarity between the question and OCR text is often sufficient to locate answer-supporting text on the correct document page. However, the remaining failures suggest that text-only retrieval may struggle with OCR errors, tables, forms, repeated values, and relationships that depend on document layout.
-
-The BM25 results provide the text-only reference point for the research question. The proposed layout-aware method will later be compared with these results to determine whether word positions, bounding boxes, and spatial relationships improve evidence retrieval.
-
-### Evaluation Limitation
-
-Evidence recall was estimated by checking whether a normalized answer string appeared in a retrieved OCR chunk. The dataset does not provide explicit evidence annotations for every question.
-
-Therefore, this metric is an answer-to-OCR evidence proxy. It may count a chunk as successful when the answer appears but the chunk does not represent the true visual evidence region. It may also fail when OCR formatting differs from the provided answer.
-
-The BM25 validation results are baseline results only. They do not establish whether layout improves performance because the layout-aware method has not yet been evaluated.
-
-## Qwen Visual Baseline Results
-
-A pretrained `Qwen/Qwen2.5-VL-3B-Instruct` model was evaluated on a fixed subset of 65 questions from the SP-DocVQA validation partition.
-
-The model received only the document image and natural-language question. OCR text and OCR coordinates were not provided to the model.
+Coordinates were saved but were not used by BM25 for ranking.
 
 | Setting | Value |
 |---|---|
-| Model | `Qwen/Qwen2.5-VL-3B-Instruct` |
-| Task | Single-Page DocVQA |
-| Evaluation subset | First 65 validation questions |
-| Questions evaluated | 65 |
-| Correct predictions | 49 |
-| Incorrect predictions | 16 |
-| Metric | Normalized Exact Match |
-| Accuracy | 75.38% |
-| Total runtime | 725.79 seconds |
-| Average time per question | 11.17 seconds |
-| Results file | `results/qwen_visual_65_questions.json` |
-| Notebook | `notebooks/qwen_visual_baseline.ipynb` |
-| Hardware | Google Colab GPU |
-
-The Qwen accuracy was calculated as:
-
-```text
-49 correct predictions / 65 evaluated questions = 75.38%
-
-
-## Line-Based BM25 Validation Results
-
-To create a fair comparison for the proposed layout-aware method, the BM25 baseline was rerun using OCR lines as the retrieval candidates instead of 80-word chunks.
-
-The line-based representation preserves smaller document regions and their bounding boxes. Coordinates were saved but were not used by BM25 for ranking.
-
-| Setting | Value |
-|---|---|
-| Baseline | BM25-LINE |
-| Evaluation split | SP-DocVQA validation |
+| Baseline | `BM25-LINE` |
+| Candidate unit | OCR line |
 | Questions evaluated | 5,349 |
-| Unique document pages | 1,286 |
+| Unique pages | 1,286 |
 | Total OCR lines | 68,894 |
 | Average lines per page | 53.57 |
-| Candidate unit | OCR line |
 | Coordinates saved | Yes |
 | Coordinates used for ranking | No |
 | Search scope | Question-associated page |
-| Results file | `results/bm25_line_validation.json` |
 
 | Metric | Score | Percentage |
 |---|---:|---:|
-| Evidence Recall@1 | 0.166386 | 16.64% |
-| Evidence Recall@5 | 0.334829 | 33.48% |
-| Evidence Recall@10 | 0.435222 | 43.52% |
+| Evidence Recall@1 | 0.1664 | 16.64% |
+| Evidence Recall@5 | 0.3348 | 33.48% |
+| Evidence Recall@10 | 0.4352 | 43.52% |
 
-### OCR Answer Coverage
+The result is stored at:
 
-The answer was found somewhere in the complete OCR text for 4,815 of 5,349 questions.
+```text
+results/bm25_line_validation.json
+```
+
+The lower scores compared with the original 80-word experiment are expected because individual OCR lines are smaller and more difficult to retrieve. The line-based results provide the fair comparison for the LightGBM models.
+
+## 12. OCR Answer Coverage
+
+The line-based BM25 evaluation found the normalized answer somewhere in the complete OCR text for:
+
+```text
+4,815 of 5,349 questions
+```
+
+The answer-in-OCR coverage was:
 
 ```text
 4,815 / 5,349 = 90.02%
+```
 
-## LightGBM Feature Extraction
+This represents an approximate upper bound for OCR-based evidence retrieval. If an answer is absent from the OCR, an OCR-only retrieval system cannot retrieve it.
 
-To prepare the proposed machine-learning models, the validation pages were represented as OCR-line candidates. Each question was paired with the OCR lines from its associated document page.
+OCR coverage is a data-quality measure, not a model-performance measure.
 
-For every question-line pair, the pipeline created:
+## 13. LightGBM Feature Extraction
 
-- Text similarity features
-- Question-term overlap features
-- Line-length features
-- OCR bounding-box features
-- Relative page-position features
-- A binary answer-presence label
+To prepare the supervised models, each question was paired with the OCR lines from its associated document page.
 
-The answer label was used only to create supervised training targets. The answer itself was not included as an input feature.
-
-### Feature Extraction Results
-
-| Partition | Questions processed | Questions skipped | Feature rows | Positive rows |
-|---|---:|---:|---:|---:|
-| Training | 39,459 | 4 | 2,199,210 | 49,038 |
-| Validation | 5,349 | 0 | 308,765 | 7,104 |
-
-A positive row represents an OCR line containing a normalized reference answer. Multiple positive lines may occur for one question when the answer appears more than once.
-
-The four skipped training questions were excluded because they could not be converted into valid OCR-line feature records. This data-quality issue will be documented and considered when interpreting the results.
-
-### Feature Columns
-
-The generated feature tables contain:
+The feature pipeline created:
 
 - BM25 score
 - Question token count
@@ -483,101 +364,275 @@ The generated feature tables contain:
 - Bounding-box availability
 - Answer-presence label
 
-The training feature table will be used to fit the LightGBM models. The validation feature table will be used only for evaluation.
+An OCR line received label `1` if it contained a normalized reference answer and label `0` otherwise.
 
-The generated files are:
+Reference answers were used to create training and evaluation labels, but were not included as model input features.
+
+| Partition | Questions processed | Questions skipped | Feature rows | Positive rows |
+|---|---:|---:|---:|---:|
+| Training | 39,459 | 4 | 2,199,210 | 49,038 |
+| Validation | 5,349 | 0 | 308,765 | 7,104 |
+
+The four skipped training questions could not be converted into valid OCR-line feature records. This data-quality issue is documented and the remaining valid records were used for training.
+
+The feature-generation script is:
+
+```text
+src/build_line_features.py
+```
+
+The generated feature files are:
 
 ```text
 results/features/train_line_features.csv
 results/features/validation_line_features.csv
+```
 
-## Development / Protected Test Split (Assignment 3)
+The large training feature file may be stored separately in Google Drive or regenerated using the feature-generation command.
 
-The official DocVQA test partition has no public answers, so the official validation partition was divided by document image into a development half (configuration selection) and a protected test half (final evaluation, run once).
+## 14. LightGBM Training Setup
 
-| Item | Value |
+The text-only LightGBM model uses:
+
+- BM25 score
+- Question token count
+- OCR-line token count
+- Matching token count
+- Question-line overlap ratio
+
+The layout-aware LightGBM model uses the text features above plus:
+
+- Normalized horizontal position
+- Normalized vertical position
+- Normalized line width
+- Normalized line height
+- Normalized line-order position
+- Bounding-box availability
+
+The trained models are:
+
+```text
+results/models/lgbm_text.txt
+results/models/lgbm_layout.txt
+```
+
+The corresponding metadata files are:
+
+```text
+results/models/lgbm_text_metadata.json
+results/models/lgbm_layout_metadata.json
+```
+
+## 15. Development Results
+
+The development results were used during experiment development.
+
+| Method | Recall@1 | Recall@5 | Recall@10 | MRR | Questions |
+|---|---:|---:|---:|---:|---:|
+| BM25-LINE | 17.30% | 34.46% | 44.15% | 0.2679 | 2,641 |
+| LGBM-LAYOUT-SHUFFLED | 15.15% | 32.11% | 44.04% | 0.2453 | 2,641 |
+| LGBM-LAYOUT | 19.46% | 40.44% | 54.15% | 0.3020 | 2,641 |
+| LGBM-TEXT | 19.31% | 36.77% | 48.43% | 0.2867 | 2,641 |
+
+The development results are stored at:
+
+```text
+results/eval/dev_results_table.csv
+```
+
+## 16. Held-Out Evaluation Results
+
+The held-out evaluation results were produced using the fixed internal evaluation split.
+
+| Method | Recall@1 | Recall@5 | Recall@10 | MRR | Questions |
+|---|---:|---:|---:|---:|---:|
+| BM25-LINE | 15.99% | 32.53% | 42.91% | 0.2513 | 2,708 |
+| LGBM-LAYOUT-SHUFFLED | 14.25% | 31.24% | 42.73% | 0.2345 | 2,708 |
+| LGBM-LAYOUT | 17.95% | 38.07% | 51.11% | 0.2848 | 2,708 |
+| LGBM-TEXT | 18.17% | 35.16% | 46.16% | 0.2729 | 2,708 |
+
+The held-out results are stored at:
+
+```text
+results/eval/test_results_table.csv
+```
+
+The individual metric and prediction files are stored in:
+
+```text
+results/eval/
+```
+
+## 17. Result Interpretation
+
+The layout-aware LightGBM model improved Recall@5, Recall@10, and MRR compared with the BM25-LINE baseline.
+
+Compared with BM25-LINE, the layout-aware model improved:
+
+- Recall@5 by approximately 5.54 percentage points
+- Recall@10 by approximately 8.20 percentage points
+- MRR by approximately 0.0335
+
+Compared with the text-only LightGBM model, the layout-aware model improved:
+
+- Recall@5 from 35.16% to 38.07%
+- Recall@10 from 46.16% to 51.11%
+- MRR from 0.2729 to 0.2848
+
+The text-only LightGBM model had a slightly higher Recall@1 than the layout-aware model:
+
+```text
+LGBM-TEXT: 18.17%
+LGBM-LAYOUT: 17.95%
+```
+
+Therefore, the benefit of layout information appears stronger for retrieving the correct evidence within the top five or top ten results than for selecting the single best result.
+
+## 18. Ablation Analysis
+
+The shuffled-layout ablation performed worse than the original layout-aware model on all reported metrics.
+
+| Metric | LGBM-LAYOUT | Shuffled layout | Difference |
+|---|---:|---:|---:|
+| Recall@1 | 17.95% | 14.25% | +3.69 points |
+| Recall@5 | 38.07% | 31.24% | +6.83 points |
+| Recall@10 | 51.11% | 42.73% | +8.38 points |
+| MRR | 0.2848 | 0.2345 | +0.0503 |
+
+This supports the interpretation that meaningful spatial information contributes to retrieval performance. The improvement does not appear to result only from adding extra numeric features because shuffling the layout information reduced performance.
+
+## 19. Qwen Visual Baseline
+
+A pretrained `Qwen/Qwen2.5-VL-3B-Instruct` model was evaluated on a fixed 500-question subset.
+
+The model received the document image and natural-language question. OCR text and OCR coordinates were not provided as direct model inputs.
+
+| Setting | Value |
 |---|---|
-| Script | `src/create_dev_split.py` |
-| Output | `splits/val_dev_test_split.json` |
-| Source | Official SP-DocVQA validation (5,349 questions, 1,286 images) |
-| Split unit | Document image |
-| Seed | 271 |
-| Development | 2,641 questions, 643 images |
-| Test (protected) | 2,708 questions, 643 images |
-| Image overlap check | Passed (assertion in script, no shared images) |
+| Model | `Qwen/Qwen2.5-VL-3B-Instruct` |
+| Dataset | SP-DocVQA |
+| Evaluation subset | 500 questions |
+| Random seed | 271 |
+| Exact Match | 81.60% |
+| Exactly correct predictions | 408 of 500 |
+| ANLS | 86.91% |
+| Metrics file | `results/visual_baseline/qwen_test_500_seed271_metrics.json` |
+| Prediction file | `results/visual_baseline/qwen_test_500_seed271_checkpoint.json` |
 
-Command:
-```
-python src/create_dev_split.py --features results/features/validation_line_features.csv --output splits/val_dev_test_split.json
-```
+The Qwen result is reported separately from BM25 and LightGBM because Qwen generates answers, while BM25 and LightGBM rank OCR evidence lines.
 
-## LightGBM Training
+Therefore, Qwen Exact Match and ANLS are not directly comparable with Evidence Recall@1, Recall@5, Recall@10, or MRR.
 
-| Item | Value |
-|---|---|
-| Training file | `results/features/train_line_features.csv` (not committed; regenerate with `src/build_line_features.py`) |
-| Training rows | 2,199,210 OCR lines |
-| Positive rows | 49,038 |
-| Skipped questions | 4 |
-| Script | `src/train_lgbm_reranker.py` (binary objective, 200 trees, lr 0.05, 31 leaves, seed 271) |
-| LGBM-TEXT | `results/models/lgbm_text.txt`, train time 42.1 s |
-| LGBM-LAYOUT | `results/models/lgbm_layout.txt`, train time 24.1 s |
-| Hardware | Local laptop CPU (TBD: model), Windows, Python venv; lightgbm 4.6.0 |
-| Tuning | None; default hyperparameters from the training script |
+The 500-question evaluation is treated as a visual-baseline subset of the internal held-out evaluation procedure. It is not reported as an official DocVQA test result.
 
-Commands:
-```
-python src/build_line_features.py --qas data/raw/qas/train_v1.0_withQT.json --ocr-dir data/raw/ocr --output results/features/train_line_features.csv
-python src/train_lgbm_reranker.py --train-features results/features/train_line_features.csv --output-model results/models/lgbm_text.txt --output-metadata results/models/lgbm_text_metadata.json --feature-set text
-python src/train_lgbm_reranker.py --train-features results/features/train_line_features.csv --output-model results/models/lgbm_layout.txt --output-metadata results/models/lgbm_layout_metadata.json --feature-set layout
+## 20. Error Analysis
+
+The saved top-ranked prediction files are located at:
+
+```text
+results/eval/
 ```
 
-## Development Results (selection only, not final)
+The error analysis will examine at least two concrete examples from categories such as:
 
-Split: development, N = 2,641. Higher is better.
+- Tables
+- Forms
+- Dates and numbers
+- Multi-column pages
+- OCR errors
+- Repeated answers
 
-| Method ID | Recall@1 | Recall@5 | Recall@10 | MRR | Run ID |
-|---|---|---|---|---|---|
-| BM25-LINE | 0.1730 | 0.3446 | 0.4415 | 0.2679 | BM25-LINE_dev_20261123_1402 |
-| LGBM-TEXT | 0.1931 | 0.3677 | 0.4843 | 0.2867 | LGBM-TEXT_dev_20261123_1402 |
-| LGBM-LAYOUT | 0.1946 | 0.4044 | 0.5415 | 0.3020 | LGBM-LAYOUT_dev_20261123_1402 |
-| LGBM-LAYOUT-SHUFFLED | 0.1515 | 0.3211 | 0.4404 | 0.2453 | LGBM-LAYOUT-SHUFFLED_dev_20261123_1403 |
+For each case, the analysis will record:
 
-Saved: `results/eval/dev_results_table.csv` and per-run `*_metrics.json` / `*_top10.csv`.
+- Question
+- Reference answer
+- Question or document identifier
+- Ranked evidence lines
+- Method that succeeded or failed
+- Likely explanation
 
-## Configuration Freeze
+This section must be completed after reviewing the saved prediction files.
 
-| Item | Value |
-|---|---|
-| Record | `configs/frozen_config.json` |
-| Frozen at | 2026-11-23 14:04:57 |
-| Commit | `717e73c` (pushed before any test evaluation) |
-| Fixed | Both models, split file, split seed 271, shuffle seed 271, metrics Recall@1/5/10 and MRR |
+## 21. Figures
 
-## Protected Test Results (final, run once)
+The final paper will include two figures.
 
-Split: protected test, N = 2,708. Higher is better. Evaluated once after the freeze; commit `0dfcb65`.
+Figure 1 will compare BM25-LINE, LGBM-TEXT, and LGBM-LAYOUT using Recall@1, Recall@5, and Recall@10.
 
-| Method ID | Recall@1 | Recall@5 | Recall@10 | MRR | Run ID |
-|---|---|---|---|---|---|
-| BM25-LINE | 0.1599 | 0.3253 | 0.4291 | 0.2513 | BM25-LINE_test_20261123_1407 |
-| LGBM-TEXT | 0.1817 | 0.3516 | 0.4616 | 0.2729 | LGBM-TEXT_test_20261123_1407 |
-| LGBM-LAYOUT | 0.1795 | 0.3807 | 0.5111 | 0.2848 | LGBM-LAYOUT_test_20261123_1408 |
-| LGBM-LAYOUT-SHUFFLED | 0.1425 | 0.3124 | 0.4273 | 0.2345 | LGBM-LAYOUT-SHUFFLED_test_20261123_1408 |
+Figure 2 will show the layout ablation or an informative error slice, such as the difference between original and shuffled layout information.
 
-Saved: `results/eval/test_results_table.csv` and per-run `*_metrics.json` / `*_top10.csv`.
+The figure files and underlying values will be saved in:
 
-Evaluation command (change `--method`, model paths, `--part`, and add `--shuffle-layout` as listed in the README):
-```
-python src/evaluate_line_ranker.py --method model --model-path results/models/lgbm_layout.txt --metadata results/models/lgbm_layout_metadata.json --features results/features/validation_line_features.csv --split splits/val_dev_test_split.json --part test --output-dir results/eval
+```text
+figures/
 ```
 
-## Ablations (test split)
+The figure-generation command will be documented in the README.
 
-| Comparison | Changed component | Recall@5 full | Recall@5 ablated | Difference | MRR difference |
-|---|---|---|---|---|---|
-| LGBM-LAYOUT vs LGBM-TEXT | Layout features removed (same data, training, scoring) | 0.3807 | 0.3516 | -0.0291 | -0.0119 |
-| LGBM-LAYOUT vs LGBM-LAYOUT-SHUFFLED | Same model; layout features permuted across lines within each question (seed 271) | 0.3807 | 0.3124 | -0.0683 | -0.0503 |
+## 22. Reproducibility
 
-Note: Recall@1 is essentially tied between LGBM-LAYOUT (0.1795) and LGBM-TEXT (0.1817).
-Line-level ceiling: questions with at least one answer-containing line (dev 2,328 / 2,641).
+The following files provide the configurations, splits, models, metrics, and predictions needed to reproduce the experiment:
+
+```text
+configs/frozen_config.json
+splits/docvqa_official_split.json
+splits/val_dev_test_split.json
+results/models/
+results/eval/
+src/build_line_features.py
+src/evaluate_line_ranker.py
+```
+
+The README will document:
+
+- Environment installation
+- Data-access instructions
+- Feature-generation commands
+- Model-training commands
+- Evaluation commands
+- Figure-generation commands
+- Expected output locations
+
+Large raw dataset files are not committed to the repository. They must be downloaded according to the official DocVQA terms.
+
+
+## 23. Limitations
+
+The results have several limitations:
+
+- The internal held-out split was created from the official validation partition.
+- The official DocVQA test answers are unavailable locally.
+- Evidence retrieval is evaluated using answer-to-OCR matching rather than manually verified evidence regions.
+- OCR errors can prevent correct retrieval.
+- The Qwen evaluation uses 500 questions and is not directly comparable to the retrieval metrics.
+- The results are limited to the SP-DocVQA dataset and the evaluated configurations.
+- The findings do not establish universal superiority across all document types.
+
+## 24. Summary
+
+The project verified the SP-DocVQA dataset and its official partition separation. The corrected BM25-LINE baseline provides a text-only reference using OCR lines.
+
+The LightGBM experiments compare a text-only model with a layout-aware model. On the internal held-out evaluation split, the layout-aware model improved Recall@5, Recall@10, and MRR compared with BM25 and the text-only LightGBM model. The shuffled-layout ablation performed worse, supporting the interpretation that meaningful layout information contributed to the improvement.
+
+The conclusion is limited: layout information helped top-k evidence retrieval, but it did not improve Recall@1 over the text-only LightGBM model. Further analysis, figures, teammate reruns, and cross-team review documentation are required before final submission.
+
+## 25. License and Dataset Usage
+
+The source code in this repository is intended for academic and research purposes.
+
+The DocVQA dataset is governed by the terms provided by the dataset organizers and the original document sources. The raw document images are provided for non-commercial research and educational use.
+
+Raw images, OCR files, annotation archives, and restricted download URLs must not be committed to or redistributed through this repository. Users are responsible for reviewing and following the official dataset terms before downloading or using the data.
+
+## 26. Citation
+
+If you use the DocVQA dataset, please cite:
+
+````bibtex
+@InProceedings{mathew2021docvqa,
+    author = {Mathew, Minesh and Karatzas, Dimosthenis and Jawahar, C. V.},
+    title = {DocVQA: A Dataset for VQA on Document Images},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+    year = {2021}
+}
+````
