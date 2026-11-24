@@ -1,0 +1,9 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "dataset": "SP-DocVQA",
+  "split": "test",
+  "sample_size": 500,
+  "random_seed": 271,
+  "exact_match": 0.816,
+  "anls": 0.8690666404485002
+}
