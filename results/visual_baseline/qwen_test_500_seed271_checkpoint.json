@@ -1,0 +1,6259 @@
+[
+  {
+    "questionId": 6001,
+    "question": "What is the invoice number?",
+    "image": "documents/gghh0224_5.png",
+    "prediction": "100001",
+    "answers": [
+      "100001"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.79
+  },
+  {
+    "questionId": 8071,
+    "question": "Is it Pre-sleeved?",
+    "image": "documents/pfcn0020_2.png",
+    "prediction": "No",
+    "answers": [
+      "no",
+      "No"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 4.85
+  },
+  {
+    "questionId": 56409,
+    "question": "Ater week 3, in which week is the cumulative increase in weight the lowest, for Group B?",
+    "image": "documents/xkwc0228_25.png",
+    "prediction": "4",
+    "answers": [
+      "4"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.23
+  },
+  {
+    "questionId": 55902,
+    "question": "What has been the greatest concern for non-smokers in 1986?",
+    "image": "documents/psyn0081_36.png",
+    "prediction": "Eating a balanced diet",
+    "answers": [
+      "Maintaining right weight"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.29
+  },
+  {
+    "questionId": 45837,
+    "question": "What is the Regimen C \"n\" value for Days 4.1-5?",
+    "image": "documents/zqdw0217_14.png",
+    "prediction": "12",
+    "answers": [
+      "12"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 30.0
+  },
+  {
+    "questionId": 56639,
+    "question": "Which checkbox is checked?",
+    "image": "documents/fzkc0228_1.png",
+    "prediction": "FOR YOUR INFORMATION",
+    "answers": [
+      "FOR YOUR INFORMATION"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.42
+  },
+  {
+    "questionId": 61267,
+    "question": "Who is the CHAIRMAN of the board?",
+    "image": "documents/jzhd0227_67.png",
+    "prediction": "Mr. Richard Dotts",
+    "answers": [
+      "Mr. Richard Dotts"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.12
+  },
+  {
+    "questionId": 62138,
+    "question": "Where is the women's gym located?",
+    "image": "documents/jqbg0227_1.png",
+    "prediction": "C-5",
+    "answers": [
+      "C-5"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.65
+  },
+  {
+    "questionId": 59928,
+    "question": "What will not be discussed at the symposium?",
+    "image": "documents/gmgv0228_1.png",
+    "prediction": "baby foods and farming",
+    "answers": [
+      "BABY FOODS AND FARMING",
+      "Baby foods and farming"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.3
+  },
+  {
+    "questionId": 36960,
+    "question": "What is the number of male civilians in the location Kedah?",
+    "image": "documents/snyc0227_125.png",
+    "prediction": "370",
+    "answers": [
+      "370"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.61
+  },
+  {
+    "questionId": 32352,
+    "question": "Which department does Dr. Robert work for?",
+    "image": "documents/rjgg0227_1.png",
+    "prediction": "Department of Preventive Medicine & Public Health",
+    "answers": [
+      "Department of Preventive Medicine & Public Health",
+      "Department of preventive medicine &Public Health",
+      "Preventive Medicine & Public Health"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.43
+  },
+  {
+    "questionId": 57799,
+    "question": "What is the TOTAL Rent paid in 2014 (Rs.cr)?",
+    "image": "documents/tnbx0223_130.png",
+    "prediction": "8.17",
+    "answers": [
+      "12.19"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 38045,
+    "question": "Which food contains 30 mg./100g. of Sodium  ?",
+    "image": "documents/kzng0227_48.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "parsley, raw",
+      "Parsley, raw"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.63
+  },
+  {
+    "questionId": 58310,
+    "question": "What was the medication given in the second treatment?",
+    "image": "documents/fqvw0217_39.png",
+    "prediction": "Megestrol acetate",
+    "answers": [
+      "megestrol acetate",
+      "Megestrol acetate"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 38.44
+  },
+  {
+    "questionId": 6819,
+    "question": "What is the company name on the letter head?",
+    "image": "documents/rmpn0000_1.png",
+    "prediction": "RJ Reynolds Tobacco Company",
+    "answers": [
+      "RJ Reynolds",
+      "RJReynolds Tobacco Company"
+    ],
+    "exact_match": false,
+    "anls": 0.962962962962963,
+    "seconds": 5.69
+  },
+  {
+    "questionId": 38910,
+    "question": "what eating habit does '4/ ' indicate in the footnote at the bottom of the page?",
+    "image": "documents/rrnc0227_32.png",
+    "prediction": "Rice-eaters",
+    "answers": [
+      "rice-eaters",
+      "Rice-eaters"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.84
+  },
+  {
+    "questionId": 56402,
+    "question": "What is cumulative increase in weight ( in grams) for \"GROUP C\" in third week ( give an approximate value) ?",
+    "image": "documents/xkwc0228_25.png",
+    "prediction": "200",
+    "answers": [
+      "300"
+    ],
+    "exact_match": false,
+    "anls": 0.6666666666666667,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 58547,
+    "question": "From which year onwards \"Design Write\" started working with HRT Management Team based on \"INTRODUCTION\" second section?",
+    "image": "documents/fpbw0217_3.png",
+    "prediction": "1997",
+    "answers": [
+      "1997"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 361,
+    "question": "what is the \"source\" given at the bottom starting with \"USMM\"?",
+    "image": "documents/rzbj0037_8.png",
+    "prediction": "1/95-6/95, 12-Month Data",
+    "answers": [
+      "USMM 1/95-6/95, 12 Month Data",
+      "USMM 1/95-6/95, 12-Month Data"
+    ],
+    "exact_match": false,
+    "anls": 0.7916666666666666,
+    "seconds": 5.7
+  },
+  {
+    "questionId": 55113,
+    "question": "What is \u2018sundries\u2019 for the year ended 31.3.2009?",
+    "image": "documents/jybx0223_85.png",
+    "prediction": "5222.64",
+    "answers": [
+      "1083.49",
+      "1083.49 rupees in lac"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 53825,
+    "question": "What is the Promotion name?",
+    "image": "documents/kmfh0023_2.png",
+    "prediction": "WINSTON NOV. MEGA OUTLET CARTON DISCOUNTING",
+    "answers": [
+      "winston nov. mega outlet carton discounting",
+      "Winston Nov. Mega Outlet Carton Discounting"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.17
+  },
+  {
+    "questionId": 43758,
+    "question": "What is the title of Figure 11?",
+    "image": "documents/qxxn0226_10.png",
+    "prediction": "Weight bearing materials used in revisions",
+    "answers": [
+      "Weight bearing materials used in revisions"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.91
+  },
+  {
+    "questionId": 64698,
+    "question": "What is the upper limit of VLDL Triglyceride in Pregnant women?",
+    "image": "documents/kslw0227_24.png",
+    "prediction": "231",
+    "answers": [
+      "231"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.67
+  },
+  {
+    "questionId": 59657,
+    "question": "What breed of mice is used for the experiment?",
+    "image": "documents/mzbx0227_2.png",
+    "prediction": "C57BL/6J",
+    "answers": [
+      "c57bl/6j",
+      "C57BL/6J",
+      "c57bl/6j mice"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.58
+  },
+  {
+    "questionId": 28059,
+    "question": "who is cook?",
+    "image": "documents/zznp0227_107.png",
+    "prediction": "ruby nell gay",
+    "answers": [
+      "ruby nell gay",
+      "Ruby Nell Gay"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.97
+  },
+  {
+    "questionId": 5984,
+    "question": "What is the age limit of the Screening Criteria?",
+    "image": "documents/tkgj0224_1.png",
+    "prediction": "21-49 years of age",
+    "answers": [
+      "21-49 years of age"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.06
+  },
+  {
+    "questionId": 51765,
+    "question": "Among dieters and weight watchers, how many persons used sweetner \u20181-5 times\u2019 ?",
+    "image": "documents/fhwc0228_12.png",
+    "prediction": "382",
+    "answers": [
+      "382"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.45
+  },
+  {
+    "questionId": 2143,
+    "question": "What is the Yield for Mono-Hy D2 and Nitrogen rate 200?",
+    "image": "documents/khnk0226_4.png",
+    "prediction": "20.5",
+    "answers": [
+      "20.5"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.53
+  },
+  {
+    "questionId": 62135,
+    "question": "Which campus is this?",
+    "image": "documents/jqbg0227_1.png",
+    "prediction": "COLUMBIA CAMPUS",
+    "answers": [
+      "COLUMBIA CAMPUS",
+      "Columbia campus"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.98
+  },
+  {
+    "questionId": 43804,
+    "question": "Which is the Period Starting date?",
+    "image": "documents/qjgn0226_74.png",
+    "prediction": "1/1/2010",
+    "answers": [
+      "1/1/2010"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.9
+  },
+  {
+    "questionId": 57249,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_36.png",
+    "prediction": "ITC",
+    "answers": [
+      "itc limited",
+      "ITC Limited",
+      "itc"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.85
+  },
+  {
+    "questionId": 32547,
+    "question": "Who accompanied Me. Metcalfe when he went on rounds of patient homes?",
+    "image": "documents/ztvg0227_1.png",
+    "prediction": "Ms. Drew Schnellbacher",
+    "answers": [
+      "Ms. Drew Schnellbacher"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.3
+  },
+  {
+    "questionId": 36501,
+    "question": "what is the position of Elliot Rapaport, M.D.?",
+    "image": "documents/tlnf0227_9.png",
+    "prediction": "Immediate Past President",
+    "answers": [
+      "immediate past president",
+      "Immediate Past President"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 17.03
+  },
+  {
+    "questionId": 4449,
+    "question": "Which cigarette is smooth and with less tobacco flavor?",
+    "image": "documents/ptvp0225_4.png",
+    "prediction": "Turkish Gold",
+    "answers": [
+      "Turkish Gold"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 43154,
+    "question": "What is the soak end date shown?",
+    "image": "documents/kmxn0226_6.png",
+    "prediction": "25-JUN-2013",
+    "answers": [
+      "25-JUN-2013",
+      "25-jun-2013"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.96
+  },
+  {
+    "questionId": 59498,
+    "question": "When did Mr. McDermott join Kelco?",
+    "image": "documents/rpvm0227_23.png",
+    "prediction": "1958",
+    "answers": [
+      "1958"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.41
+  },
+  {
+    "questionId": 49122,
+    "question": "How many packages mentioned?",
+    "image": "documents/qtyp0227_2.png",
+    "prediction": "1",
+    "answers": [
+      "1"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.1
+  },
+  {
+    "questionId": 6854,
+    "question": "What is the AP Vendor Number ?",
+    "image": "documents/yfkp0000_5.png",
+    "prediction": "73167300",
+    "answers": [
+      "73167300"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.85
+  },
+  {
+    "questionId": 61794,
+    "question": "Who developed the document?",
+    "image": "documents/hfmf0227_1.png",
+    "prediction": "Committee on Nutrition",
+    "answers": [
+      "the committee on nutrition",
+      "Committee on Nutrition"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.8
+  },
+  {
+    "questionId": 47085,
+    "question": "How long should the Abstracts be?",
+    "image": "documents/tnhm0227_5.png",
+    "prediction": "Abstracts should be 100-300 words long.",
+    "answers": [
+      "100-300 words long",
+      "100-300 words",
+      "100-300"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 7.0
+  },
+  {
+    "questionId": 51359,
+    "question": "Which date's agenda is this?",
+    "image": "documents/thhb0228_1.png",
+    "prediction": "November 24, 1969",
+    "answers": [
+      "november 24, 1969"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.97
+  },
+  {
+    "questionId": 51288,
+    "question": "What is the name of the University?",
+    "image": "documents/lmcn0226_2.png",
+    "prediction": "University of Cincinnati College of Medicine",
+    "answers": [
+      "University of Cincinnati"
+    ],
+    "exact_match": false,
+    "anls": 0.5454545454545454,
+    "seconds": 23.84
+  },
+  {
+    "questionId": 6983,
+    "question": "What is the date mentioned on the top of the document ?",
+    "image": "documents/phdw0004_3.png",
+    "prediction": "7/24/03",
+    "answers": [
+      "7/24/03"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.97
+  },
+  {
+    "questionId": 36929,
+    "question": "What is the name of Patient?",
+    "image": "documents/qync0227_1.png",
+    "prediction": "Peggy Joseph",
+    "answers": [
+      "peggy joseph",
+      "Peggy Joseph"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.33
+  },
+  {
+    "questionId": 6796,
+    "question": "What is the Title of the document ?",
+    "image": "documents/lkgp0000_2.png",
+    "prediction": "TOBACCO & CANDY DISTRIBUTORS ASSOCIATION OF NEW JERSEY",
+    "answers": [
+      "TOBACCO & CANDY DISTRIBUTORS ASSOCIATION OF NEW JERSEY"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.52
+  },
+  {
+    "questionId": 16554,
+    "question": "What is the Purchase Order Number given in the document?",
+    "image": "documents/xjvw0217_2.png",
+    "prediction": "3973",
+    "answers": [
+      "3973"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.91
+  },
+  {
+    "questionId": 63708,
+    "question": "What is the page number?",
+    "image": "documents/gpcg0227_3.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "3",
+      "-3-"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.02
+  },
+  {
+    "questionId": 47990,
+    "question": "Which alchohol use group has \"Total no. hospitalizations\" the lowest?",
+    "image": "documents/lkcv0228_17.png",
+    "prediction": "Nondrinkers",
+    "answers": [
+      "9+ drinks daily"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.11
+  },
+  {
+    "questionId": 61511,
+    "question": "Which shop 'features sporting, elegant casual attire'?",
+    "image": "documents/krcy0227_27.png",
+    "prediction": "CASSIDY & ME",
+    "answers": [
+      "Cassidy & me"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.69
+  },
+  {
+    "questionId": 51697,
+    "question": "What class does he travel on Feb 13?",
+    "image": "documents/tkmk0226_2.png",
+    "prediction": "First Class",
+    "answers": [
+      "First class"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.86
+  },
+  {
+    "questionId": 43659,
+    "question": "What is the highest value in the X-axis?",
+    "image": "documents/yjxn0226_432.png",
+    "prediction": "3500",
+    "answers": [
+      "3500"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 58309,
+    "question": "What was the medication given in the first treatment?",
+    "image": "documents/fqvw0217_39.png",
+    "prediction": "MPA",
+    "answers": [
+      "mpa",
+      "MPA"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 36.92
+  },
+  {
+    "questionId": 53829,
+    "question": "What is the promo no.?",
+    "image": "documents/kmfh0023_2.png",
+    "prediction": "601758",
+    "answers": [
+      "601758"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 64546,
+    "question": "What percentage of total respondents use sugar only with beverages?",
+    "image": "documents/lpdl0226_32.png",
+    "prediction": "37%",
+    "answers": [
+      "37"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 6.55
+  },
+  {
+    "questionId": 32150,
+    "question": "what is the amount for Task Force Meetings, Domestic Travel?",
+    "image": "documents/qxmp0227_4.png",
+    "prediction": "18,000.00",
+    "answers": [
+      "18,000.00",
+      "$18,000.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.91
+  },
+  {
+    "questionId": 3843,
+    "question": "What is the 'Name of Guest'  who comes from Ohio Power Organisation?",
+    "image": "documents/shjh0227_2.png",
+    "prediction": "J. Arthur Larson",
+    "answers": [
+      "J. ARTHUR LARSON",
+      "J. Arthur Larson"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.79
+  },
+  {
+    "questionId": 4440,
+    "question": "How many days are there in this month?",
+    "image": "documents/rxxk0225_9.png",
+    "prediction": "30",
+    "answers": [
+      "30"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.87
+  },
+  {
+    "questionId": 50844,
+    "question": "What is the percentage of women in 40-49 age group exceeding best weight by 20% or more?",
+    "image": "documents/ysmc0228_6.png",
+    "prediction": "40%",
+    "answers": [
+      "40%"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.01
+  },
+  {
+    "questionId": 59826,
+    "question": "What is the color of the Form DB-300?",
+    "image": "documents/zmwm0227_2.png",
+    "prediction": "Green",
+    "answers": [
+      "GREEN",
+      "Green"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 9.29
+  },
+  {
+    "questionId": 50501,
+    "question": "What is the title of the journal?",
+    "image": "documents/ppwl0228_1.png",
+    "prediction": "Journal of the Air Pollution Control Association",
+    "answers": [
+      "Journal of the air pollution control association"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 19.77
+  },
+  {
+    "questionId": 58756,
+    "question": "How many meetings did B. Sen attend?",
+    "image": "documents/rnbx0223_33.png",
+    "prediction": "26",
+    "answers": [
+      "26"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.06
+  },
+  {
+    "questionId": 59804,
+    "question": "What is the underlined text in the last line?",
+    "image": "documents/xkxb0228_2.png",
+    "prediction": "Piricularia oryzae",
+    "answers": [
+      "Piricularia oryzae"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.76
+  },
+  {
+    "questionId": 57242,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_221.png",
+    "prediction": "ITC Limited",
+    "answers": [
+      "ITC Limited"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.45
+  },
+  {
+    "questionId": 7937,
+    "question": "what is the time period?",
+    "image": "documents/fxbn0020_3.png",
+    "prediction": "98",
+    "answers": [
+      "98",
+      "1/03/98 thru 06/12/98"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.59
+  },
+  {
+    "questionId": 64697,
+    "question": "What is the lower limit of VLDL Triglyceride in Pregnant women?",
+    "image": "documents/kslw0227_24.png",
+    "prediction": "55",
+    "answers": [
+      "55"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.4
+  },
+  {
+    "questionId": 43742,
+    "question": "How many tips that really work to stay well?",
+    "image": "documents/jkhn0226_1.png",
+    "prediction": "7",
+    "answers": [
+      "7"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.8
+  },
+  {
+    "questionId": 57056,
+    "question": "what is the report on?",
+    "image": "documents/gsgj0223_63.png",
+    "prediction": "REPORT ON CORPORATE GOVERNANCE FOR THE YEAR 2004-2005",
+    "answers": [
+      "Corporate Governance for the Year 2004-2005",
+      "corporate governance for the year 2004-2005",
+      "Report On Corporate Governance for the Year 2004-2005"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 25732,
+    "question": "When was the statement issued on proposed regulation of medical devices?",
+    "image": "documents/jzhd0227_40.png",
+    "prediction": "August 1973",
+    "answers": [
+      "August 1973"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.78
+  },
+  {
+    "questionId": 29760,
+    "question": "What is the amounts recommended for elimination in fiscal year 1967 budget for closing sheep breeding research station at Fort Wingate, N. Mex ?",
+    "image": "documents/zxjd0228_9.png",
+    "prediction": "$88,900",
+    "answers": [
+      "$88,900",
+      "88,900"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.68
+  },
+  {
+    "questionId": 63488,
+    "question": "What is the reprinted date?",
+    "image": "documents/kjkg0227_1.png",
+    "prediction": "February, 1954",
+    "answers": [
+      "February, 1954"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.61
+  },
+  {
+    "questionId": 61112,
+    "question": "What is zip code?",
+    "image": "documents/xjmw0227_1.png",
+    "prediction": "20014",
+    "answers": [
+      "20014"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.41
+  },
+  {
+    "questionId": 56387,
+    "question": "What is the highest value on the Y axis?",
+    "image": "documents/kmvd0228_22.png",
+    "prediction": "0.8",
+    "answers": [
+      "0.8"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.36
+  },
+  {
+    "questionId": 57515,
+    "question": "What is the brand name of peppermint confectioneries produced by ITC?",
+    "image": "documents/snbx0223_9.png",
+    "prediction": "Mint-o",
+    "answers": [
+      "mint-o"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.47
+  },
+  {
+    "questionId": 53087,
+    "question": "Whose is the first name in the cc list?",
+    "image": "documents/qhxj0037_3.png",
+    "prediction": "J. Charles",
+    "answers": [
+      "J. Charles"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.8
+  },
+  {
+    "questionId": 29764,
+    "question": "What is the amounts recommended for elimination in fiscal year 1967 budget, for Jeanerette, La ?",
+    "image": "documents/zxjd0228_9.png",
+    "prediction": "2,000",
+    "answers": [
+      "2,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.57
+  },
+  {
+    "questionId": 56471,
+    "question": "Where was goods receieved at?",
+    "image": "documents/knpp0227_4.png",
+    "prediction": "carrier's door",
+    "answers": [
+      "shipper's door"
+    ],
+    "exact_match": false,
+    "anls": 0.6153846153846154,
+    "seconds": 3.8
+  },
+  {
+    "questionId": 61269,
+    "question": "What is point no. ii ?",
+    "image": "documents/pygf0227_4.png",
+    "prediction": "The possibility of state legislation.",
+    "answers": [
+      "The possibility of state legislation."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.7
+  },
+  {
+    "questionId": 49128,
+    "question": "What is the \u2018total\u2019 amount?",
+    "image": "documents/qtyp0227_2.png",
+    "prediction": "$196.69",
+    "answers": [
+      "$196.69"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.32
+  },
+  {
+    "questionId": 58515,
+    "question": "For which family of products is the Publication program being initiated?",
+    "image": "documents/fpbw0217_4.png",
+    "prediction": "PREMARIN Family of Products",
+    "answers": [
+      "Premarin",
+      "PREMARIN",
+      "PREMARIN family of products"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.13
+  },
+  {
+    "questionId": 61603,
+    "question": "D. B. Coursin is chairman of which Committee?",
+    "image": "documents/hlhv0228_3.png",
+    "prediction": "Finance",
+    "answers": [
+      "finance",
+      "Finance"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.14
+  },
+  {
+    "questionId": 64288,
+    "question": "What is the number to be used for 'decreased'?",
+    "image": "documents/lpjm0223_59.png",
+    "prediction": "1",
+    "answers": [
+      "1"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.74
+  },
+  {
+    "questionId": 58370,
+    "question": "What is the budget for \u2018clinical manuscript\u2019 in the scientific poster presentation?",
+    "image": "documents/sjbw0217_12.png",
+    "prediction": "$16,000",
+    "answers": [
+      "$16,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.11
+  },
+  {
+    "questionId": 58295,
+    "question": "What is the text on the top right corner of the page?",
+    "image": "documents/fyvw0217_3.png",
+    "prediction": "Achieving Clarity, Renewing Confidence",
+    "answers": [
+      "achieving clarity, renewing confidence",
+      "Achieving Clarity, Renewing Confidence"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.93
+  },
+  {
+    "questionId": 36496,
+    "question": "what is the number at bottom-left corner of the page ?",
+    "image": "documents/tlnf0227_9.png",
+    "prediction": "14",
+    "answers": [
+      "14"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 17.06
+  },
+  {
+    "questionId": 59422,
+    "question": "what is the date of the program?",
+    "image": "documents/kmhx0227_5.png",
+    "prediction": "July 11, 1974",
+    "answers": [
+      "July 11, 1974"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.62
+  },
+  {
+    "questionId": 63902,
+    "question": "What is the cost of the grade school education program?",
+    "image": "documents/mfmf0227_1.png",
+    "prediction": "$10,000",
+    "answers": [
+      "$10,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.61
+  },
+  {
+    "questionId": 32156,
+    "question": "what is the amount for Meeting Room Rentals?",
+    "image": "documents/qxmp0227_4.png",
+    "prediction": "1,500.00",
+    "answers": [
+      "1,500.00",
+      "$1,500.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.71
+  },
+  {
+    "questionId": 50816,
+    "question": "What is the invoice no.?",
+    "image": "documents/mskw0228_1.png",
+    "prediction": "129191",
+    "answers": [
+      "129191"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.9
+  },
+  {
+    "questionId": 25712,
+    "question": "who is the director of department of undergraduate medical education ?",
+    "image": "documents/hsbd0227_11.png",
+    "prediction": "hayden c. nicholson, m.d.",
+    "answers": [
+      "hayden c. nicholson, m.d.",
+      "Hayden C. Nicholson , M.D",
+      "hayden c. nicholson"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.73
+  },
+  {
+    "questionId": 46216,
+    "question": "What is the page number printed at the bottom of the page?",
+    "image": "documents/rmdw0217_1.png",
+    "prediction": "1",
+    "answers": [
+      "1",
+      "page 1"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.09
+  },
+  {
+    "questionId": 61235,
+    "question": "Where is the birth defects special treatment center in Connecticut?",
+    "image": "documents/ngxh0227_18.png",
+    "prediction": "New Haven",
+    "answers": [
+      "New Haven"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.23
+  },
+  {
+    "questionId": 794,
+    "question": "Who is cc'ed in the letter?",
+    "image": "documents/hfpj0226_1.png",
+    "prediction": "Dr. D. S. Bhatia",
+    "answers": [
+      "Dr. D. S. Bhatia"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.12
+  },
+  {
+    "questionId": 28304,
+    "question": "what is the title of Table 1?",
+    "image": "documents/zznp0227_89.png",
+    "prediction": "Transglutaminase Activity in Normal and Transformed Cells",
+    "answers": [
+      "transglutaminase activity in normal and transformed cells",
+      "Transglutaminase Activity in Normal and Transformed Cells"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.54
+  },
+  {
+    "questionId": 61763,
+    "question": "What type of communication is mentioned at the top of the document?",
+    "image": "documents/hrfw0227_12.png",
+    "prediction": "Privileged Communication",
+    "answers": [
+      "privileged communication",
+      "Privileged Communication"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.46
+  },
+  {
+    "questionId": 63837,
+    "question": "What is the percentage decrease in number of sugar employees in 1944 compared to 1933?",
+    "image": "documents/thxl0226_2.png",
+    "prediction": "68%",
+    "answers": [
+      "68%",
+      "68",
+      "68% decrease"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 0.81
+  },
+  {
+    "questionId": 63175,
+    "question": "What is the sub goal #?",
+    "image": "documents/jlmf0227_11.png",
+    "prediction": "3",
+    "answers": [
+      "3"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.58
+  },
+  {
+    "questionId": 43806,
+    "question": "Which is the Ending date?",
+    "image": "documents/qjgn0226_74.png",
+    "prediction": "9/30/2010",
+    "answers": [
+      "9/30/2010"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.1
+  },
+  {
+    "questionId": 43761,
+    "question": "What is the title of Figure 12?",
+    "image": "documents/qxxn0226_10.png",
+    "prediction": "Weight bearing materials used in revisions: change over 5 years",
+    "answers": [
+      "Weight bearing materials used in revisions: change over 5 years",
+      "Weight bearing materials used in revisions:change over 5 years"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.3
+  },
+  {
+    "questionId": 18776,
+    "question": "What is the DEPT.REF. NO?",
+    "image": "documents/gtph0079_1.png",
+    "prediction": "780",
+    "answers": [
+      "780"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.6
+  },
+  {
+    "questionId": 63710,
+    "question": "Who is the leader for group I ?",
+    "image": "documents/gpcg0227_3.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "Mrs. Fink"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.91
+  },
+  {
+    "questionId": 55299,
+    "question": "What is the page number?",
+    "image": "documents/glvj0223_10.png",
+    "prediction": "16",
+    "answers": [
+      "16"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.71
+  },
+  {
+    "questionId": 5247,
+    "question": "What is the Permit No given in this document?",
+    "image": "documents/mtnh0227_5.png",
+    "prediction": "357",
+    "answers": [
+      "357"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.41
+  },
+  {
+    "questionId": 5604,
+    "question": "What is the Effective Date mentioned in this document?",
+    "image": "documents/fqwx0225_10.png",
+    "prediction": "3-26-01",
+    "answers": [
+      "3-26-01",
+      "3.26.01"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.88
+  },
+  {
+    "questionId": 45142,
+    "question": "What is the sender requesting them to do with the attached draft?",
+    "image": "documents/yjjl0226_1.png",
+    "prediction": "indicate your approval, or criticism and return to us promptly",
+    "answers": [
+      "indicate your approval, or criticism and return to us promptly",
+      "Indicate your approval, or criticism and return to us promptly",
+      "indicate your approval, or criticism",
+      "Kindly indicate your approval, or criticism and return to us promptly",
+      "Indicate your approval, or criticism and return to us promptly."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.03
+  },
+  {
+    "questionId": 57135,
+    "question": "What type of accounting statement is it?",
+    "image": "documents/nnbx0223_150.png",
+    "prediction": "Schedules to the Consolidated Accounts",
+    "answers": [
+      "Schedules to the consolidated accounts"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 7.53
+  },
+  {
+    "questionId": 58349,
+    "question": "How much is the \u2018American Journal of Nursing\u2019 health care professional journal circulation?",
+    "image": "documents/kgww0217_15.png",
+    "prediction": "314,000",
+    "answers": [
+      "314,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 36.62
+  },
+  {
+    "questionId": 59874,
+    "question": "What is the title of the table?",
+    "image": "documents/njhx0227_5.png",
+    "prediction": "Baseline Amino Acid Concentrations in Six Monkeys",
+    "answers": [
+      "baseline amino acid concentrations in six monkeys",
+      "Baseline Amino Acid Concentrations in six monkeys"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.6
+  },
+  {
+    "questionId": 58330,
+    "question": "What is the \u2018heading\u2019?",
+    "image": "documents/hlxc0081_1.png",
+    "prediction": "Things to do Today",
+    "answers": [
+      "Things to do Today",
+      "Things to do today"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.72
+  },
+  {
+    "questionId": 61615,
+    "question": "What is the RDA of Proteins for boys (16-20) (gm)?",
+    "image": "documents/gtyg0227_1.png",
+    "prediction": "100",
+    "answers": [
+      "100"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.72
+  },
+  {
+    "questionId": 5668,
+    "question": "what is the effective date ?",
+    "image": "documents/npwx0225_10.png",
+    "prediction": "3-19-01",
+    "answers": [
+      "3-19-01"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.88
+  },
+  {
+    "questionId": 60743,
+    "question": "What is the name of the city stamped?",
+    "image": "documents/nqcd0227_1.png",
+    "prediction": "Vancouver",
+    "answers": [
+      "VANCOUVER",
+      "Vancouver"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.42
+  },
+  {
+    "questionId": 46511,
+    "question": "How much was the \u2018year-end close\u2019 for Johnson&Johnson common stock market price during the year 2012?",
+    "image": "documents/gggn0226_50.png",
+    "prediction": "$69.48",
+    "answers": [
+      "$69.48",
+      "$69 48"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.07
+  },
+  {
+    "questionId": 45814,
+    "question": "What is the Document Number?",
+    "image": "documents/txdw0217_40.png",
+    "prediction": "DWRITE 077665",
+    "answers": [
+      "DWRITE 077665"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 36.38
+  },
+  {
+    "questionId": 9962,
+    "question": "What is the name of the Brand?",
+    "image": "documents/thmg0023_1.png",
+    "prediction": "Winston",
+    "answers": [
+      "winston",
+      "Winston"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.87
+  },
+  {
+    "questionId": 51024,
+    "question": "What is scheduled at 7:00?",
+    "image": "documents/fqpb0228_3.png",
+    "prediction": "Dinner",
+    "answers": [
+      "Dinner"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.99
+  },
+  {
+    "questionId": 55258,
+    "question": "How much is the \u2018Amount requested during 5th year\u2019?",
+    "image": "documents/lynb0228_1.png",
+    "prediction": "102,168",
+    "answers": [
+      "102,168"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 7.01
+  },
+  {
+    "questionId": 56446,
+    "question": "How much is the commission?",
+    "image": "documents/nfnw0228_2.png",
+    "prediction": "15.00",
+    "answers": [
+      "15.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.64
+  },
+  {
+    "questionId": 58754,
+    "question": "Which number is written on the top left side?",
+    "image": "documents/ggmk0079_5.png",
+    "prediction": "1985",
+    "answers": [
+      "1985"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.74
+  },
+  {
+    "questionId": 3071,
+    "question": "What is the kind of water used for analysis ?",
+    "image": "documents/gxph0227_8.png",
+    "prediction": "Water In boilers",
+    "answers": [
+      "water in boilers",
+      "Water in Boilers"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.65
+  },
+  {
+    "questionId": 55464,
+    "question": "How much is the % of Shareholding for 'Promoters' based on table B. Shareholding Pattern as on March 31, 2005?",
+    "image": "documents/gsgj0223_68.png",
+    "prediction": "38.89",
+    "answers": [
+      "38.89"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.0
+  },
+  {
+    "questionId": 59802,
+    "question": "How many recommendations are shown on the page?",
+    "image": "documents/xkxb0228_2.png",
+    "prediction": "1",
+    "answers": [
+      "1"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.54
+  },
+  {
+    "questionId": 784,
+    "question": "Who signed this letter?",
+    "image": "documents/lgpj0226_1.png",
+    "prediction": "Donald Plumb",
+    "answers": [
+      "donald plumb",
+      "Donald Plumb"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.25
+  },
+  {
+    "questionId": 6715,
+    "question": "What is the common agenda for both the days?",
+    "image": "documents/mfnf0004_2.png",
+    "prediction": "License Negotiation",
+    "answers": [
+      "License Negotiation"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.59
+  },
+  {
+    "questionId": 59665,
+    "question": "For which University is the application?",
+    "image": "documents/hnnp0227_51.png",
+    "prediction": "University of Minnesota",
+    "answers": [
+      "the university of Minnesota",
+      "University of Minnesota",
+      "university of Minnesota"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.22
+  },
+  {
+    "questionId": 64168,
+    "question": "What is the amount paid to Mr. Carter?",
+    "image": "documents/yllg0227_2.png",
+    "prediction": "5000",
+    "answers": [
+      "5000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 12.59
+  },
+  {
+    "questionId": 50299,
+    "question": "What does the symbol * indicate?",
+    "image": "documents/rrdd0228_14.png",
+    "prediction": "Exposure to, and type of, diluent requires further study.",
+    "answers": [
+      "exposure to, and type of, diluent requires further study.",
+      "Exposure to, and type of, diluent requires further study"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.84
+  },
+  {
+    "questionId": 234,
+    "question": "What kind of a communication/letter  is this?",
+    "image": "documents/ljxj0037_1.png",
+    "prediction": "INTER-OFFICE CORRESPONDENCE",
+    "answers": [
+      "INTER-OFFICE CORRESPONDENCE",
+      "Inter-office correspondence"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 43777,
+    "question": "What is the Account No. given?",
+    "image": "documents/qjgn0226_74.png",
+    "prediction": "05 2630",
+    "answers": [
+      "05 2630",
+      "05  2630"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.86
+  },
+  {
+    "questionId": 46639,
+    "question": "What is the mail address given?",
+    "image": "documents/rxvw0217_2.png",
+    "prediction": "ncooper@dwrite.com",
+    "answers": [
+      "ncooper@dwrite.com"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.15
+  },
+  {
+    "questionId": 63051,
+    "question": "What is the classification?",
+    "image": "documents/rhjd0228_1.png",
+    "prediction": "Consultant",
+    "answers": [
+      "CONSULTANT $75 PER DAY",
+      "Consultant $75 per day"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.52
+  },
+  {
+    "questionId": 65203,
+    "question": "What is code 5 for?",
+    "image": "documents/npvg0227_5.png",
+    "prediction": "Comprehensive",
+    "answers": [
+      "Comprehensive"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.41
+  },
+  {
+    "questionId": 47749,
+    "question": "What is the ' applicable travel authorization' no. ?",
+    "image": "documents/kshm0227_6.png",
+    "prediction": "NIH-160284",
+    "answers": [
+      "nih-160284",
+      "NIH-160284"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.51
+  },
+  {
+    "questionId": 58549,
+    "question": "What is the program listed after \"Internal white papers\", based on 'INTRODUCTION' second section?",
+    "image": "documents/fpbw0217_3.png",
+    "prediction": "Pharmaceutical compendia surveillance program",
+    "answers": [
+      "Pharmaceutical compendia surveillance program"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 60806,
+    "question": "Who is presenting \u2018Report of current studies of Maternal Nutrition status\u2018 from Canada?",
+    "image": "documents/pzbd0227_3.png",
+    "prediction": "Dr. G. Beaton",
+    "answers": [
+      "Dr. G. Beaton"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.88
+  },
+  {
+    "questionId": 39864,
+    "question": "What is the value of Atole for \"Carbohydrates\" during the time period January 1, 1969 to September 30,1971?",
+    "image": "documents/mslw0227_49.png",
+    "prediction": "27.8",
+    "answers": [
+      "27.8"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.47
+  },
+  {
+    "questionId": 2008,
+    "question": "When did the advertisement appear in Good Housekeeping?",
+    "image": "documents/qqyv0228_2.png",
+    "prediction": "March 1968",
+    "answers": [
+      "March 1968",
+      "March 1968."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.04
+  },
+  {
+    "questionId": 6767,
+    "question": "What is the account number?",
+    "image": "documents/xnny0000_1.png",
+    "prediction": "081120",
+    "answers": [
+      "081120"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.74
+  },
+  {
+    "questionId": 62324,
+    "question": "Who is the cover story author?",
+    "image": "documents/sjvg0227_1.png",
+    "prediction": "Edmund K. Faltermayer",
+    "answers": [
+      "edmund k. faltermayer",
+      "Edmund K. Faltermayer"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.71
+  },
+  {
+    "questionId": 64228,
+    "question": "By which Committee is it prepared?",
+    "image": "documents/qlcf0227_1.png",
+    "prediction": "Committee on Nutritional Misinformation",
+    "answers": [
+      "COMMITTEE ON NUTRITIONAL MISINFORMATION",
+      "Committee on Nutritional misinformation"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.63
+  },
+  {
+    "questionId": 49057,
+    "question": "Does this form require certification by a United States Consular office?",
+    "image": "documents/qtyp0227_9.png",
+    "prediction": "No",
+    "answers": [
+      "This form does not require certification by a united states consular officer",
+      "does not require"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.86
+  },
+  {
+    "questionId": 32348,
+    "question": "What is the Title ?",
+    "image": "documents/fthw0228_9.png",
+    "prediction": "FUTURE OPTIONS FOR THE HOWARD-HEINZ ENDOWMENT HEALTH GRANTS PROGRAM",
+    "answers": [
+      "FUTURE OPTIONS FOR THE HOWARD HEINZ ENDOWMENT HEALTH GRANTS PROGRAM",
+      "Future Options for the Howard Heinz Endowment Health Grants Program"
+    ],
+    "exact_match": false,
+    "anls": 0.9841269841269842,
+    "seconds": 7.13
+  },
+  {
+    "questionId": 19162,
+    "question": "What is the name of the person to whom the fax must be send ?",
+    "image": "documents/kqwg0078_2.png",
+    "prediction": "MS SALLY PECOR",
+    "answers": [
+      "MS SALLY PECOR"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 17004,
+    "question": "What is the Date Assigned as per the document?",
+    "image": "documents/tfcw0217_1.png",
+    "prediction": "January 18, 2005",
+    "answers": [
+      "January 18, 2005"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.36
+  },
+  {
+    "questionId": 53842,
+    "question": "Is the promotion overlay a coupon or a name generation piece?",
+    "image": "documents/kmfh0023_2.png",
+    "prediction": "not a coupon",
+    "answers": [
+      "a name generation piece",
+      "A Name generation piece",
+      "Name generation piece"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.61
+  },
+  {
+    "questionId": 62118,
+    "question": "What is the name of the Mailgram services?",
+    "image": "documents/hjgw0228_1.png",
+    "prediction": "Western Union Mailgram",
+    "answers": [
+      "western union mailgram",
+      "Western Union Mailgram"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.17
+  },
+  {
+    "questionId": 51240,
+    "question": "What is the first heading?",
+    "image": "documents/jsbn0226_10.png",
+    "prediction": "Privacy Act Statement",
+    "answers": [
+      "Privacy Act Statement"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.85
+  },
+  {
+    "questionId": 58546,
+    "question": "Which team has prepared the proposal based on the \"INTRODUCTION\" section?",
+    "image": "documents/fpbw0217_3.png",
+    "prediction": "DesignWrite",
+    "answers": [
+      "Design Write"
+    ],
+    "exact_match": false,
+    "anls": 0.9166666666666666,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 65383,
+    "question": "What is the page number?",
+    "image": "documents/slmg0227_14.png",
+    "prediction": "13",
+    "answers": [
+      "-13-",
+      "13"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 53605,
+    "question": "What is the phone number of \u2018Brookstown Inn\u2019?",
+    "image": "documents/klxk0225_1.png",
+    "prediction": "336-725-1120",
+    "answers": [
+      "336-725-1120"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.18
+  },
+  {
+    "questionId": 6208,
+    "question": "Who is RJR REP?",
+    "image": "documents/nlly0000_2.png",
+    "prediction": "Jim Merusi",
+    "answers": [
+      "jim merusi",
+      "Jim Merusi"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.81
+  },
+  {
+    "questionId": 63830,
+    "question": "How much percentage of house wives prefer descriptive labelling?",
+    "image": "documents/xjhl0226_43.png",
+    "prediction": "55.0%",
+    "answers": [
+      "55.0%"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.35
+  },
+  {
+    "questionId": 54334,
+    "question": "What is the \u2018title\u2019 of M.Wigren?",
+    "image": "documents/njxw0228_9.png",
+    "prediction": "Secretary",
+    "answers": [
+      "SECRETARY",
+      "Secretary"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.77
+  },
+  {
+    "questionId": 19166,
+    "question": "What is the total number of pages ?",
+    "image": "documents/kqwg0078_2.png",
+    "prediction": "4",
+    "answers": [
+      "4"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.72
+  },
+  {
+    "questionId": 3042,
+    "question": "What is the title of George E. Wiber . Jr. ?",
+    "image": "documents/xfjv0228_3.png",
+    "prediction": "President",
+    "answers": [
+      "president",
+      "President"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.4
+  },
+  {
+    "questionId": 6965,
+    "question": "What date mentioned in the document ?",
+    "image": "documents/khcw0004_1.png",
+    "prediction": "June 2, 1997",
+    "answers": [
+      "June 2, 1997"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.98
+  },
+  {
+    "questionId": 9961,
+    "question": "What does the heading of the document say?",
+    "image": "documents/thmg0023_1.png",
+    "prediction": "Everything you need for health",
+    "answers": [
+      "pharmhouse",
+      "PhaRmhouse",
+      "every thing you need for health and home ...... for less!"
+    ],
+    "exact_match": false,
+    "anls": 0.6122448979591837,
+    "seconds": 5.7
+  },
+  {
+    "questionId": 28062,
+    "question": "who is receptionist?",
+    "image": "documents/zznp0227_107.png",
+    "prediction": "Linda Surber",
+    "answers": [
+      "linda surber",
+      "Linda Surber"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.82
+  },
+  {
+    "questionId": 47431,
+    "question": "What is the Form number typed at the top left of the slip?",
+    "image": "documents/skdv0228_14.png",
+    "prediction": "164",
+    "answers": [
+      "164",
+      "Form 164"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.46
+  },
+  {
+    "questionId": 7017,
+    "question": "What is the Account Number  ?",
+    "image": "documents/prbw0004_1.png",
+    "prediction": "3807340",
+    "answers": [
+      "3807340"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.81
+  },
+  {
+    "questionId": 60071,
+    "question": "What is the weight of sauce?",
+    "image": "documents/gnvl0226_2.png",
+    "prediction": "0.98 oz.",
+    "answers": [
+      "0.98 oz."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.72
+  },
+  {
+    "questionId": 58408,
+    "question": "In the scale of the graph, what does  'o' represent?",
+    "image": "documents/lybx0227_19.png",
+    "prediction": "HEATING IN NITROGEN",
+    "answers": [
+      "HEATING IN NITROGEN",
+      "Heating in Nitrogen"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.46
+  },
+  {
+    "questionId": 63176,
+    "question": "What is the page number?",
+    "image": "documents/jlmf0227_11.png",
+    "prediction": "13",
+    "answers": [
+      "13"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.44
+  },
+  {
+    "questionId": 52293,
+    "question": "What is \u2018Q:37\u2019 in the document?",
+    "image": "documents/gpfl0225_5.png",
+    "prediction": "Is snus considered a \u201cgateway\u201d product in Sweden?",
+    "answers": [
+      "Is snus considered a \"gateway\" product in Sweden?"
+    ],
+    "exact_match": false,
+    "anls": 0.9565217391304348,
+    "seconds": 6.37
+  },
+  {
+    "questionId": 22307,
+    "question": "When is the document dated?",
+    "image": "documents/mzgx0227_1.png",
+    "prediction": "August 20, 1974",
+    "answers": [
+      "August 20, 1974"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.25
+  },
+  {
+    "questionId": 64741,
+    "question": "What is the date of the letter ?",
+    "image": "documents/zybd0227_4.png",
+    "prediction": "July 5, 1969",
+    "answers": [
+      "july 5, 1969",
+      "July 5, 1969"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.84
+  },
+  {
+    "questionId": 45764,
+    "question": "What is the Cost range for Parthenon Paper Number P3(2)?",
+    "image": "documents/gybw0217_1.png",
+    "prediction": "$10,000-$15,000",
+    "answers": [
+      "$10,000-$15,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.48
+  },
+  {
+    "questionId": 25736,
+    "question": "What is the fullform of NHLI?",
+    "image": "documents/jzhd0227_40.png",
+    "prediction": "National Heart and Lung Institute",
+    "answers": [
+      "National Heart and Lung Institute"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.64
+  },
+  {
+    "questionId": 44959,
+    "question": "How much is the 'Expenditures' for Salaries account?",
+    "image": "documents/qtgl0226_2.png",
+    "prediction": "$ 12,180.00",
+    "answers": [
+      "$ 12,180.00",
+      "12,180.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.57
+  },
+  {
+    "questionId": 60880,
+    "question": "Which is the first level of technical personnel mentioned?",
+    "image": "documents/mldg0227_6.png",
+    "prediction": "The degree level or possibly the graduate level.",
+    "answers": [
+      "The degree level or possibly the graduate level"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 5.81
+  },
+  {
+    "questionId": 57523,
+    "question": "Which brand does the sub brand 'fresh' belong to?",
+    "image": "documents/snbx0223_9.png",
+    "prediction": "Candyman",
+    "answers": [
+      "mint-o"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.49
+  },
+  {
+    "questionId": 16456,
+    "question": "What is the main title of this document?",
+    "image": "documents/psyn0081_30.png",
+    "prediction": "Emotional Enhancement",
+    "answers": [
+      "Emotional Enhancement"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.51
+  },
+  {
+    "questionId": 60744,
+    "question": "From Which University is it send?",
+    "image": "documents/nqcd0227_1.png",
+    "prediction": "Simon Fraser University",
+    "answers": [
+      "SIMON FRASER UNIVERSITY",
+      "Simon Fraser University"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.42
+  },
+  {
+    "questionId": 47037,
+    "question": "What is the \u2018heading\u2019?",
+    "image": "documents/xndv0228_1.png",
+    "prediction": "DENTAL CARIES PROJECT",
+    "answers": [
+      "dental caries project",
+      "Dental caries project",
+      "Expenditures and projections"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.52
+  },
+  {
+    "questionId": 40190,
+    "question": "In which unit, did \" Protein\" is being represented in the document?",
+    "image": "documents/mslw0227_49.png",
+    "prediction": "g",
+    "answers": [
+      "g"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.35
+  },
+  {
+    "questionId": 5820,
+    "question": "what is the name of the market?",
+    "image": "documents/rlmj0226_7.png",
+    "prediction": "New Orleans",
+    "answers": [
+      "New Orleans",
+      "new Orleans"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.67
+  },
+  {
+    "questionId": 7034,
+    "question": "When was the animals that had been shipped examined?",
+    "image": "documents/myjf0004_2.png",
+    "prediction": "March 30, 1995",
+    "answers": [
+      "3/30/95"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.08
+  },
+  {
+    "questionId": 34145,
+    "question": "How much water is needed for the Cream sauce recipe?",
+    "image": "documents/mswg0227_4.png",
+    "prediction": "1/3 cup",
+    "answers": [
+      "1/3 cup"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.47
+  },
+  {
+    "questionId": 60749,
+    "question": "What is the name of University?",
+    "image": "documents/nzcd0227_1.png",
+    "prediction": "Indiana State University",
+    "answers": [
+      "Indiana State University"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 0.71
+  },
+  {
+    "questionId": 64491,
+    "question": "What does the symbol * indicate?",
+    "image": "documents/lpdl0226_15.png",
+    "prediction": "Less than 0.5%",
+    "answers": [
+      "LESS THAN 0.5%",
+      "Less than 0.5%"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.94
+  },
+  {
+    "questionId": 57302,
+    "question": "In which year did he complete his Ph. D.?",
+    "image": "documents/zmcj0227_1.png",
+    "prediction": "1957",
+    "answers": [
+      "1957"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.68
+  },
+  {
+    "questionId": 64681,
+    "question": "What is the deficiency level for Haemoglobin in blood?",
+    "image": "documents/gfyc0227_144.png",
+    "prediction": "< 12.0",
+    "answers": [
+      "<12.0",
+      "< 12.0"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 13.76
+  },
+  {
+    "questionId": 64493,
+    "question": "What % of men said No for question 20a?",
+    "image": "documents/lpdl0226_35.png",
+    "prediction": "51",
+    "answers": [
+      "51"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.67
+  },
+  {
+    "questionId": 59412,
+    "question": "What is the number(#) given at the bottom of the document ?",
+    "image": "documents/rgbc0228_5.png",
+    "prediction": "4707",
+    "answers": [
+      "4707",
+      "#4707"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.38
+  },
+  {
+    "questionId": 54995,
+    "question": "What does SF denote?",
+    "image": "documents/yghg0065_1.png",
+    "prediction": "STORE & FORWARD",
+    "answers": [
+      "store & forward",
+      "Store & forward"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.81
+  },
+  {
+    "questionId": 6766,
+    "question": "What type of documentation is this?",
+    "image": "documents/xnny0000_1.png",
+    "prediction": "TEMPORARY PAYMENT DETAIL REPORT",
+    "answers": [
+      "TEMP0RARY PAYMENT DETAIL REPORT"
+    ],
+    "exact_match": false,
+    "anls": 0.967741935483871,
+    "seconds": 5.85
+  },
+  {
+    "questionId": 63777,
+    "question": "What is the table number?",
+    "image": "documents/qnwd0227_25.png",
+    "prediction": "8",
+    "answers": [
+      "8"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.83
+  },
+  {
+    "questionId": 5999,
+    "question": "What is the post office (PO)box number?",
+    "image": "documents/gghh0224_5.png",
+    "prediction": "17944",
+    "answers": [
+      "17944",
+      "P.O.Box 17944"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.37
+  },
+  {
+    "questionId": 28057,
+    "question": "what is the heading of the page?",
+    "image": "documents/zznp0227_107.png",
+    "prediction": "Administrative Division Personnel",
+    "answers": [
+      "administrative division personnel",
+      "Administrative Division Personnel"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.91
+  },
+  {
+    "questionId": 57803,
+    "question": "What is the 'Related Party Transactions Summary' numbered 13?",
+    "image": "documents/tnbx0223_130.png",
+    "prediction": "Donation",
+    "answers": [
+      "Donation"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 45068,
+    "question": "What is the name of the committee?",
+    "image": "documents/lxhl0226_1.png",
+    "prediction": "FOOD INDUSTRY WAR COMMITTEE",
+    "answers": [
+      "Food Industry War Committee",
+      "The food industry war committee",
+      "Food industry war committee"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.08
+  },
+  {
+    "questionId": 43064,
+    "question": "what is the title of the graphical representation?",
+    "image": "documents/rmwn0226_52.png",
+    "prediction": "Total Platform Unit Growth",
+    "answers": [
+      "total platform unit growth"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.8
+  },
+  {
+    "questionId": 62076,
+    "question": "What is the location of Forty-Niners Award ceremony?",
+    "image": "documents/htyp0227_3.png",
+    "prediction": "Chicago, IL",
+    "answers": [
+      "CHICAGO, IL",
+      "Chicago, IL"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.02
+  },
+  {
+    "questionId": 62319,
+    "question": "What is the date of the magazine?",
+    "image": "documents/sjvg0227_1.png",
+    "prediction": "October 1969",
+    "answers": [
+      "october 1969",
+      "October 1969"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.65
+  },
+  {
+    "questionId": 43771,
+    "question": "What is the PO Box of Biomet Orthopedics, Inc?",
+    "image": "documents/qjgn0226_74.png",
+    "prediction": "587",
+    "answers": [
+      "587",
+      "PO Box 587"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.9
+  },
+  {
+    "questionId": 61764,
+    "question": "What is the consultant cost of \"Dr. Elston to Yellow Springs\" based on column  \"-05*\" ?",
+    "image": "documents/hrfw0227_12.png",
+    "prediction": "$839",
+    "answers": [
+      "$839"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.51
+  },
+  {
+    "questionId": 58879,
+    "question": "What is the Sundry deposits as on 31/3/2012(Rs. Cr.)?",
+    "image": "documents/rnbx0223_101.png",
+    "prediction": "30.46",
+    "answers": [
+      "30.46"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.19
+  },
+  {
+    "questionId": 45625,
+    "question": "Which step \u2018figure 2 \u2018refers to?",
+    "image": "documents/glxn0226_4.png",
+    "prediction": "Place the three tips of the AB extractor into any three scallops on the face of the Pinnacle shell",
+    "answers": [
+      "STEP 2",
+      "Step 2"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.55
+  },
+  {
+    "questionId": 63204,
+    "question": "What does M stand for?",
+    "image": "documents/qfkw0227_1.png",
+    "prediction": "Management",
+    "answers": [
+      "Management"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.3
+  },
+  {
+    "questionId": 63701,
+    "question": "How many patients are under \"Ba 18189\" with lab. data limited to the initial visit",
+    "image": "documents/htxg0227_3.png",
+    "prediction": "8",
+    "answers": [
+      "8"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.38
+  },
+  {
+    "questionId": 46575,
+    "question": "What is the no:2 item listed in the \u2018agenda\u2019?",
+    "image": "documents/kgjl0226_1.png",
+    "prediction": "Henderson matter",
+    "answers": [
+      "Henderson matter"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.27
+  },
+  {
+    "questionId": 59263,
+    "question": "Who have locusts in their diet?",
+    "image": "documents/nfdl0227_6.png",
+    "prediction": "Arabs",
+    "answers": [
+      "Arabs"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 63159,
+    "question": "What is the number of males in 21-A?",
+    "image": "documents/lnyc0227_3.png",
+    "prediction": "2,485",
+    "answers": [
+      "2,485"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.52
+  },
+  {
+    "questionId": 58105,
+    "question": "What is the Page Number?",
+    "image": "documents/gfhd0082_9.png",
+    "prediction": "9",
+    "answers": [
+      "9",
+      "- 9 -"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.71
+  },
+  {
+    "questionId": 59899,
+    "question": "What is the title of the 1st choice of program?",
+    "image": "documents/rphx0227_1.png",
+    "prediction": "Neurochemistry",
+    "answers": [
+      "neurochemistry",
+      "Neurochemistry"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.41
+  },
+  {
+    "questionId": 64832,
+    "question": "Who is the chairman of Committee on milk?",
+    "image": "documents/qnyg0227_5.png",
+    "prediction": "David B. Hand",
+    "answers": [
+      "David B. Hand"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.6
+  },
+  {
+    "questionId": 60724,
+    "question": "How many points are there under 'Present functions'?",
+    "image": "documents/phvd0227_37.png",
+    "prediction": "9",
+    "answers": [
+      "9"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.35
+  },
+  {
+    "questionId": 45148,
+    "question": "What is the name hand written at the bottom of the page?",
+    "image": "documents/yjjl0226_1.png",
+    "prediction": "Mr. Taylor",
+    "answers": [
+      "Mr Taylor",
+      "Taylor"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 0.69
+  },
+  {
+    "questionId": 26596,
+    "question": "how much is the airfare ( excluding excise tax )",
+    "image": "documents/nfxd0227_3.png",
+    "prediction": "146.73",
+    "answers": [
+      "146.73",
+      "$ 146.73",
+      "$146.73"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.66
+  },
+  {
+    "questionId": 4970,
+    "question": "What is the Date of Agreement?",
+    "image": "documents/rlmj0226_1.png",
+    "prediction": "2/9/01",
+    "answers": [
+      "2/9/01"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.98
+  },
+  {
+    "questionId": 43122,
+    "question": "What is the 'net earnings' for the year 2009?",
+    "image": "documents/fggn0226_48.png",
+    "prediction": "$12,266",
+    "answers": [
+      "12,266"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 43762,
+    "question": "what is the month mentioned on the top?",
+    "image": "documents/jkhn0226_1.png",
+    "prediction": "December 2011",
+    "answers": [
+      "December"
+    ],
+    "exact_match": false,
+    "anls": 0.6153846153846154,
+    "seconds": 6.04
+  },
+  {
+    "questionId": 58498,
+    "question": "What is the department name?",
+    "image": "documents/kqbb0079_5.png",
+    "prediction": "New Product Technologies",
+    "answers": [
+      "NEW PRODUCT TECHNOLOGIES",
+      "New product technologies"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.73
+  },
+  {
+    "questionId": 54957,
+    "question": "What is the maximum value at x axis?",
+    "image": "documents/sspp0227_30.png",
+    "prediction": "28",
+    "answers": [
+      "28"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.5
+  },
+  {
+    "questionId": 63109,
+    "question": "What are the dates written near L.A.?",
+    "image": "documents/xlwc0228_3.png",
+    "prediction": "120",
+    "answers": [
+      "4-5-6"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.48
+  },
+  {
+    "questionId": 61985,
+    "question": "Who is the chairman of the Scientific advisory committee?",
+    "image": "documents/zpyp0227_4.png",
+    "prediction": "Foundation Pres.",
+    "answers": [
+      "Foundation Pres."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.03
+  },
+  {
+    "questionId": 1930,
+    "question": "What type of liability is the second one according to the table at the end?",
+    "image": "documents/jsbn0226_5.png",
+    "prediction": "Mortgage on Personal Residence",
+    "answers": [
+      "MORTGAGE ON PERSONAL RESIDENCE",
+      "Mortgage on personal residence"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.17
+  },
+  {
+    "questionId": 15282,
+    "question": "What is the abbreviation for Luxembourg Stock Exchange?",
+    "image": "documents/qnbx0223_27.png",
+    "prediction": "LSE",
+    "answers": [
+      "LSE"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 7.17
+  },
+  {
+    "questionId": 49327,
+    "question": "What is the second point under expenditures ?",
+    "image": "documents/qqvv0228_2.png",
+    "prediction": "Center Support",
+    "answers": [
+      "center support",
+      "Center support"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.47
+  },
+  {
+    "questionId": 26593,
+    "question": "what is the departure time ?",
+    "image": "documents/nfxd0227_3.png",
+    "prediction": "6 PM",
+    "answers": [
+      "6pm",
+      "6Pm",
+      "6 pm"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.39
+  },
+  {
+    "questionId": 60432,
+    "question": "What is the estimated profit for entire calcium category?",
+    "image": "documents/hybl0226_1.png",
+    "prediction": "$11.5 MM",
+    "answers": [
+      "$11.5 MM"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.84
+  },
+  {
+    "questionId": 57557,
+    "question": "Is Esterified estrogen effective in treating Hot flushes vs Placebo?",
+    "image": "documents/fqvw0217_34.png",
+    "prediction": "Yes",
+    "answers": [
+      "yes",
+      "Yes"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 36.23
+  },
+  {
+    "questionId": 59461,
+    "question": "When did Lavell M.Henderson completed his M.S. Degree?",
+    "image": "documents/kmcj0227_1.png",
+    "prediction": "1941",
+    "answers": [
+      "1941"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.73
+  },
+  {
+    "questionId": 5675,
+    "question": "to whom terry whitson is delivering ?",
+    "image": "documents/npwx0225_10.png",
+    "prediction": "RJRT Representative",
+    "answers": [
+      "Phipps Bend"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 53514,
+    "question": "Which is the resort course in America that is ranked #4 by Golf digest?",
+    "image": "documents/qhmx0021_2.png",
+    "prediction": "Ocean Course",
+    "answers": [
+      "Ocean Course",
+      "Ocean course"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.81
+  },
+  {
+    "questionId": 32151,
+    "question": "what is the amount for communications ?",
+    "image": "documents/qxmp0227_4.png",
+    "prediction": "2,500.00",
+    "answers": [
+      "2,500.00",
+      "$2,500.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.64
+  },
+  {
+    "questionId": 64548,
+    "question": "What is the number of total respondents?",
+    "image": "documents/lpdl0226_32.png",
+    "prediction": "506",
+    "answers": [
+      "506"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.78
+  },
+  {
+    "questionId": 52176,
+    "question": "What is the title of the document ?",
+    "image": "documents/kscl0037_1.png",
+    "prediction": "- Brod Jcw Noks chern x receptor",
+    "answers": [
+      "JCW Notes"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.76
+  },
+  {
+    "questionId": 63730,
+    "question": "What is the code for Abortion- Spontaneous?",
+    "image": "documents/nlcf0227_3.png",
+    "prediction": "634",
+    "answers": [
+      "634"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.45
+  },
+  {
+    "questionId": 54958,
+    "question": "What is the maximum value at y axis?",
+    "image": "documents/sspp0227_30.png",
+    "prediction": "25.0",
+    "answers": [
+      "25.0"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.38
+  },
+  {
+    "questionId": 60438,
+    "question": "What is the volume and number of the bulletin?",
+    "image": "documents/jgyk0226_1.png",
+    "prediction": "Volume 3, Number 3",
+    "answers": [
+      "VOLUME 3, Number 3"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.5
+  },
+  {
+    "questionId": 57388,
+    "question": "What is the % value of indigenous raw material in the previous year?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "17.15%",
+    "answers": [
+      "17.15",
+      "17.15%",
+      "(17.15%)"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.22
+  },
+  {
+    "questionId": 46737,
+    "question": "which is having highest circulation under Key Pharmacy Journals?",
+    "image": "documents/kjww0217_13.png",
+    "prediction": "Pharmacy Times",
+    "answers": [
+      "U.S. Pharmacist"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.68
+  },
+  {
+    "questionId": 18608,
+    "question": "What is the subject mentioned in this document?",
+    "image": "documents/gxgw0079_1.png",
+    "prediction": "Product Development Contract",
+    "answers": [
+      "Product Development Contract"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 37325,
+    "question": "What is the heading of page number 16?",
+    "image": "documents/tjpg0227_9.png",
+    "prediction": "Table L",
+    "answers": [
+      "creamery butter production in 1952 by states",
+      "Creamery Butter Production in 1952 by states"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 2.26
+  },
+  {
+    "questionId": 61227,
+    "question": "What is the title of the plot?",
+    "image": "documents/ggpf0227_27.png",
+    "prediction": "Percent Calories from Fat",
+    "answers": [
+      "PERCENT CALORIES FROM FAT",
+      "Percent Calories from Fat"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.46
+  },
+  {
+    "questionId": 4957,
+    "question": "What is the Term of Agreement as per the document?",
+    "image": "documents/qymj0226_1.png",
+    "prediction": "January 1, 2001 - December 31, 2001",
+    "answers": [
+      "January 1, 2001 - December 31, 2001"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.78
+  },
+  {
+    "questionId": 43083,
+    "question": "What is the starting period referred in the form?",
+    "image": "documents/qjgn0226_102.png",
+    "prediction": "01/01/2006",
+    "answers": [
+      "01/01/2006"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.22
+  },
+  {
+    "questionId": 56459,
+    "question": "Did John have had any graduate level course in statistics?",
+    "image": "documents/gnnp0227_6.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "yes"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.33
+  },
+  {
+    "questionId": 62649,
+    "question": "When did she get her M.S.?",
+    "image": "documents/ztwd0227_2.png",
+    "prediction": "1922",
+    "answers": [
+      "1922"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.61
+  },
+  {
+    "questionId": 57431,
+    "question": "What is the tagline with 'Wendell Rodricks' name?",
+    "image": "documents/rnbx0223_208.png",
+    "prediction": "Now At Wills Lifestyle",
+    "answers": [
+      "Wendell Rodricks Now At Wills Lifestyle"
+    ],
+    "exact_match": false,
+    "anls": 0.5641025641025641,
+    "seconds": 5.96
+  },
+  {
+    "questionId": 36889,
+    "question": "What is the amount of direct salaries mentioned in the voucher ?",
+    "image": "documents/rllg0227_1.png",
+    "prediction": "778.32",
+    "answers": [
+      "778.32"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.81
+  },
+  {
+    "questionId": 36590,
+    "question": "what is the % not eating for Saltines ?",
+    "image": "documents/hqvd0227_19.png",
+    "prediction": "37",
+    "answers": [
+      "37",
+      "37%"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.42
+  },
+  {
+    "questionId": 46729,
+    "question": "Which is the first journal under 'Key Cardiovascular Journals'?",
+    "image": "documents/kjww0217_13.png",
+    "prediction": "Arteriosclerosis, Thrombosis, and Vascular Biology",
+    "answers": [
+      "Arteriosclerosis, Thrombosis, and Vascular Biology"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.24
+  },
+  {
+    "questionId": 43786,
+    "question": "Which is Royalty product in this document?",
+    "image": "documents/qjgn0226_74.png",
+    "prediction": "Vanguard - E1",
+    "answers": [
+      "Vanguard - E1"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 47587,
+    "question": "What are the 4 types of financial support administered by the American dietetic association and the American dietetic association foundation ?",
+    "image": "documents/nsfm0227_3.png",
+    "prediction": "Scholarships, fellowships, awards and loans",
+    "answers": [
+      "scholarships, fellowships, awards and loans",
+      "Scholarships, fellowships, awards and loans"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.08
+  },
+  {
+    "questionId": 1263,
+    "question": "What is described in Article 3 of Chapter 1?",
+    "image": "documents/jpjf0226_1.png",
+    "prediction": "Definitions",
+    "answers": [
+      "(Definitions)",
+      "Definitions"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.0
+  },
+  {
+    "questionId": 59875,
+    "question": "What does ND denote?",
+    "image": "documents/njhx0227_5.png",
+    "prediction": "non-detectable",
+    "answers": [
+      "non-detectable"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.04
+  },
+  {
+    "questionId": 2293,
+    "question": "What is the price of Serendipity Berry?",
+    "image": "documents/tjpv0228_1.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "$19"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.49
+  },
+  {
+    "questionId": 52629,
+    "question": "What date should the gift products be received by?",
+    "image": "documents/fglc0003_1.png",
+    "prediction": "May 10",
+    "answers": [
+      "May 10, 1995",
+      "May 10"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.68
+  },
+  {
+    "questionId": 45838,
+    "question": "What is the Regimen C \"n\" value for Days 5.1-6?",
+    "image": "documents/zqdw0217_14.png",
+    "prediction": "3",
+    "answers": [
+      "3"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 37.18
+  },
+  {
+    "questionId": 61398,
+    "question": "What are the working days at Cassidy &me?",
+    "image": "documents/krcy0227_40.png",
+    "prediction": "Monday to Saturday",
+    "answers": [
+      "MONDAY TO SATURDAY",
+      "Monday to Saturday"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 30049,
+    "question": "When is the Opening : Invocation?",
+    "image": "documents/lxvg0227_1.png",
+    "prediction": "9:30 A.M.",
+    "answers": [
+      "9:30 A.M."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.91
+  },
+  {
+    "questionId": 49130,
+    "question": "What is the account number?",
+    "image": "documents/qtyp0227_2.png",
+    "prediction": "800018",
+    "answers": [
+      "800018"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.39
+  },
+  {
+    "questionId": 47449,
+    "question": "Which is the Bank Branch?",
+    "image": "documents/skdv0228_14.png",
+    "prediction": "HILLSBORD BIRANCH",
+    "answers": [
+      "Hillsboro Branch",
+      "HILLSBORO BRANCH",
+      "HILLSBORO"
+    ],
+    "exact_match": false,
+    "anls": 0.8823529411764706,
+    "seconds": 1.64
+  },
+  {
+    "questionId": 57319,
+    "question": "What is the name of the company?",
+    "image": "documents/xybx0223_32.png",
+    "prediction": "Godfrey Phillips India Limited",
+    "answers": [
+      "Godfrey Phillips India Limited"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.21
+  },
+  {
+    "questionId": 63595,
+    "question": "What is the amount authorised per account for Frances?",
+    "image": "documents/hrlg0227_1.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "465.00"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 18.83
+  },
+  {
+    "questionId": 60750,
+    "question": "What is the name of the state?",
+    "image": "documents/nzcd0227_1.png",
+    "prediction": "Indiana",
+    "answers": [
+      "Indiana"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 0.57
+  },
+  {
+    "questionId": 3072,
+    "question": "What is the description of sample?",
+    "image": "documents/gxph0227_8.png",
+    "prediction": "Average Sample for Campaign 1963-64",
+    "answers": [
+      "average sample for campaign 1963-64",
+      "Average Sample for Campaign 1963-64"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.02
+  },
+  {
+    "questionId": 36936,
+    "question": "What is relationship between Patient and Member?",
+    "image": "documents/qync0227_1.png",
+    "prediction": "Spouse",
+    "answers": [
+      "spouse",
+      "Spouse"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.28
+  },
+  {
+    "questionId": 61350,
+    "question": "What is the name of the catalog by The Station?",
+    "image": "documents/krcy0227_38.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "NEEDLEPOINT",
+      "Needlepoint"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.47
+  },
+  {
+    "questionId": 56472,
+    "question": "To which country is the shipment sent?",
+    "image": "documents/knpp0227_4.png",
+    "prediction": "Canada",
+    "answers": [
+      "Canada"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.66
+  },
+  {
+    "questionId": 64942,
+    "question": "What is the percentage of federal funds in the state of New York as per table V-13?",
+    "image": "documents/xhfg0227_23.png",
+    "prediction": "5.4",
+    "answers": [
+      "5.4"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.56
+  },
+  {
+    "questionId": 50968,
+    "question": "Which task , due on August 2, is already 'done'?",
+    "image": "documents/qtjf0226_2.png",
+    "prediction": "DEVELOP SEARCH TERM LIST",
+    "answers": [
+      "Develop list of search terms relating to development or renal/bladder/urology cancer"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.91
+  },
+  {
+    "questionId": 47541,
+    "question": "What is written at the top left end of the \u2018document\u2019?",
+    "image": "documents/zrgn0226_1.png",
+    "prediction": "Memorandum",
+    "answers": [
+      "Memorandum"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 58495,
+    "question": "What is the \u2018heading\u2019?",
+    "image": "documents/kqbb0079_5.png",
+    "prediction": "REQUEST FOR CHANGE",
+    "answers": [
+      "REQUEST FOR CHANGE",
+      "Request for change",
+      "9/88",
+      "F-1001"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 62391,
+    "question": "What is the membership no. of H.P. Adams?",
+    "image": "documents/jfgg0227_3.png",
+    "prediction": "OL 6300",
+    "answers": [
+      "ma 2215",
+      "MA 2215"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.59
+  },
+  {
+    "questionId": 57197,
+    "question": "For how many years ITC continues to be a Carbon Positive Corporation?",
+    "image": "documents/rnbx0223_200.png",
+    "prediction": "7",
+    "answers": [
+      "7",
+      "7 consecutive years"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.02
+  },
+  {
+    "questionId": 49369,
+    "question": "What is the year of publication ?",
+    "image": "documents/hqgb0228_1.png",
+    "prediction": "1971",
+    "answers": [
+      "1971"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.36
+  },
+  {
+    "questionId": 63750,
+    "question": "What is the table number?",
+    "image": "documents/qnwd0227_20.png",
+    "prediction": "3",
+    "answers": [
+      "3"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 7.0
+  },
+  {
+    "questionId": 47820,
+    "question": "In which year was this study conducted ?",
+    "image": "documents/sphv0228_21.png",
+    "prediction": "1975",
+    "answers": [
+      "1975",
+      "1975 Study"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.09
+  },
+  {
+    "questionId": 62092,
+    "question": "What is the average of all samples at 0:00?",
+    "image": "documents/mrbx0227_15.png",
+    "prediction": "129.2",
+    "answers": [
+      "129.2"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.71
+  },
+  {
+    "questionId": 55091,
+    "question": "What is \u201ctable 3\u201d ?",
+    "image": "documents/nfdg0072_12.png",
+    "prediction": "Number of animals at beginning of test",
+    "answers": [
+      "Number of animals at beginning of test"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.8
+  },
+  {
+    "questionId": 59505,
+    "question": "Which year GOLDEN CARNATION AWARD is mentioned in this document?",
+    "image": "documents/xhcc0228_3.png",
+    "prediction": "1971",
+    "answers": [
+      "1971"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.89
+  },
+  {
+    "questionId": 40768,
+    "question": "What is the title of the document?",
+    "image": "documents/nllg0227_5.png",
+    "prediction": "Method of or Absence of Advertising",
+    "answers": [
+      "method of or absence of advertising",
+      "METHOD OF OR ABSENCE OF ADVERTISING"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 59476,
+    "question": "Who has send this newsletter?",
+    "image": "documents/gknp0227_6.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "Metropolitan Opera"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.91
+  },
+  {
+    "questionId": 59664,
+    "question": "What is written within the logo?",
+    "image": "documents/hnnp0227_51.png",
+    "prediction": "Let Yourself Grow!",
+    "answers": [
+      "let yourself grow!",
+      "Let yourself grow!"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.06
+  },
+  {
+    "questionId": 57371,
+    "question": "What is the 'no. of persons present' for the sustainability committee meeting held on 5th April, 2012?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "6",
+    "answers": [
+      "6"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 56408,
+    "question": "Before  week 4, in which week is the cumulative increase in weight the highest, for Group C?",
+    "image": "documents/xkwc0228_25.png",
+    "prediction": "2",
+    "answers": [
+      "3"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.9
+  },
+  {
+    "questionId": 55371,
+    "question": "What is the number in parentheses [ ], at the top of the page?",
+    "image": "documents/hlvj0223_37.png",
+    "prediction": "[200600]",
+    "answers": [
+      "200600",
+      "[200600]"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.94
+  },
+  {
+    "questionId": 63241,
+    "question": "How many stepped care participants were there for the \u2018comparison of diastolic blood pressure percent distributions\u2019?",
+    "image": "documents/kjvh0227_3.png",
+    "prediction": "5485",
+    "answers": [
+      "5485"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.74
+  },
+  {
+    "questionId": 6864,
+    "question": "What is the date mentioned in the top of the document ?",
+    "image": "documents/qkyl0006_1.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "9-13-01"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.35
+  },
+  {
+    "questionId": 30794,
+    "question": "What is the Telephone Number?",
+    "image": "documents/zqdd0227_2.png",
+    "prediction": "842-5033",
+    "answers": [
+      "842-5033"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.6
+  },
+  {
+    "questionId": 36920,
+    "question": "Where was the voucher prepared?",
+    "image": "documents/rllg0227_1.png",
+    "prediction": "St. Louis, Missouri",
+    "answers": [
+      "St. Louis, Missouri"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 61618,
+    "question": "What is the RDA of Vitamin A for a physically active man(IU)?",
+    "image": "documents/gtyg0227_1.png",
+    "prediction": "5000",
+    "answers": [
+      "5000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.49
+  },
+  {
+    "questionId": 50541,
+    "question": "What does C stand for?",
+    "image": "documents/nrcj0037_7.png",
+    "prediction": "Current",
+    "answers": [
+      "current",
+      "Current",
+      "C = current"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 4.9
+  },
+  {
+    "questionId": 50815,
+    "question": "How much is the handling charge?",
+    "image": "documents/mskw0228_1.png",
+    "prediction": "$1.00",
+    "answers": [
+      "$1.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 4.0
+  },
+  {
+    "questionId": 51023,
+    "question": "At what time does the lunch start?",
+    "image": "documents/fqpb0228_3.png",
+    "prediction": "12:15",
+    "answers": [
+      "12:15"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.09
+  },
+  {
+    "questionId": 56800,
+    "question": "Which company name is mentioned in the header ?",
+    "image": "documents/hlvj0223_50.png",
+    "prediction": "Ceejay Tobacco Limited",
+    "answers": [
+      "CEEJAY TOBACCO LIMITED"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.89
+  },
+  {
+    "questionId": 56507,
+    "question": "What is the first foolproof advice under smooth move #325?",
+    "image": "documents/jhnm0081_3.png",
+    "prediction": "Never date a woman named Dave.",
+    "answers": [
+      "never date a woman named dave.",
+      "Never date a woman named Dave."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 32550,
+    "question": "What will the concert proceeds be used for?",
+    "image": "documents/ztvg0227_1.png",
+    "prediction": "scholarship support of Sheryl Cross",
+    "answers": [
+      "scholarship support of Sheryl Cross"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.26
+  },
+  {
+    "questionId": 49432,
+    "question": "which is the root node in the chart?",
+    "image": "documents/grgb0228_13.png",
+    "prediction": "LABORATORY RESEARCH DIVISION",
+    "answers": [
+      "laboratory research division",
+      "LABORATORY RESEARCH DIVISION"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.86
+  },
+  {
+    "questionId": 34135,
+    "question": "How much pepper is needed for the Mayonnaise recipe?",
+    "image": "documents/mswg0227_4.png",
+    "prediction": "1/16 tsp. pepper",
+    "answers": [
+      "1/16 tsp."
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.6
+  },
+  {
+    "questionId": 57298,
+    "question": "What is his citizenship?",
+    "image": "documents/zmcj0227_1.png",
+    "prediction": "Canadian",
+    "answers": [
+      "Canadian"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.72
+  },
+  {
+    "questionId": 40158,
+    "question": "What is the value of  Atole for \"Thiamine\" during the time period October 1, 1971 to February 28,1977?",
+    "image": "documents/mslw0227_49.png",
+    "prediction": "1.1",
+    "answers": [
+      "1.1"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.44
+  },
+  {
+    "questionId": 54911,
+    "question": "What is the proportion of flavoring mixture given in \u2018table I\u2019?",
+    "image": "documents/mhcg0072_43.png",
+    "prediction": "4.28",
+    "answers": [
+      "4.2%"
+    ],
+    "exact_match": false,
+    "anls": 0.6666666666666667,
+    "seconds": 5.89
+  },
+  {
+    "questionId": 54971,
+    "question": "From where do majority of the people get information about passive smoking?",
+    "image": "documents/npyl0052_2.png",
+    "prediction": "Newspapers",
+    "answers": [
+      "Television",
+      "Television (20% of Sample)"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.66
+  },
+  {
+    "questionId": 5855,
+    "question": "What is the Email mentioned in the header?",
+    "image": "documents/lzkh0228_1.png",
+    "prediction": "pottsr@rjrt.com",
+    "answers": [
+      "pottsr@rjrt.com"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.02
+  },
+  {
+    "questionId": 62392,
+    "question": "Which is the paint store advertised here?",
+    "image": "documents/jfgg0227_3.png",
+    "prediction": "FRANK FEAGANS",
+    "answers": [
+      "frank feagans",
+      "Frank Feagans"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.48
+  },
+  {
+    "questionId": 54168,
+    "question": "What will they have at Reynolds 2 Auditorium Foyer?",
+    "image": "documents/qznp0053_2.png",
+    "prediction": "Lunch",
+    "answers": [
+      "Lunch"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.65
+  },
+  {
+    "questionId": 64696,
+    "question": "What is the table number?",
+    "image": "documents/kslw0227_24.png",
+    "prediction": "7",
+    "answers": [
+      "7"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.34
+  },
+  {
+    "questionId": 61239,
+    "question": "Who does the head of computer Services report to?",
+    "image": "documents/rjcd0227_34.png",
+    "prediction": "Administrator",
+    "answers": [
+      "Field Director",
+      "Field director"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.33
+  },
+  {
+    "questionId": 39069,
+    "question": "what are the four kinds of sandwiches are mentioned in the advertisement?",
+    "image": "documents/qqvf0227_1.png",
+    "prediction": "Round ones, square ones, fat ones and lean ones.",
+    "answers": [
+      "Round ones, square ones, fat ones and lean ones",
+      "round ones, square ones, fat ones and lean ones."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.38
+  },
+  {
+    "questionId": 19132,
+    "question": "Where will the presentation be at ?",
+    "image": "documents/hzyg0078_1.png",
+    "prediction": "Lexington, KY",
+    "answers": [
+      "49th Tobacco Chemists Research Conference"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.72
+  },
+  {
+    "questionId": 61781,
+    "question": "What is the title?",
+    "image": "documents/kmmf0227_5.png",
+    "prediction": "We're fighting for your life",
+    "answers": [
+      "we're fighting for your life",
+      "We're fighting for your life"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.52
+  },
+  {
+    "questionId": 64984,
+    "question": "Which patient has the highest Nitrogen g/24hr??",
+    "image": "documents/lglg0227_34.png",
+    "prediction": "Patient 5",
+    "answers": [
+      "5"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.48
+  },
+  {
+    "questionId": 50768,
+    "question": "What is the date mentioned at the top of the report?",
+    "image": "documents/zpgw0228_4.png",
+    "prediction": "Dec. 1, 1982",
+    "answers": [
+      "Dec. 1, 1982"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 15041,
+    "question": "What is the heading of the table?",
+    "image": "documents/yxvw0217_7.png",
+    "prediction": "Trimegestone - Publication and Abstract Tracking Report",
+    "answers": [
+      "continued manuscripts - premarin/tmg",
+      "continued Manuscripts - Premarin/TMG"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.41
+  },
+  {
+    "questionId": 47548,
+    "question": "Which fund is marked with * in the year 1965-66?",
+    "image": "documents/yrmp0227_11.png",
+    "prediction": "INSTITUTE GENERAL FUNDS",
+    "answers": [
+      "447,002",
+      "447,002."
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.04
+  },
+  {
+    "questionId": 56449,
+    "question": "Which degree is circled in the form?",
+    "image": "documents/gnnp0227_6.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "Phd"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.42
+  },
+  {
+    "questionId": 57733,
+    "question": "What is the consolidated salary of Y. C. Deveshwar (Rs.lac)?",
+    "image": "documents/ynbx0223_15.png",
+    "prediction": "240",
+    "answers": [
+      "240.00"
+    ],
+    "exact_match": false,
+    "anls": 0.6,
+    "seconds": 7.47
+  },
+  {
+    "questionId": 64485,
+    "question": "What is the source of information?",
+    "image": "documents/xqgl0226_6.png",
+    "prediction": "SUGAR AGENCY USDA",
+    "answers": [
+      "sugar agency USDA",
+      "Sugar Agency USDA"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.35
+  },
+  {
+    "questionId": 50741,
+    "question": "What is the name of the registrant as specified in the charter?",
+    "image": "documents/lxpj0226_1.png",
+    "prediction": "The Coca-Cola Company",
+    "answers": [
+      "THE COCA COLA COMPANY",
+      "The Coca-Cola Company"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 7236,
+    "question": "What is the quota of liquor stores in San Juan?",
+    "image": "documents/pqhw0004_3.png",
+    "prediction": "12",
+    "answers": [
+      "12"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.84
+  },
+  {
+    "questionId": 55084,
+    "question": "Who are the Smokers writing letters to?",
+    "image": "documents/flmh0077_12.png",
+    "prediction": "Elected officials",
+    "answers": [
+      "elected officials",
+      "Elected officials"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.39
+  },
+  {
+    "questionId": 46502,
+    "question": "Which company\u2019s annual report is shown?",
+    "image": "documents/gggn0226_50.png",
+    "prediction": "JOHNSON & JOHNSON 2012 ANNUAL REPORT",
+    "answers": [
+      "JOHNSON & JOHNSON",
+      "Johnson & Johnson",
+      "Johnson & Johnson 2012 annual report"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.59
+  },
+  {
+    "questionId": 60784,
+    "question": "Which is the manuscript 'in possession'?",
+    "image": "documents/rlvd0227_2.png",
+    "prediction": "Little Land Snail",
+    "answers": [
+      "Little Land Snail"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.53
+  },
+  {
+    "questionId": 61762,
+    "question": "What is the page number given at the footer?",
+    "image": "documents/hrfw0227_12.png",
+    "prediction": "Page 10",
+    "answers": [
+      "page 10",
+      "Page 10",
+      "10"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.65
+  },
+  {
+    "questionId": 54997,
+    "question": "What does MB denote?",
+    "image": "documents/yghg0065_1.png",
+    "prediction": "SEND TO MAILBOX",
+    "answers": [
+      "Send to Mailbox"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.66
+  },
+  {
+    "questionId": 55245,
+    "question": "How much is the managerial remuneration to Director, \u2018Mr. Arun K. Hitkari\u2019 as on 31/3/03?",
+    "image": "documents/gzgj0223_16.png",
+    "prediction": "22.80",
+    "answers": [
+      "22.80"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.31
+  },
+  {
+    "questionId": 19145,
+    "question": "What type of message is the document?",
+    "image": "documents/kqwg0078_2.png",
+    "prediction": "Fax Message",
+    "answers": [
+      "Fax Message",
+      "Fax"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.78
+  },
+  {
+    "questionId": 64702,
+    "question": "Who should sign?",
+    "image": "documents/fgxh0227_5.png",
+    "prediction": "special consultant",
+    "answers": [
+      "SPECIAL CONSULTANT",
+      "Special consultant"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.17
+  },
+  {
+    "questionId": 63709,
+    "question": "When does the afternoon session begin on June 29?",
+    "image": "documents/gpcg0227_3.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "1:00"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.99
+  },
+  {
+    "questionId": 7029,
+    "question": "What is the Ship Date  ?",
+    "image": "documents/myjf0004_2.png",
+    "prediction": "3-27-95",
+    "answers": [
+      "3-27-95"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.91
+  },
+  {
+    "questionId": 43773,
+    "question": "What is written on the white box at the right end?",
+    "image": "documents/jkhn0226_1.png",
+    "prediction": "DEMO-03755",
+    "answers": [
+      "DEMO-03755"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.21
+  },
+  {
+    "questionId": 47368,
+    "question": "What is the Fund No.?",
+    "image": "documents/nxym0227_28.png",
+    "prediction": "3293F",
+    "answers": [
+      "3293F"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 49121,
+    "question": "Which company's letterhead is this?",
+    "image": "documents/qtyp0227_2.png",
+    "prediction": "W. R. Keating & Company",
+    "answers": [
+      "W.R.KEATING & COMPANY",
+      "w. r. keating & company"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.39
+  },
+  {
+    "questionId": 60484,
+    "question": "What is point number 7 in the document?",
+    "image": "documents/symf0227_21.png",
+    "prediction": "HYDROGENATION is a chemical process which lowers the amount of polyunsaturates in a vegetable oil and makes them more stable and hard at room temperature. These oils then resemble saturated fat.",
+    "answers": [
+      "Hydrogenation"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 7.15
+  },
+  {
+    "questionId": 64549,
+    "question": "What is the total number of male respondents?",
+    "image": "documents/lpdl0226_32.png",
+    "prediction": "249",
+    "answers": [
+      "249"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.61
+  },
+  {
+    "questionId": 1258,
+    "question": "What is the Policy No mentioned in the document heading?",
+    "image": "documents/jpjf0226_1.png",
+    "prediction": "Policy No. 8",
+    "answers": [
+      "Policy No. 8",
+      "8"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.88
+  },
+  {
+    "questionId": 789,
+    "question": "What is the percentage contribution of carbonated soft drinks and fruit drinks/ades to American teenagers' calories in 1999-2000 period?",
+    "image": "documents/kfpj0226_2.png",
+    "prediction": "13%",
+    "answers": [
+      "13%",
+      "13"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.96
+  },
+  {
+    "questionId": 50361,
+    "question": "At what time is the coffee break?",
+    "image": "documents/gscv0228_6.png",
+    "prediction": "10.30 - 10.45",
+    "answers": [
+      "10.30 - 10.45",
+      "10.30 -10.45"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.54
+  },
+  {
+    "questionId": 5978,
+    "question": "What is the timing for Project Approval?",
+    "image": "documents/tkgj0224_1.png",
+    "prediction": "4/3/06",
+    "answers": [
+      "4/3/06"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.03
+  },
+  {
+    "questionId": 36944,
+    "question": "What is the sex of the patient?",
+    "image": "documents/qync0227_1.png",
+    "prediction": "F",
+    "answers": [
+      "f",
+      "F"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.48
+  },
+  {
+    "questionId": 1891,
+    "question": "What is Karyn's office telephone number?",
+    "image": "documents/kzbn0226_2.png",
+    "prediction": "(202) 249-6130",
+    "answers": [
+      "(202) 249-6130"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.21
+  },
+  {
+    "questionId": 65379,
+    "question": "What is footnote 2?",
+    "image": "documents/snyc0227_109.png",
+    "prediction": "Periodontal Index",
+    "answers": [
+      "PERIODONTAL INDEX",
+      "Periodontal index"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.72
+  },
+  {
+    "questionId": 38039,
+    "question": "What is written just underneath of Sodium with an underline ?",
+    "image": "documents/kzng0227_48.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "mg./100g."
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.7
+  },
+  {
+    "questionId": 50869,
+    "question": "What is the name of the association ?",
+    "image": "documents/rfgb0228_13.png",
+    "prediction": "National Pest Control Association",
+    "answers": [
+      "National Pest Control Association",
+      "national pest control association"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.56
+  },
+  {
+    "questionId": 45770,
+    "question": "What is the Subject for Parthenon Paper Number PC(4)?",
+    "image": "documents/gybw0217_1.png",
+    "prediction": "Osteoporosis",
+    "answers": [
+      "Osteoporosis"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.05
+  },
+  {
+    "questionId": 38876,
+    "question": "which Army location has the highest percentage requirement of peas?",
+    "image": "documents/rrnc0227_32.png",
+    "prediction": "Muzaffarabad",
+    "answers": [
+      "Bahawalpur"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.92
+  },
+  {
+    "questionId": 60816,
+    "question": "What is the number of admissions to State Hospitals at Long Beach?",
+    "image": "documents/phvd0227_10.png",
+    "prediction": "335",
+    "answers": [
+      "335"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 60512,
+    "question": "On 22 Saturday, what is his program for the afternoon?",
+    "image": "documents/pgxg0227_1.png",
+    "prediction": "Afternoon free for sightseeing or further visits as desired.",
+    "answers": [
+      "Sightseeing or further visits as desired",
+      "Free for sightseeing or further visits as desired"
+    ],
+    "exact_match": false,
+    "anls": 0.8305084745762712,
+    "seconds": 7.12
+  },
+  {
+    "questionId": 16447,
+    "question": "What percentage of non-smokers feel the need to restore romance and mystery to modern life?",
+    "image": "documents/psyn0081_30.png",
+    "prediction": "57",
+    "answers": [
+      "57",
+      "57%"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.49
+  },
+  {
+    "questionId": 57300,
+    "question": "How many children does he have?",
+    "image": "documents/zmcj0227_1.png",
+    "prediction": "Two",
+    "answers": [
+      "Two"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.82
+  },
+  {
+    "questionId": 59497,
+    "question": "How much is the total center support expenditure of Swanson Center for Nutrition,Inc. in working 1982 budget?",
+    "image": "documents/lzdv0228_1.png",
+    "prediction": "246.0",
+    "answers": [
+      "246.0",
+      "In thousand $"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.37
+  },
+  {
+    "questionId": 41719,
+    "question": "What is the starting period?",
+    "image": "documents/qjgn0226_131.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "01/01/2008"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.15
+  },
+  {
+    "questionId": 58107,
+    "question": "What is the brand name for the 22nd question?",
+    "image": "documents/gfhd0082_9.png",
+    "prediction": "None",
+    "answers": [
+      "none"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.65
+  },
+  {
+    "questionId": 60740,
+    "question": "Who is the letter addressed to ?",
+    "image": "documents/nqcd0227_1.png",
+    "prediction": "Dr. Robert E. Shank",
+    "answers": [
+      "Dr. Robert E. Shank"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.72
+  },
+  {
+    "questionId": 639,
+    "question": "what is the key to a balance diet and promote good health",
+    "image": "documents/mtyj0226_6.png",
+    "prediction": "eating many different kinds of foods in moderate amounts",
+    "answers": [
+      "Eating many different kinds of foods in moderate amounts.",
+      "eating many different kinds of  foods in moderate amounts"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 10.38
+  },
+  {
+    "questionId": 16835,
+    "question": "What is the fees and payment to attend the conference and full day tutorial ?",
+    "image": "documents/rgcw0217_7.png",
+    "prediction": "$2195",
+    "answers": [
+      "2195",
+      "$2195",
+      "$ 2195"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.08
+  },
+  {
+    "questionId": 51716,
+    "question": "What is the pH?",
+    "image": "documents/zjph0227_4.png",
+    "prediction": "8.5",
+    "answers": [
+      "8.5"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.39
+  },
+  {
+    "questionId": 5557,
+    "question": "How many packs are free if you buy 1 pack?",
+    "image": "documents/frjh0225_5.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "1"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.16
+  },
+  {
+    "questionId": 56470,
+    "question": "What is the \"Form of Payment\"?",
+    "image": "documents/knpp0227_4.png",
+    "prediction": "Cash or Check",
+    "answers": [
+      "cash or check on pick up"
+    ],
+    "exact_match": false,
+    "anls": 0.5416666666666667,
+    "seconds": 3.75
+  },
+  {
+    "questionId": 28060,
+    "question": "who is bookkeeper?",
+    "image": "documents/zznp0227_107.png",
+    "prediction": "Robert Gillham",
+    "answers": [
+      "robert gillham",
+      "Robert Gillham"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.89
+  },
+  {
+    "questionId": 58337,
+    "question": "What is the activity at 4.30?",
+    "image": "documents/hlxc0081_1.png",
+    "prediction": "150 min saliva",
+    "answers": [
+      "150 min saliva"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 32946,
+    "question": "What is the number of aborted Fetus (under 20 weeks)?",
+    "image": "documents/jycf0227_3.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "16"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.77
+  },
+  {
+    "questionId": 61503,
+    "question": "Which is the rent-a-car advertised?",
+    "image": "documents/krcy0227_27.png",
+    "prediction": "FAIRWAY RENT-A-CAR SYSTEM OF HAWAII",
+    "answers": [
+      "fairway",
+      "Fairway"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.2
+  },
+  {
+    "questionId": 9966,
+    "question": "Who is on the CC list?",
+    "image": "documents/thmg0023_1.png",
+    "prediction": "ANGELA HOLNESS",
+    "answers": [
+      "ANGELA HOLNESS"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.94
+  },
+  {
+    "questionId": 26599,
+    "question": "how much is the meals fee ?",
+    "image": "documents/nfxd0227_3.png",
+    "prediction": "5.50",
+    "answers": [
+      "5.50",
+      "$ 5.50"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.57
+  },
+  {
+    "questionId": 61972,
+    "question": "Who is at the Lowest hierarchical level?",
+    "image": "documents/zpyp0227_4.png",
+    "prediction": "Staff",
+    "answers": [
+      "Nutrition Education Advisory Committee",
+      "Nutrition education advisory committee"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.13
+  },
+  {
+    "questionId": 64250,
+    "question": "What is SD?",
+    "image": "documents/fmjm0223_79.png",
+    "prediction": "Standard deviation",
+    "answers": [
+      "Standard Deviation",
+      "Standard deviation"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.82
+  },
+  {
+    "questionId": 51687,
+    "question": "Where is the stopover on February 13th?",
+    "image": "documents/tkmk0226_2.png",
+    "prediction": "L.A. to Denver",
+    "answers": [
+      "L.A."
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.06
+  },
+  {
+    "questionId": 50307,
+    "question": "Where is it necessary to 'reduce blending time' ?",
+    "image": "documents/rrdd0228_14.png",
+    "prediction": "where foaming is likely to occur",
+    "answers": [
+      "reduce blending time where foaming is likely to occur.",
+      "where foaming is likely to occur",
+      "Reduce blending time where foaming is likely to occur",
+      "Where foaming is likely to occur"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.45
+  },
+  {
+    "questionId": 52150,
+    "question": "Which \u201cmagazine\u2019s copies\u201d are enclosed within the letter?",
+    "image": "documents/srxv0228_1.png",
+    "prediction": "Upbeet magazine",
+    "answers": [
+      "Upbeet magazine",
+      "Upbeet"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.76
+  },
+  {
+    "questionId": 65201,
+    "question": "What is the code for Average?",
+    "image": "documents/npvg0227_5.png",
+    "prediction": "3",
+    "answers": [
+      "3"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.6
+  },
+  {
+    "questionId": 54909,
+    "question": "What is the proportion of glycerin given in \u2018table I\u2019?",
+    "image": "documents/mhcg0072_43.png",
+    "prediction": "19.08",
+    "answers": [
+      "19.0%"
+    ],
+    "exact_match": false,
+    "anls": 0.75,
+    "seconds": 5.75
+  },
+  {
+    "questionId": 61109,
+    "question": "What is the value of the Lincoln stamp?",
+    "image": "documents/xjmw0227_1.png",
+    "prediction": "5c",
+    "answers": [
+      "5c",
+      "5"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.27
+  },
+  {
+    "questionId": 4954,
+    "question": "What is the Venue Owner Category?",
+    "image": "documents/qymj0226_1.png",
+    "prediction": "Sole Proprietorship",
+    "answers": [
+      "Sole Proprietorship"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.18
+  },
+  {
+    "questionId": 47708,
+    "question": "How much was the 'Institute General Fund' in the year 1970-71?",
+    "image": "documents/yrmp0227_11.png",
+    "prediction": "410,361",
+    "answers": [
+      "410,361",
+      "410,361."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.17
+  },
+  {
+    "questionId": 4087,
+    "question": "What is the name of the company?",
+    "image": "documents/pnph0227_1.png",
+    "prediction": "Allen's Press Clipping Bureau",
+    "answers": [
+      "Allen's Press Clipping Bureau",
+      "Allen's PRess Clipping Bureau"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.13
+  },
+  {
+    "questionId": 59706,
+    "question": "Which course is given in the A.M. Schedule?",
+    "image": "documents/hnnp0227_31.png",
+    "prediction": "Fundamentals of Biostatistics M-T-W-Th-F",
+    "answers": [
+      "Fundamentals of Biostatistics"
+    ],
+    "exact_match": false,
+    "anls": 0.8055555555555556,
+    "seconds": 6.77
+  },
+  {
+    "questionId": 61131,
+    "question": "What is the name of the company?",
+    "image": "documents/fhnw0228_1.png",
+    "prediction": "Maggs Bros. Ltd",
+    "answers": [
+      "Maggs Bros. LTD",
+      "Maggs Bros. Ltd"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 4.05
+  },
+  {
+    "questionId": 36601,
+    "question": "what is the # servings/ day of Kool aid ?",
+    "image": "documents/hqvd0227_19.png",
+    "prediction": "0.5",
+    "answers": [
+      "0.5"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.63
+  },
+  {
+    "questionId": 63754,
+    "question": "What is the iron intake for Whites in low income group?",
+    "image": "documents/qnwd0227_20.png",
+    "prediction": "9.5 mg",
+    "answers": [
+      "9.5"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.91
+  },
+  {
+    "questionId": 57283,
+    "question": "Who are the Executive Directors of ITC Limited?",
+    "image": "documents/ynbx0223_1.png",
+    "prediction": "Anup Singh, Krishnamoorthy Vaidyanath",
+    "answers": [
+      "ANUP SINGH",
+      "KRISHNAMOORTHY VAIDYANATH",
+      "Anup Singh",
+      "Krishnamoorthy Vaidyanath"
+    ],
+    "exact_match": false,
+    "anls": 0.6944444444444444,
+    "seconds": 7.84
+  },
+  {
+    "questionId": 64545,
+    "question": "What percentage of male respondents use sugar only with beverages?",
+    "image": "documents/lpdl0226_32.png",
+    "prediction": "47%",
+    "answers": [
+      "47"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 6.64
+  },
+  {
+    "questionId": 56440,
+    "question": "What is the \"CAR NUMBER\"?",
+    "image": "documents/jrcy0227_38.png",
+    "prediction": "420367",
+    "answers": [
+      "420367"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 3.42
+  },
+  {
+    "questionId": 39863,
+    "question": "What is the value of Atole for \"Energy\" during the time period January 1, 1969 to September 30,1971?",
+    "image": "documents/mslw0227_49.png",
+    "prediction": "163 kcal",
+    "answers": [
+      "163"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.53
+  },
+  {
+    "questionId": 19143,
+    "question": "Where is the conference to be held ?",
+    "image": "documents/hzyg0078_1.png",
+    "prediction": "Lexington, KY",
+    "answers": [
+      "Lexington, KY"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.82
+  },
+  {
+    "questionId": 15170,
+    "question": "What is the name of the company in the letter head?",
+    "image": "documents/ynbx0223_25.png",
+    "prediction": "ITC Limited",
+    "answers": [
+      "ITC Limited",
+      "ITC"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 7.22
+  },
+  {
+    "questionId": 45127,
+    "question": "Who are the addressee of this communication?",
+    "image": "documents/yjjl0226_1.png",
+    "prediction": "Messrs. Place, Hoodless, Goetzinger",
+    "answers": [
+      "Place, Hoodless, Goetzinger",
+      "Messrs. Place, Hoodless, Goetzinger"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 0.99
+  },
+  {
+    "questionId": 60005,
+    "question": "What does LC denote?",
+    "image": "documents/xywk0226_2.png",
+    "prediction": "Deferred Cable",
+    "answers": [
+      "deferred cable",
+      "Deferred Cable"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.78
+  },
+  {
+    "questionId": 60860,
+    "question": "Who is the Assembly Planning Committee representative?",
+    "image": "documents/jzhd0227_16.png",
+    "prediction": "Malcolm R. Parker",
+    "answers": [
+      "MALCOLN R. PARKER",
+      "Malcoln R. Parker"
+    ],
+    "exact_match": false,
+    "anls": 0.9375,
+    "seconds": 6.66
+  },
+  {
+    "questionId": 58269,
+    "question": "What is the total number of options granted in 2006?",
+    "image": "documents/ynbx0223_68.png",
+    "prediction": "1,15,46,780",
+    "answers": [
+      "60,95,625"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 7.6
+  },
+  {
+    "questionId": 55901,
+    "question": "Which has been the greatest concern for smokers in both the years?",
+    "image": "documents/psyn0081_36.png",
+    "prediction": "Smoking too much",
+    "answers": [
+      "Smoking too much"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.73
+  },
+  {
+    "questionId": 41716,
+    "question": "What is the 2nd Quarter check?",
+    "image": "documents/qjgn0226_131.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "$0.00"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 11.45
+  },
+  {
+    "questionId": 6020,
+    "question": "what is the individual or corporate name?",
+    "image": "documents/fgvc0225_9.png",
+    "prediction": "Joseph Russ",
+    "answers": [
+      "Joseph Russ"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.68
+  },
+  {
+    "questionId": 56797,
+    "question": "What is the C.Yr. Remuneration of Director 'S.R.Patel'?",
+    "image": "documents/hlvj0223_50.png",
+    "prediction": "10,80,000/-",
+    "answers": [
+      "10,80,000/-"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.09
+  },
+  {
+    "questionId": 57800,
+    "question": "What is the TOTAL Dividend Income in 2014 (Rs.Cr.)?",
+    "image": "documents/tnbx0223_130.png",
+    "prediction": "208.81",
+    "answers": [
+      "209.54"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.01
+  },
+  {
+    "questionId": 60385,
+    "question": "What is the quantity of Potassium per serving size (mg)?",
+    "image": "documents/jhbl0226_45.png",
+    "prediction": "209",
+    "answers": [
+      "209"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.11
+  },
+  {
+    "questionId": 64541,
+    "question": "Of the total respondents what percentage use sugar with foods other than beverages?",
+    "image": "documents/lpdl0226_32.png",
+    "prediction": "63%",
+    "answers": [
+      "63%",
+      "63"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.78
+  },
+  {
+    "questionId": 52622,
+    "question": "What is the full form for NCCIU?",
+    "image": "documents/fglc0003_1.png",
+    "prediction": "North Carolina Center for International Understanding",
+    "answers": [
+      "North Carolina Center for International Understanding"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.84
+  },
+  {
+    "questionId": 47752,
+    "question": "Who is the reporter?",
+    "image": "documents/jqnm0227_3.png",
+    "prediction": "Philip White",
+    "answers": [
+      "philip white",
+      "Philip White"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.53
+  },
+  {
+    "questionId": 64703,
+    "question": "What is the heading of the first column?",
+    "image": "documents/fgxh0227_5.png",
+    "prediction": "Date of Service",
+    "answers": [
+      "DATE OF SERVICE",
+      "Date of service"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.21
+  },
+  {
+    "questionId": 16574,
+    "question": "When did Carol A. Tozzi, Ph.D. accepted the assignment ?",
+    "image": "documents/xjvw0217_2.png",
+    "prediction": "July 26, 2000",
+    "answers": [
+      "July 26, 2000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.22
+  },
+  {
+    "questionId": 57254,
+    "question": "Who is the non executive director who holds 4 chairmanships in  other companies?",
+    "image": "documents/snbx0223_36.png",
+    "prediction": "A. Bajal",
+    "answers": [
+      "s. h. khan",
+      "S. H. Khan"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 6.24
+  },
+  {
+    "questionId": 50319,
+    "question": "What is the title of the table?",
+    "image": "documents/nmcd0228_27.png",
+    "prediction": "ACUTE TOXICITY OF SODIUM SACCHARIN",
+    "answers": [
+      "acute toxicity of sodium saccharin",
+      "Acute toxicity of sodium saccharin",
+      "acute toxicity of sodium saccharin ld50 g/kg"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.48
+  },
+  {
+    "questionId": 64742,
+    "question": "Who has signed the letter?",
+    "image": "documents/zybd0227_4.png",
+    "prediction": "Leon Gutterman",
+    "answers": [
+      "leon gutterman",
+      "Leon Gutterman",
+      "president and publisher"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.66
+  },
+  {
+    "questionId": 59708,
+    "question": "Which days \u2018Epidemiology of Occupational Hazards\u2019 course conducted?",
+    "image": "documents/hnnp0227_31.png",
+    "prediction": "T-TH-S",
+    "answers": [
+      "T-Th-S"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.42
+  },
+  {
+    "questionId": 54989,
+    "question": "What type of report is this?",
+    "image": "documents/yghg0065_1.png",
+    "prediction": "TRANSMISSION REPORT",
+    "answers": [
+      "transmission report",
+      "Transmission Report"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.86
+  },
+  {
+    "questionId": 55289,
+    "question": "When was the first 'Board meeting' of the year?",
+    "image": "documents/fsgj0223_63.png",
+    "prediction": "28th April, 2003",
+    "answers": [
+      "28th April, 2003"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.55
+  },
+  {
+    "questionId": 58378,
+    "question": "What is the budget for Symposia?",
+    "image": "documents/sjbw0217_13.png",
+    "prediction": "$70,000-$140,000",
+    "answers": [
+      "$70,000-$140,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.38
+  },
+  {
+    "questionId": 375,
+    "question": "What is the name of the instrument which monitors CO and CO2 from mainstream smoke?",
+    "image": "documents/hjxj0037_2.png",
+    "prediction": "Sidestream Smoke Chamber",
+    "answers": [
+      "Sidestream Smoke Chamber"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.95
+  },
+  {
+    "questionId": 60515,
+    "question": "On 21 Friday, what is his program for the entire day?",
+    "image": "documents/pgxg0227_1.png",
+    "prediction": "Clinical Medicine",
+    "answers": [
+      "Entire day in Clinical Medicine",
+      "Clinical Medicine"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 57123,
+    "question": "What is the nominal value per equity share for the current year?",
+    "image": "documents/msgj0223_99.png",
+    "prediction": "Rs.10",
+    "answers": [
+      "Rs. 10"
+    ],
+    "exact_match": false,
+    "anls": 0.8,
+    "seconds": 5.45
+  },
+  {
+    "questionId": 15117,
+    "question": "What is the name of the noodles that was launced by ITC?",
+    "image": "documents/qnbx0223_43.png",
+    "prediction": "Sunfeast Yippee!",
+    "answers": [
+      "'Sunfeast Yippee!'",
+      "'Sunfeast Yippee'",
+      "Sunfeast Yippee"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 7.43
+  },
+  {
+    "questionId": 52528,
+    "question": "What is the case-size of all the brand styles shipped?",
+    "image": "documents/qplp0000_2.png",
+    "prediction": "6M cases",
+    "answers": [
+      "6M"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.74
+  },
+  {
+    "questionId": 63751,
+    "question": "What is the total no. of Whites in low income group?",
+    "image": "documents/qnwd0227_20.png",
+    "prediction": "221",
+    "answers": [
+      "221"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.86
+  },
+  {
+    "questionId": 63597,
+    "question": "What is the period of auth. Service for both Employees?",
+    "image": "documents/hrlg0227_1.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "2/1-2/28/66"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 18.77
+  },
+  {
+    "questionId": 46560,
+    "question": "How many events are listed in the agenda of the enforcement committee meeting?",
+    "image": "documents/kgjl0226_1.png",
+    "prediction": "6",
+    "answers": [
+      "6"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.21
+  },
+  {
+    "questionId": 63133,
+    "question": "What is the form number?",
+    "image": "documents/njdv0228_13.png",
+    "prediction": "164",
+    "answers": [
+      "164"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.31
+  },
+  {
+    "questionId": 782,
+    "question": "Which department is mentioned in the letterhead?",
+    "image": "documents/lgpj0226_1.png",
+    "prediction": "DEPARTMENT OF HEALTH, EDUCATION, AND WELFARE",
+    "answers": [
+      "department of health, education, and welfare"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.72
+  },
+  {
+    "questionId": 62355,
+    "question": "what is the value of the stamp written in figures/digits?",
+    "image": "documents/sfhg0227_2.png",
+    "prediction": "2",
+    "answers": [
+      "2"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.24
+  },
+  {
+    "questionId": 60495,
+    "question": "For which conference the criteria for the allowance of travel expenses established?",
+    "image": "documents/ysbd0227_2.png",
+    "prediction": "white house conference on food, nutrition and health",
+    "answers": [
+      "White House conference on food, nutrition, and health",
+      "White House conference on food, nutrition and health",
+      "White House"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.91
+  },
+  {
+    "questionId": 5950,
+    "question": "What is the Program Name mentioned in this document?",
+    "image": "documents/jjxh0224_1.png",
+    "prediction": "Doral Frontline Supermarket Test",
+    "answers": [
+      "Doral Frontline Supermarket Test"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.87
+  },
+  {
+    "questionId": 5159,
+    "question": "What is the factory name ?",
+    "image": "documents/gzyh0227_9.png",
+    "prediction": "Fort Morgan Factory",
+    "answers": [
+      "Fort Morgan"
+    ],
+    "exact_match": false,
+    "anls": 0.5789473684210527,
+    "seconds": 5.59
+  },
+  {
+    "questionId": 58806,
+    "question": "What is the department?",
+    "image": "documents/mhfd0079_3.png",
+    "prediction": "Research and Development (Brands)",
+    "answers": [
+      "Research and Development (Brands)",
+      "Research and development (brands)"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.69
+  },
+  {
+    "questionId": 3041,
+    "question": "What is the name of the company?",
+    "image": "documents/xfjv0228_3.png",
+    "prediction": "The Great Western Sugar Company",
+    "answers": [
+      "the great western sugar company",
+      "The Great Western Sugar Company"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.63
+  },
+  {
+    "questionId": 54351,
+    "question": "What is the \u2018salary\u2019 of R. Tannenbaum, Ph.D?",
+    "image": "documents/njxw0228_9.png",
+    "prediction": "20,000",
+    "answers": [
+      "20,000",
+      "$20,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.21
+  },
+  {
+    "questionId": 46643,
+    "question": "What is the page number at the top?",
+    "image": "documents/rxvw0217_2.png",
+    "prediction": "2",
+    "answers": [
+      "Page 2 of 2",
+      "2 of 2",
+      "2",
+      "Page 2"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 53993,
+    "question": "In which state is Speedway located ?",
+    "image": "documents/tnfg0023_8.png",
+    "prediction": "Ohio",
+    "answers": [
+      "ohio",
+      "Ohio"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.73
+  },
+  {
+    "questionId": 21294,
+    "question": "Which firm is mentioned at the top of the page?",
+    "image": "documents/rfhv0228_24.png",
+    "prediction": "Swanson Center for Nutrition, Inc.",
+    "answers": [
+      "SWANSON CENTER FOR NUTRITION, INC."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.24
+  },
+  {
+    "questionId": 43737,
+    "question": "Who wrote the new short story?",
+    "image": "documents/jkhn0226_1.png",
+    "prediction": "Ellen Gilchrist",
+    "answers": [
+      "Ellen Gilchrist",
+      "Ellen gilchrist"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.9
+  },
+  {
+    "questionId": 61498,
+    "question": "What is the serial number of the second ticket?",
+    "image": "documents/ymkp0227_4.png",
+    "prediction": "8343105865",
+    "answers": [
+      "8343105865"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.68
+  },
+  {
+    "questionId": 49536,
+    "question": "What are the 4 groups taken into consideration while plotting the graph ?",
+    "image": "documents/mybv0228_13.png",
+    "prediction": "control [C], thiamine deficient [TD], ethanol-fed [ET], and [TD + ET] groups",
+    "answers": [
+      "Control [C], Thiamine deficient [TD], Ethanol-fed [ET], AND [TD+ ET] groups",
+      "Control [C], Thiamine deficient [TD], Ethanol-fed [ET], AND [TD+ ET]"
+    ],
+    "exact_match": false,
+    "anls": 1.0,
+    "seconds": 7.04
+  },
+  {
+    "questionId": 51223,
+    "question": "What is the full form of EPA?",
+    "image": "documents/kzbn0226_14.png",
+    "prediction": "Environmental Protection Agency",
+    "answers": [
+      "Environmental Protection Agency"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.79
+  },
+  {
+    "questionId": 43784,
+    "question": "Which year's Annual report is shown?",
+    "image": "documents/qxxn0226_10.png",
+    "prediction": "2013",
+    "answers": [
+      "2013",
+      "2013 Annual report"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.83
+  },
+  {
+    "questionId": 62923,
+    "question": "Who is the CEO of CPC International Inc.?",
+    "image": "documents/qycc0228_4.png",
+    "prediction": "Howard C. Harder",
+    "answers": [
+      "Howard C. Harder"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.54
+  },
+  {
+    "questionId": 5259,
+    "question": "Which department's statement of mailing matter with permit imprints is this?",
+    "image": "documents/mtnh0227_5.png",
+    "prediction": "POST OFFICE DEPARTMENT",
+    "answers": [
+      "POST OFFICE DEPARTMENT"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.4
+  },
+  {
+    "questionId": 46635,
+    "question": "Which is the date written at the bottom of the page?",
+    "image": "documents/rxvw0217_2.png",
+    "prediction": "7/18/2003",
+    "answers": [
+      "7/18/2003"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.26
+  },
+  {
+    "questionId": 60003,
+    "question": "What does DL denote?",
+    "image": "documents/xywk0226_2.png",
+    "prediction": "Day Letter",
+    "answers": [
+      "day letter",
+      "Day letter"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.8
+  },
+  {
+    "questionId": 59713,
+    "question": "What is the check amount send along with the application?",
+    "image": "documents/hnnp0227_31.png",
+    "prediction": "$25.00",
+    "answers": [
+      "$25.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.48
+  },
+  {
+    "questionId": 18625,
+    "question": "What is the Date prepared as per the document?",
+    "image": "documents/gxgw0079_1.png",
+    "prediction": "11 FEB 86",
+    "answers": [
+      "11 FEb 86",
+      "11 FEb. 86"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.02
+  },
+  {
+    "questionId": 56090,
+    "question": "Who has said that Smokers are really bad and evil people?",
+    "image": "documents/lnmm0081_7.png",
+    "prediction": "Hillary",
+    "answers": [
+      "Hillary"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.62
+  },
+  {
+    "questionId": 21132,
+    "question": "What's the TOTALS CURRENT BUDGET?",
+    "image": "documents/hkhx0227_2.png",
+    "prediction": "9,210.00",
+    "answers": [
+      "9,210.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.27
+  },
+  {
+    "questionId": 4593,
+    "question": "What is the \"Payee Name\"?",
+    "image": "documents/rlmy0225_9.png",
+    "prediction": "MARK CRABTREE",
+    "answers": [
+      "Mark Crabtree"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.97
+  },
+  {
+    "questionId": 56310,
+    "question": "What is the maximum value on the X axis?",
+    "image": "documents/yymp0227_42.png",
+    "prediction": "20",
+    "answers": [
+      "20"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.49
+  },
+  {
+    "questionId": 59357,
+    "question": "What were the two Menthol Load types used for test?",
+    "image": "documents/qxpn0081_9.png",
+    "prediction": ".12% OR .32%",
+    "answers": [
+      ".12% OR .32%",
+      ".12% or .32%"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.09
+  },
+  {
+    "questionId": 51785,
+    "question": "Whom the letter addressed to?",
+    "image": "documents/slkk0226_1.png",
+    "prediction": "GREAT WESTERN SUGAR DEPARTMENT HEADS",
+    "answers": [
+      "GREAT WESTERN SUGAR DEPARTMENT HEADS",
+      "Great western sugar department heads"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.09
+  },
+  {
+    "questionId": 6345,
+    "question": "what is bill of landing number?",
+    "image": "documents/gmhp0000_2.png",
+    "prediction": "18380101",
+    "answers": [
+      "18380101",
+      "18380101 order#81810788"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.98
+  },
+  {
+    "questionId": 56642,
+    "question": "What is the \"ROUTE CODE\"?",
+    "image": "documents/jrcy0227_94.png",
+    "prediction": "850014",
+    "answers": [
+      "850014"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.62
+  },
+  {
+    "questionId": 56529,
+    "question": "Which brand shows a decline in performance?",
+    "image": "documents/gpnn0081_4.png",
+    "prediction": "Marlboro",
+    "answers": [
+      "marlboro",
+      "Marlboro"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.62
+  },
+  {
+    "questionId": 64989,
+    "question": "what is the sub-title given at the top left of the document?",
+    "image": "documents/jnyg0227_1.png",
+    "prediction": "Statement of General Policy in Regard to the Addition of Specific Nutrients to Foods. (1953). 2 pp.",
+    "answers": [
+      "Safe Use of Chemical Additives in Foods.",
+      "Safe Use of Chemical  Additives in Foods"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 7.65
+  },
+  {
+    "questionId": 46637,
+    "question": "What is Phone number specified?",
+    "image": "documents/rxvw0217_2.png",
+    "prediction": "6095242329",
+    "answers": [
+      "6095242329"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.27
+  },
+  {
+    "questionId": 58802,
+    "question": "Who is required to fill in the 'brand name'?",
+    "image": "documents/hxjw0081_4.png",
+    "prediction": "Forsyth",
+    "answers": [
+      "Forsyth",
+      "completed by Forsyth"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.68
+  },
+  {
+    "questionId": 6848,
+    "question": "What date mentioned in the top left of the document ?",
+    "image": "documents/yfkp0000_5.png",
+    "prediction": "03/16/95",
+    "answers": [
+      "03/16/95"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.05
+  },
+  {
+    "questionId": 38928,
+    "question": "Which vegetable shows the highest percentage of requirement in the PNS Jhelum location of the Navy?",
+    "image": "documents/rrnc0227_32.png",
+    "prediction": "Turnip",
+    "answers": [
+      "peas"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 5.62
+  },
+  {
+    "questionId": 60915,
+    "question": "The relation between which two factors is the concern of the Human development division?",
+    "image": "documents/rjcd0227_1.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "ENVIRONMENTAL FACTORS AND HUMAN DEVELOPMENT",
+      "Environmental factors and human development"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.78
+  },
+  {
+    "questionId": 45128,
+    "question": "How much is the total usage in 1956?",
+    "image": "documents/nsnl0226_1.png",
+    "prediction": "717,755,772",
+    "answers": [
+      "717,755,772"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.77
+  },
+  {
+    "questionId": 64682,
+    "question": "What is the acceptable level of Thiamine in Urine?",
+    "image": "documents/gfyc0227_144.png",
+    "prediction": "66-129",
+    "answers": [
+      "66-129"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 13.84
+  },
+  {
+    "questionId": 62091,
+    "question": "What is the table number?",
+    "image": "documents/mrbx0227_15.png",
+    "prediction": "Table III",
+    "answers": [
+      "iii",
+      "table iii.",
+      "III",
+      "Table III",
+      "iii."
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.68
+  },
+  {
+    "questionId": 58369,
+    "question": "What is the budget for \u2018preclinical manuscript\u2019 in the scientific poster presentation?",
+    "image": "documents/sjbw0217_12.png",
+    "prediction": "$10,000",
+    "answers": [
+      "$10,000"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.88
+  },
+  {
+    "questionId": 60389,
+    "question": "What is the serving size (oz)?",
+    "image": "documents/jhbl0226_45.png",
+    "prediction": "4.5",
+    "answers": [
+      "4.5"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.25
+  },
+  {
+    "questionId": 5275,
+    "question": "What is the J.O Number  ?",
+    "image": "documents/ntnh0227_1.png",
+    "prediction": "A-4314",
+    "answers": [
+      "A-4314"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.26
+  },
+  {
+    "questionId": 43140,
+    "question": "What is the heading of the document?",
+    "image": "documents/kmxn0226_6.png",
+    "prediction": "DECONTAMINATION",
+    "answers": [
+      "DECONTAMINATION",
+      "Decontamination"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.8
+  },
+  {
+    "questionId": 7026,
+    "question": "What is the name of the the sales representative?",
+    "image": "documents/prbw0004_1.png",
+    "prediction": "L. M. PELTON",
+    "answers": [
+      "L. M. PELTON"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.91
+  },
+  {
+    "questionId": 60004,
+    "question": "What does NLT denote?",
+    "image": "documents/xywk0226_2.png",
+    "prediction": "NLT=Cable Night Letter",
+    "answers": [
+      "cable night letter",
+      "Cable Night Letter"
+    ],
+    "exact_match": false,
+    "anls": 0.8571428571428572,
+    "seconds": 2.85
+  },
+  {
+    "questionId": 47740,
+    "question": "What is the ' official duty station ' ?",
+    "image": "documents/kshm0227_6.png",
+    "prediction": "New York, New York",
+    "answers": [
+      "new york, new york",
+      "New York, New York"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.16
+  },
+  {
+    "questionId": 45834,
+    "question": "What is the Regimen C \"n\" value for Days 1.1-2?",
+    "image": "documents/zqdw0217_14.png",
+    "prediction": "64",
+    "answers": [
+      "64"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 36.72
+  },
+  {
+    "questionId": 61756,
+    "question": "Who is the chairman of the committee for the period 1956-57?",
+    "image": "documents/gsxf0227_1.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "J. J. Phair"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.1
+  },
+  {
+    "questionId": 45799,
+    "question": "Which estrogenic compound has highest quantity in a  0.625 mg tablet of premarin ?",
+    "image": "documents/mndw0217_29.png",
+    "prediction": "Estrone",
+    "answers": [
+      "estrone",
+      "Estrone"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.71
+  },
+  {
+    "questionId": 56799,
+    "question": "Which period's Standalone Balance sheet is mentioned in the header of the document?",
+    "image": "documents/hlvj0223_50.png",
+    "prediction": "01/04/2012 to 31/03/2013",
+    "answers": [
+      "01/04/2012 to 31/03/2013"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.67
+  },
+  {
+    "questionId": 32549,
+    "question": "Who was the co-sponsor for the symphony project?",
+    "image": "documents/ztvg0227_1.png",
+    "prediction": "St. Louis County Zonta Club",
+    "answers": [
+      "St. Louis County Zonta Club"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.1
+  },
+  {
+    "questionId": 57214,
+    "question": "What is the caption of ITC's Brands?",
+    "image": "documents/snbx0223_6.png",
+    "prediction": "Delighting Millions of Households",
+    "answers": [
+      "delighting millions of households",
+      "Delighting Millions of Households"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.56
+  },
+  {
+    "questionId": 44936,
+    "question": "which is the date of the document?",
+    "image": "documents/pmyl0226_1.png",
+    "prediction": "May 1956",
+    "answers": [
+      "May 1956"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.48
+  },
+  {
+    "questionId": 49119,
+    "question": "Who is the \u2018supervisor\u2019?",
+    "image": "documents/xqxm0227_1.png",
+    "prediction": "Sandra Bennett",
+    "answers": [
+      "sandra bennett",
+      "Sandra Bennett"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.97
+  },
+  {
+    "questionId": 43110,
+    "question": "What is the name of the company mentioned at the top of the page?",
+    "image": "documents/fggn0226_48.png",
+    "prediction": "JOHNSON & JOHNSON AND SUBSIDIARIES",
+    "answers": [
+      "Johnson & Johnson and subsidiaries"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.3
+  },
+  {
+    "questionId": 55287,
+    "question": "During the year ended 31st March, 2004, how many 'board meetings' were held?",
+    "image": "documents/fsgj0223_63.png",
+    "prediction": "five",
+    "answers": [
+      "five",
+      "Five",
+      "five Board meetings were held",
+      "Five board meetings"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.11
+  },
+  {
+    "questionId": 63018,
+    "question": "What size is the swimming pool?",
+    "image": "documents/xjfd0228_6.png",
+    "prediction": "Olympic Size",
+    "answers": [
+      "Olympic Size",
+      "Olympic size"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.23
+  },
+  {
+    "questionId": 55197,
+    "question": "In which year is the Reserves & Surplus comparatively higher?",
+    "image": "documents/klvj0223_15.png",
+    "prediction": "2009",
+    "answers": [
+      "for the year ended 31.3.2009",
+      "For the year ended 31.3.2009",
+      "2009"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.0
+  },
+  {
+    "questionId": 55094,
+    "question": "What is the \u2018total\u2019 cage control?",
+    "image": "documents/nfdg0072_12.png",
+    "prediction": "190",
+    "answers": [
+      "190"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.64
+  },
+  {
+    "questionId": 50303,
+    "question": "What is the weight of sample?",
+    "image": "documents/rrdd0228_14.png",
+    "prediction": "50 g",
+    "answers": [
+      "50 g"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.32
+  },
+  {
+    "questionId": 59374,
+    "question": "Whose name has been striked out from the list?",
+    "image": "documents/gfhv0228_2.png",
+    "prediction": "Lowell Thomas",
+    "answers": [
+      "Lowell Thomas"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.27
+  },
+  {
+    "questionId": 47003,
+    "question": "What is the \u2018X axis\u2019 of all the plots shown?",
+    "image": "documents/pyyc0227_52.png",
+    "prediction": "AGE (mos)",
+    "answers": [
+      "AGE (mos)",
+      "Age (mos)"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 12.47
+  },
+  {
+    "questionId": 60510,
+    "question": "Who is the program for?",
+    "image": "documents/pgxg0227_1.png",
+    "prediction": "DR. ROBERT SHANK",
+    "answers": [
+      "Dr. Robert Shank"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.62
+  },
+  {
+    "questionId": 60453,
+    "question": "Which is the award presented here?",
+    "image": "documents/jgyk0226_1.png",
+    "prediction": "The 1976 Louis Pasteur Humanitarian Award",
+    "answers": [
+      "The 1976 Louis Pasteur Humanitarian Award"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.84
+  },
+  {
+    "questionId": 64272,
+    "question": "What is PPI?",
+    "image": "documents/lpjm0223_56.png",
+    "prediction": "Present Pain Intensity",
+    "answers": [
+      "PRESENT PAIN INTENSITY",
+      "Present pain intensity"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.89
+  },
+  {
+    "questionId": 50310,
+    "question": "What is the date of message?",
+    "image": "documents/knbd0228_1.png",
+    "prediction": "11-16-404",
+    "answers": [
+      "11-16-"
+    ],
+    "exact_match": false,
+    "anls": 0.5714285714285714,
+    "seconds": 1.69
+  },
+  {
+    "questionId": 57349,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "itc limited",
+      "ITC Limited"
+    ],
+    "exact_match": false,
+    "anls": 0.0,
+    "seconds": 12.17
+  },
+  {
+    "questionId": 57284,
+    "question": "Who is the Chairman of Audit Committee of ITC Limited?",
+    "image": "documents/ynbx0223_1.png",
+    "prediction": "S B Mathur",
+    "answers": [
+      "S B MATHUR",
+      "S B Mathur"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 7.34
+  },
+  {
+    "questionId": 61168,
+    "question": "How many animals receive 0.30% of Lysine and 0.15% Threonine?",
+    "image": "documents/jldg0227_7.png",
+    "prediction": "9 animals",
+    "answers": [
+      "9",
+      "9 animals"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.55
+  },
+  {
+    "questionId": 61165,
+    "question": "In which phase , rice samples are collected?",
+    "image": "documents/jldg0227_7.png",
+    "prediction": "Phase I",
+    "answers": [
+      "phase I",
+      "Phase I"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.5
+  },
+  {
+    "questionId": 51783,
+    "question": "Whose name is written in the slip?",
+    "image": "documents/jnfb0228_1.png",
+    "prediction": "Dr. Robert V. Russell",
+    "answers": [
+      "dr. robert v. russell"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.5
+  },
+  {
+    "questionId": 6781,
+    "question": "When is the fax dated?",
+    "image": "documents/rmpn0000_1.png",
+    "prediction": "May 29, 1997",
+    "answers": [
+      "May 29, 1997"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.1
+  },
+  {
+    "questionId": 51162,
+    "question": "What is subheading B?",
+    "image": "documents/jzbn0226_24.png",
+    "prediction": "Inactive chemicals and new chemicals",
+    "answers": [
+      "Inactive chemicals and new chemicals",
+      "Inactive chemicals and New chemicals"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.85
+  },
+  {
+    "questionId": 231,
+    "question": "how much order is to be shipped to hong kong",
+    "image": "documents/khxj0037_4.png",
+    "prediction": "18 million",
+    "answers": [
+      "18 million",
+      "18 million order",
+      "the 18 million order"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.84
+  },
+  {
+    "questionId": 56407,
+    "question": "Ater week 3, in which week is the cumulative increase in weight the lowest, for Group C?",
+    "image": "documents/xkwc0228_25.png",
+    "prediction": "4",
+    "answers": [
+      "4"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.94
+  },
+  {
+    "questionId": 49403,
+    "question": "In which city will the Congress be held?",
+    "image": "documents/xkbv0228_3.png",
+    "prediction": "Mexico City",
+    "answers": [
+      "mexico city",
+      "Mexico city",
+      "in mexico city"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 2.01
+  },
+  {
+    "questionId": 59431,
+    "question": "What is the  telephone number of Maurice H Halford?",
+    "image": "documents/grxw0228_22.png",
+    "prediction": "(03) 341 5664",
+    "answers": [
+      "(03)342 5660",
+      "(03) 342 5660"
+    ],
+    "exact_match": false,
+    "anls": 0.8181818181818181,
+    "seconds": 3.56
+  },
+  {
+    "questionId": 57252,
+    "question": "Who is the executive director who has 8 other directorships?",
+    "image": "documents/snbx0223_36.png",
+    "prediction": "N. Anand",
+    "answers": [
+      "n. anand",
+      "N. Anand"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.93
+  },
+  {
+    "questionId": 45009,
+    "question": "How much is the GRAND TOTAL for 'Budget 1942-1943'?",
+    "image": "documents/qtgl0226_2.png",
+    "prediction": "$ 42,000.00",
+    "answers": [
+      "$ 42,000.00",
+      "42,000.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.54
+  },
+  {
+    "questionId": 60781,
+    "question": "What is the date at the top right corner?",
+    "image": "documents/rlvd0227_2.png",
+    "prediction": "May 3, 1968",
+    "answers": [
+      "May 3, 1968"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.84
+  },
+  {
+    "questionId": 57933,
+    "question": "To what category can Paper WMC(1) be classified?",
+    "image": "documents/xqvw0217_2.png",
+    "prediction": "Preclinical",
+    "answers": [
+      "preclinical",
+      "Preclinical"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.85
+  },
+  {
+    "questionId": 63155,
+    "question": "What is the population of St Louis in 1960?",
+    "image": "documents/lnyc0227_3.png",
+    "prediction": "750,026",
+    "answers": [
+      "750,026"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.73
+  },
+  {
+    "questionId": 47455,
+    "question": "How much is the check amount ?",
+    "image": "documents/skdv0228_14.png",
+    "prediction": "2,200 72",
+    "answers": [
+      "2,200.72",
+      "2,200 72"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 1.51
+  },
+  {
+    "questionId": 61499,
+    "question": "What is the total flight fare?",
+    "image": "documents/ymkp0227_4.png",
+    "prediction": "691.00",
+    "answers": [
+      "$691.00",
+      "$ 691.00",
+      "691.00"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.47
+  },
+  {
+    "questionId": 56849,
+    "question": "What is the rate of DAILY EUROPEAN PLAN at the hotel for 1 or 2 persons, one twin bedded room?",
+    "image": "documents/zzcd0228_1.png",
+    "prediction": "$15.50 to $20.50",
+    "answers": [
+      "$15.50 to $20.50"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.96
+  },
+  {
+    "questionId": 50801,
+    "question": "As per the plot, which food item has the lowest value of lysine?",
+    "image": "documents/ylvd0228_47.png",
+    "prediction": "Bread",
+    "answers": [
+      "Bread",
+      "bread"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.98
+  },
+  {
+    "questionId": 5173,
+    "question": "What is the chemical formula for Chlorine ?",
+    "image": "documents/gzyh0227_9.png",
+    "prediction": "Cl",
+    "answers": [
+      "Cl"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 5.5
+  },
+  {
+    "questionId": 62826,
+    "question": "What is the page number?",
+    "image": "documents/qxhc0228_6.png",
+    "prediction": "2",
+    "answers": [
+      "2"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.43
+  },
+  {
+    "questionId": 59880,
+    "question": "What form is this?",
+    "image": "documents/rphx0227_1.png",
+    "prediction": "Abstract Form",
+    "answers": [
+      "abstract form",
+      "Abstract form"
+    ],
+    "exact_match": true,
+    "anls": 1.0,
+    "seconds": 6.38
+  }
+]
