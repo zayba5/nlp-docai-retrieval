@@ -10,174 +10,225 @@ A research-oriented NLP and document-understanding project studying whether docu
 
 This project uses the **DocVQA Single Page Document Visual Question Answering** dataset.
 
-The dataset contains:
-
-- Document-page images
-- Natural-language questions
-- Human-provided answers
-- OCR text
-- Word- and line-level coordinates
-- Document identifiers
-- Question types
+The dataset includes document images, questions, answers, OCR text, word- and line-level coordinates, document IDs, and question types.
 
 Official sources:
 
 - [DocVQA Dataset](https://www.docvqa.org/datasets/docvqa)
 - [RRC Download Portal](https://rrc.cvc.uab.es/?ch=17)
 
-The required dataset is available under:
+The project uses Task 1: **Single Page Document Visual Question Answering**.
 
-**Task 1 – Single Page Document Visual Question Answering**
+Approximate verified dataset size:
 
-The raw dataset files are stored locally and are not committed to this repository.
+| Partition | Questions | Documents | Images | Answers |
+|---|---:|---:|---:|---|
+| Training | 39,463 | 10,194 | 10,194 | Available |
+| Validation | 5,349 | 1,286 | 1,286 | Available |
+| Test | 5,188 | 1,287 | 1,287 | Not available locally |
 
-## Approximate Dataset Size
+Raw images, OCR files, and annotation archives are stored locally and are not committed to this repository.
 
-The DocVQA Task 1 dataset contains approximately:
+## Task
 
-- **50,000 questions**
-- **12,767 document-page images**
-- **Approximately 12,767 OCR JSON files**
-- **Three main annotation files**:
-  - Training data
-  - Validation data
-  - Test data
+Given a document page and a question, the system ranks OCR lines that may contain the answer.
 
-| Component | Approximate contents |
-|---|---|
-| `spdocvqa_qas` | Approximately 50,000 questions, answers, document IDs, and question types |
-| `spdocvqa_images` | Approximately 12,767 PNG document-page images |
-| `spdocvqa_ocr` | OCR text and word/line coordinates for the document images |
+Depending on the method, inputs include:
 
-These numbers are approximate. The exact counts used in the final experiments will be verified programmatically and recorded in the evidence record.
-
-## Task Definition
-
-Given a document page and a natural-language question, the system predicts the answer and identifies relevant document text or regions when reliable evidence information is available.
-
-### Inputs
-
-At prediction time, the system may use:
-
-- Document images
-- OCR text
-- OCR word or line coordinates
 - The question
+- OCR text
+- OCR line or word coordinates
+- The document image
 
-Reference answers are used only for training, validation, and evaluation.
-
-### Outputs
-
-The system may produce:
-
-- A predicted answer
-- Ranked answer-supporting passages or regions
-- Evidence information when reliable evidence annotations are available
+Reference answers are used only for training labels and evaluation.
 
 ## Methods
 
-### Text-Only Baseline
+### BM25 Baseline
 
-BM25 ranks OCR text passages according to their lexical similarity to the question. This provides a simple and interpretable reference method.
+`BM25-LINE` ranks OCR lines using text similarity between the question and OCR text. Coordinates are not used for ranking.
 
-### Strong Visual Baseline
+### Text-Only LightGBM
 
-A pretrained document question-answering model will be evaluated as a stronger comparison. This model receives the document image and question and predicts an answer.
+`LGBM-TEXT` is a supervised LightGBM reranker using text features such as BM25 scores, matching terms, line length, and question-line overlap.
 
-This comparison helps determine whether the proposed approach provides value beyond simple text retrieval and an established visual document-understanding model.
+### Layout-Aware LightGBM
 
-### Proposed Layout-Aware Method
+`LGBM-LAYOUT` uses the text features above together with layout features such as:
 
-The proposed method will incorporate spatial information such as:
+- Horizontal and vertical position
+- Line width and height
+- Relative line order
+- Bounding-box information
 
-- Word coordinates
-- Text-region positions
-- Spatial grouping
-- Document structure
-- Relationships between nearby text elements
+This is the proposed method.
 
-The layout-aware method will be evaluated using the same questions, documents, splits, and evaluation protocol as the baselines.
+### Shuffled-Layout Ablation
 
-### Planned Ablation
+`LGBM-LAYOUT-SHUFFLED` changes or shuffles layout information while keeping the rest of the pipeline fixed. This tests whether meaningful spatial information contributes to performance.
 
-A controlled ablation will remove or shuffle layout information while keeping the remaining retrieval process unchanged.
+### Qwen Visual Baseline
 
-This will help determine whether any performance improvement is specifically caused by layout information.
+`QWEN-VISION` uses a pretrained visual document-question-answering model that receives a document image and question and generates an answer.
+
+Qwen is evaluated separately because it generates answers, while BM25 and LightGBM rank OCR evidence lines.
 
 ## Evaluation Protocol
 
-The primary split will be performed at the **document level**. All questions associated with the same document will remain in the same partition to prevent information leakage.
+The official split manifest is:
 
-The partitions are:
+```text
+splits/docvqa_official_split.json
+```
 
-- **Training/development:** Used to fit learned components when necessary.
-- **Validation:** Used for model and parameter selection.
-- **Protected test:** Used only for the final fixed evaluation.
+Because official test answers are unavailable locally, the labeled validation partition is divided into:
 
-The evaluation will use consistent:
+```text
+Development: 2,641 questions
+Internal held-out evaluation: 2,708 questions
+```
 
-- Documents
-- Questions
-- Preprocessing rules
-- Model configurations
-- Metrics
-- Data boundaries
+The internal split is stored at:
 
-Possible evaluation metrics include:
+```text
+splits/val_dev_test_split.json
+```
 
-- Answer Exact Match
-- Answer F1
-- Average Normalized Levenshtein Similarity (ANLS)
-- Evidence Recall@K
+This internal held-out split is not the official DocVQA test set.
+
+All retrieval methods use the same document pages, questions, OCR lines, preprocessing rules, answer normalization, and evaluation metrics.
+
+Primary retrieval metrics:
+
+- Evidence Recall@1
+- Evidence Recall@5
+- Evidence Recall@10
 - Mean Reciprocal Rank
 
-If explicit evidence annotations are unavailable, evidence evaluation will use answer-to-OCR alignment or a manually verified subset.
+The Qwen baseline uses answer-level metrics such as Exact Match and ANLS.
+
+## Training and Evaluation Workflow
+
+```text
+QAS and OCR data
+      ↓
+OCR-line feature extraction
+      ↓
+Train text-only LightGBM
+      ↓
+Train layout-aware LightGBM
+      ↓
+Evaluate on held-out data
+      ↓
+Compare metrics and analyze errors
+```
+
+Important scripts:
+
+```text
+src/bm25_line_baseline.py
+src/build_line_features.py
+src/train_lgbm_reranker.py
+src/evaluate_line_ranker.py
+```
+
+Large derived feature files may be stored in Google Drive for Colab training and regenerated using the feature-extraction script.
 
 ## Error Analysis
 
-The project will analyze performance on:
+The project analyzes:
 
 - Tables
 - Forms
 - Multi-column pages
-- Dense text pages
-- OCR-error examples
+- Dense text
+- Dates and numbers
+- OCR errors
 - Repeated answers
-- Complex spatial layouts
+- Cases where layout helps or fails
 
-The analysis will examine cases where:
+Saved predictions are stored in:
 
-- Text-only retrieval succeeds
-- The visual baseline succeeds
-- The layout-aware method succeeds
-- Both methods fail
-- The answer is correct but the evidence region is incorrect
+```text
+results/eval/
+```
+
+## Future Experiments
+
+Future experiments may:
+
+- Compare performance across document types
+- Test different OCR-line and region-grouping strategies
+- Measure robustness to OCR errors
+- Compare original, removed, and shuffled coordinates
+- Test generalization on another document dataset
+- Add confidence or uncertainty estimation
+- Compare LightGBM with document transformers
+
+## Future Fine-Tuning Plan
+
+A future extension will fine-tune a pretrained layout-aware transformer such as LayoutLMv3.
+
+The planned process is:
+
+1. Start with a pretrained document transformer.
+2. Provide document images, OCR tokens, coordinates, and questions.
+3. Fine-tune the model on the DocVQA training data.
+4. Evaluate it using the same held-out protocol.
+5. Compare it with BM25, LightGBM, and Qwen.
+6. Remove or shuffle coordinates for a controlled ablation.
+
+The transformer would be fine-tuned rather than trained from scratch. This extension may require GPU access and additional preprocessing.
 
 ## Reproducibility
 
-The project will record:
+The project records:
 
-- Dataset version
-- Download date
-- Inclusion and exclusion rules
-- Document-level split identifiers
+- Dataset and split versions
 - Preprocessing settings
+- Feature definitions
 - Model configurations
 - Random seeds
-- Evaluation commands
+- Training and evaluation commands
 - Predictions and metrics
+- Hardware and runtime
+
+Important files include:
+
+```text
+configs/
+splits/
+results/
+evidence/EVIDENCE_RECORD.md
+```
+
+## Repository Structure
+
+```text
+nlp-docai-retrieval/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── configs/
+├── data/
+├── evidence/
+├── figures/
+├── notebooks/
+├── paper/
+├── results/
+├── splits/
+└── src/
+```
 
 ## License and Dataset Usage
 
-The source code in this repository is intended for academic and research purposes.
+The source code is intended for academic and research purposes.
 
-The DocVQA dataset is governed by the terms provided by the dataset organizers and the original document sources. The raw document images are provided for non-commercial research and educational use.
+The DocVQA dataset is governed by the terms provided by the dataset organizers and the original document sources. Raw images, OCR files, annotation archives, and restricted download URLs must not be committed to or redistributed.
 
-Raw images, OCR files, annotation archives, and restricted download URLs must not be committed to or redistributed through this repository. Users are responsible for reviewing and following the official dataset terms before downloading or using the data.
+Users are responsible for reviewing and following the official dataset terms.
 
 ## Citation
-
-If you use the DocVQA dataset, please cite:
 
 ```bibtex
 @InProceedings{mathew2021docvqa,
@@ -186,3 +237,4 @@ If you use the DocVQA dataset, please cite:
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
     year = {2021}
 }
+```
